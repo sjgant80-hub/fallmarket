@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guild · FallMarket</title>
+<meta name="description" content="AI-Native Solutions guild — the founding cohort of FallMarket. Every guild member ships tools, earns royalties upstream through the fork tree, and carries a signed passport.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="docs/agent-mcp.md">Agent API</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">Source</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>The AI-Native Solutions guild.</h1>
+    <p class="lede">
+      A cohort of sovereign builders shipping tools that never lock in and always run offline.
+      Every guild member holds a signed passport. Every fork earns royalties upstream through the tree.
+    </p>
+    <div class="hero-cta">
+      <a class="btn primary" href="./#browse">Browse guild listings</a>
+      <a class="btn" href="https://ai-nativesolutions.com">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <section style="padding: 2rem 0;">
+      <h2 style="font: 500 15px/1.2 -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dim); margin: 0 0 1rem;">The founding guild</h2>
+      <p style="max-width: 720px; color: var(--ink); line-height: 1.7;">
+        AI-Native Solutions is the founding guild of FallMarket. It ships one-file HTML tools that run from disk,
+        MCP servers that plug into any Claude/Cursor/Codex client, SDKs on npm, and HTTP APIs on Docker. Everything is
+        MIT-licensed. Everything is Ed25519-signed. Everything routes through the fork tree so every improvement
+        earns upstream.
+      </p>
+      <p style="max-width: 720px; color: var(--ink); line-height: 1.7;">
+        The <strong>◊ ai-native</strong> badge on a listing means the guild has attested to it. Guild attestation is
+        Ed25519-signed by the guild master and appears next to the listing name across the catalog.
+      </p>
+    </section>
+
+    <section style="padding: 2rem 0; border-top: 1px solid var(--border);">
+      <h2 style="font: 500 15px/1.2 -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dim); margin: 0 0 1rem;">By the numbers</h2>
+      <div id="guild-stats" style="display: flex; gap: 3rem; flex-wrap: wrap; padding: 1rem 0;">Loading…</div>
+    </section>
+
+    <section style="padding: 2rem 0; border-top: 1px solid var(--border);">
+      <h2 style="font: 500 15px/1.2 -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dim); margin: 0 0 1rem;">Join the guild</h2>
+      <p style="max-width: 720px; color: var(--ink); line-height: 1.7;">
+        Guild membership opens in Phase 3. Ship a benchmarked tool, get attested, and start earning royalties on
+        every fork. Until then, all listings ship as MIT and the free tier is the default.
+      </p>
+      <p style="max-width: 720px; color: var(--ink); line-height: 1.7;">
+        Meanwhile: fork any listing. Publish improvements. When the guild opens for applications you already have
+        provenance in the tree.
+      </p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+fetch('./listings.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+  const guildListings = (j.listings || []).filter(l => l.guild === 'ai-native-solutions');
+  const byKind = guildListings.reduce((a, l) => { a[l.kind] = (a[l.kind] || 0) + 1; return a; }, {});
+  const items = [
+    { n: guildListings.length, label: 'listings' },
+    ...Object.entries(byKind).map(([k, n]) => ({ n, label: k }))
+  ];
+  document.getElementById('guild-stats').innerHTML = items.map(i => `
+    <div>
+      <div style="font: 700 34px/1 Georgia, serif; color: #f2ede0;">${i.n}</div>
+      <div style="font-size: 12px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0.25rem;">${i.label}</div>
+    </div>
+  `).join('');
+}).catch(() => {
+  document.getElementById('guild-stats').textContent = 'stats unavailable';
+});
+</script>
+
+</body>
+</html>

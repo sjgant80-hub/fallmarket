@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FallMarket · listing</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="guild.html">Guild</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="docs/agent-mcp.md">Agent API</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">Source</a>
+    </nav>
+  </div>
+</header>
+
+<main class="detail">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="./">← Catalog</a></div>
+    <div id="detail-content">Loading…</div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+const params = new URLSearchParams(location.search);
+const id = params.get('id');
+
+const content = document.getElementById('detail-content');
+
+if (!id) {
+  content.innerHTML = '<h1>No listing id</h1><p>Go back to the <a href="./">catalog</a>.</p>';
+} else {
+  fetch('./listings.json', { cache: 'no-store' })
+    .then(r => r.json())
+    .then(j => {
+      const l = (j.listings || []).find(x => x.id === id);
+      if (!l) {
+        content.innerHTML = `<h1>Not found</h1><p>No listing with id <code>${escape(id)}</code>. Return to <a href="./">catalog</a>.</p>`;
+        return;
+      }
+      document.title = `${l.title} · FallMarket`;
+      render(l);
+    })
+    .catch(e => { content.innerHTML = `<p>Error loading catalog: ${escape(e.message)}</p>`; });
+}
+
+function render(l) {
+  const price = l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : `£${l.tiers?.[0]?.price_gbp}`;
+  const guildBadge = l.guild === 'ai-native-solutions' ? `<span class="guild-badge">◊ AI-Native Solutions</span>` : '';
+
+  const installBlocks = [];
+  if (l.install?.npm) installBlocks.push(installLine('npm', l.install.npm));
+  if (l.install?.mcp) installBlocks.push(installLine('mcp', l.install.mcp));
+  if (l.install?.docker) installBlocks.push(installLine('docker', l.install.docker));
+  if (l.install?.curl) installBlocks.push(installLine('curl', l.install.curl));
+
+  content.innerHTML = `
+    <div class="detail-head">
+      <div class="meta">
+        <div class="kind-row">
+          <span class="kind ${l.kind}">${l.kind}</span>
+          ${guildBadge}
+        </div>
+        <h1>${escape(l.title)}</h1>
+        <p class="subtitle">${escape(l.subtitle || '')}</p>
+        <div style="margin-top: 1rem; color: var(--dim); font-size: 13px;">
+          <div>Seller · <a href="seller.html?did=${encodeURIComponent(l.seller_did)}">${escape(l.seller_did)}</a></div>
+          ${l.repo_url ? `<div>Source · <a href="${l.repo_url}" target="_blank" rel="noopener">${escape(l.repo_url)}</a></div>` : ''}
+          ${l.playground_url ? `<div>Playground · <a href="${l.playground_url}" target="_blank" rel="noopener">${escape(l.playground_url)}</a></div>` : ''}
+          <div>Created · ${new Date(l.created).toLocaleDateString()}</div>
+        </div>
+      </div>
+      <div class="buy">
+        <h3>Free tier</h3>
+        <div class="price-big">${price}</div>
+        <p>${escape(l.tiers?.[0]?.includes?.join(' · ') || 'MIT source · self-host · community support')}</p>
+        <button class="primary" onclick="alert('Hire flow ships in Phase 2 · escrow via FallColony ledger + benchmark on delivery')">Hire</button>
+        <div class="fine">Ed25519-signed listing · benchmark verified on delivery · funds escrow via FallColony</div>
+      </div>
+    </div>
+
+    ${installBlocks.length ? `
+    <section class="detail-section">
+      <h2>Install</h2>
+      <div class="install-blocks">${installBlocks.join('')}</div>
+    </section>
+    ` : ''}
+
+    ${l.tags?.length ? `
+    <section class="detail-section">
+      <h2>Tags</h2>
+      <div>${l.tags.map(t => `<span class="chip">${escape(t)}</span>`).join(' ')}</div>
+    </section>
+    ` : ''}
+
+    ${l.description ? `
+    <section class="detail-section">
+      <h2>Description</h2>
+      <p style="color: var(--ink); line-height: 1.7;">${escape(l.description)}</p>
+    </section>
+    ` : ''}
+
+    <section class="detail-section">
+      <h2>Trust</h2>
+      <p style="color: var(--dim); font-size: 14px;">
+        Benchmark results ship in Phase 3. Every listing will carry Ed25519-signed scores from a neutral runner.
+        Buyers can supply their own test case — the product runs against it and pays out on pass.
+      </p>
+    </section>
+  `;
+
+  document.querySelectorAll('.install-line button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(btn.dataset.cmd);
+      btn.textContent = 'Copied';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1400);
+    });
+  });
+}
+
+function installLine(label, cmd) {
+  return `<div class="install-line"><span class="label">${label}</span><code>${escape(cmd)}</code><button data-cmd="${escapeAttr(cmd)}">Copy</button></div>`;
+}
+
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+function escapeAttr(s) { return escape(s).replace(/"/g, '&quot;'); }
+</script>
+
+</body>
+</html>

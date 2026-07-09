@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seller · FallMarket</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="guild.html">Guild</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="docs/agent-mcp.md">Agent API</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">Source</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="breadcrumb" style="margin: 2rem 0 1rem;"><a href="./">← Catalog</a></div>
+    <div id="seller-head">Loading…</div>
+    <div class="grid" id="grid"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+const did = new URLSearchParams(location.search).get('did');
+const head = document.getElementById('seller-head');
+const grid = document.getElementById('grid');
+
+if (!did) {
+  head.innerHTML = '<h1>No seller specified</h1>';
+} else {
+  fetch('./listings.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+    const listings = (j.listings || []).filter(l => l.seller_did === did);
+    head.innerHTML = `
+      <h1 style="font: 600 28px/1.2 Georgia, serif; color: #f2ede0; margin: 0 0 0.5rem;">${escape(did)}</h1>
+      <p style="color: var(--dim); margin: 0 0 2rem;">${listings.length} listings</p>
+    `;
+    document.title = `${did} · FallMarket`;
+    grid.innerHTML = listings.map(l => `
+      <article class="card">
+        <div class="kind-row"><span class="kind ${l.kind}">${l.kind}</span></div>
+        <h3><a href="listing.html?id=${encodeURIComponent(l.id)}">${escape(l.title)}</a></h3>
+        <p>${escape(l.subtitle || '')}</p>
+        <div class="tier">
+          <span class="price">${l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : '£' + l.tiers?.[0]?.price_gbp}</span>
+          <span>${l.tiers?.[0]?.name || ''}</span>
+        </div>
+      </article>
+    `).join('');
+  });
+}
+
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+</script>
+
+</body>
+</html>
