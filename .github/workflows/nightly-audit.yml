@@ -1,0 +1,38 @@
+name: Nightly estate audit + GEO shim
+on:
+  schedule:
+    - cron: '30 4 * * *'  # 04:30 UTC · after listings refresh at 04:00
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Clone trio-pipeline
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ~/mint-all
+          # audit + geo-shim scripts live in a sibling location · vendored here
+          curl -sSL https://raw.githubusercontent.com/sjgant80-hub/mint-all/main/trio-pipeline/audit.mjs -o ~/audit.mjs || echo "audit vendored elsewhere · skip"
+      - name: Run audit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f ~/audit.mjs ]; then
+            node ~/audit.mjs --parallel 8 || echo "audit failed"
+          fi
+      - name: Commit if changed
+        run: |
+          if [ -f estate-quality.json ] && ! git diff --quiet estate-quality.json; then
+            git config user.name "fallmarket-bot"
+            git config user.email "bot@ai-nativesolutions.com"
+            git add estate-quality.json
+            git commit -m "audit · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

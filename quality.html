@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estate quality · FallMarket · 766-repo health dashboard</title>
+<meta name="description" content="Live health scorecard for every FallMarket listing. Grade · GEO coverage · broken files · foldkit contamination. Refreshed nightly.">
+<meta name="keywords" content="FallMarket quality dashboard, estate audit, MCP registry quality">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/quality.html">
+<meta property="og:title" content="Estate quality dashboard · FallMarket">
+<meta property="og:description" content="Live health scorecard for every FallMarket listing.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/quality.html">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .quality-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .stat-card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; text-align: center; }
+  .stat-card .n { font: 700 32px/1 Georgia, serif; color: #f2ede0; }
+  .stat-card .n.good { color: var(--green); }
+  .stat-card .n.warn { color: var(--brass); }
+  .stat-card .n.bad { color: var(--ox); }
+  .stat-card .label { font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0.5rem; }
+  .grade-legend { display: flex; gap: 1rem; font-size: 12px; color: var(--dim); flex-wrap: wrap; margin: 0.5rem 0 1.5rem; }
+  .grade-legend span { padding: 0.2rem 0.6rem; border-radius: 3px; font-weight: 600; }
+  .g-A { background: var(--green); color: #0b0a0f; }
+  .g-B { background: var(--brass); color: #0b0a0f; }
+  .g-C { background: #d09040; color: #0b0a0f; }
+  .g-F { background: var(--ox); color: #f2ede0; }
+  .g-X { background: var(--dim); color: #0b0a0f; }
+  .q-table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 13px; }
+  .q-table th, .q-table td { text-align: left; padding: 0.7rem; border-bottom: 1px solid var(--border); }
+  .q-table th { color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+  .q-table tbody tr:hover { background: var(--panel-2); }
+  .q-table .grade { padding: 0.15rem 0.5rem; border-radius: 3px; font-weight: 700; font-size: 11px; }
+  .q-filter { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+  .q-filter button {
+    padding: 0.35rem 0.75rem; background: var(--panel); border: 1px solid var(--border);
+    color: var(--dim); border-radius: 999px; font-size: 12px; cursor: pointer;
+  }
+  .q-filter button.on { background: var(--ox); border-color: var(--ox); color: #f2ede0; }
+  .checkmark { color: var(--green); }
+  .cross { color: var(--ox); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="guild.html">Guild</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero compact">
+  <div class="wrap">
+    <h1>Estate quality dashboard</h1>
+    <p class="lede">Live health scorecard for every FallMarket listing. Refreshed nightly via GitHub Actions.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div id="summary">Loading audit report…</div>
+
+    <div id="controls" hidden>
+      <div class="grade-legend">
+        <span class="g-A">A</span> healthy
+        <span class="g-B">B</span> needs polish
+        <span class="g-C">C</span> issues
+        <span class="g-F">F</span> broken
+        <span class="g-X">X</span> errored
+      </div>
+      <div class="q-filter">
+        <button data-grade="all" class="on">All</button>
+        <button data-grade="A">A only</button>
+        <button data-grade="B">B only</button>
+        <button data-grade="C">C only</button>
+        <button data-grade="F">F only</button>
+        <button data-grade="geo-missing">GEO missing</button>
+        <button data-grade="contaminated">Contaminated</button>
+      </div>
+      <div id="table-wrap"></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+const state = { report: null, filter: 'all' };
+
+async function load() {
+  try {
+    const r = await fetch('./estate-quality.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    state.report = await r.json();
+    render();
+  } catch (e) {
+    document.getElementById('summary').innerHTML = `<p style="color:var(--dim);">Audit report not published yet. Run <code>node trio-pipeline/audit.mjs</code> against your estate to generate it.</p>`;
+  }
+}
+
+function render() {
+  const s = state.report.summary;
+  document.getElementById('summary').innerHTML = `
+    <p style="color: var(--dim); margin-bottom: 1rem;">
+      Last audit · <strong>${new Date(state.report.generated_at).toLocaleString()}</strong> · scanned ${state.report.total_repos} repos in ${state.report.wall_seconds}s
+    </p>
+    <div class="quality-grid">
+      <div class="stat-card"><div class="n">${state.report.total_repos}</div><div class="label">total listings</div></div>
+      <div class="stat-card"><div class="n good">${s.healthy || 0}</div><div class="label">grade A · healthy</div></div>
+      <div class="stat-card"><div class="n warn">${s.needs_polish || 0}</div><div class="label">grade B · polish</div></div>
+      <div class="stat-card"><div class="n warn">${s.problematic || 0}</div><div class="label">grade C · issues</div></div>
+      <div class="stat-card"><div class="n bad">${s.broken || 0}</div><div class="label">grade F · broken</div></div>
+      <div class="stat-card"><div class="n warn">${s.geo_missing || 0}</div><div class="label">GEO missing</div></div>
+      <div class="stat-card"><div class="n bad">${s.contaminated || 0}</div><div class="label">contaminated</div></div>
+    </div>
+  `;
+  document.getElementById('controls').hidden = false;
+  renderTable();
+  document.querySelectorAll('.q-filter button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.q-filter button').forEach(x => x.classList.remove('on'));
+      btn.classList.add('on');
+      state.filter = btn.dataset.grade;
+      renderTable();
+    });
+  });
+}
+
+function renderTable() {
+  let rows = state.report.results;
+  if (state.filter === 'geo-missing') rows = rows.filter(r => r.geo_missing?.length > 0);
+  else if (state.filter === 'contaminated') rows = rows.filter(r => r.public_safe === false);
+  else if (state.filter !== 'all') rows = rows.filter(r => r.grade === state.filter);
+  rows = rows.sort((a, b) => a.score - b.score).slice(0, 500);
+
+  document.getElementById('table-wrap').innerHTML = `
+    <p style="color: var(--dim); font-size: 13px;">Showing ${rows.length} of ${state.report.total_repos} (worst first, capped at 500)</p>
+    <table class="q-table">
+      <thead><tr>
+        <th>Repo</th><th>Kind</th><th>Grade</th><th>Score</th><th>Pages</th><th>Files</th><th>GEO</th><th>Public-safe</th>
+      </tr></thead>
+      <tbody>
+        ${rows.map(r => `
+          <tr>
+            <td><a href="listing.html?id=${encodeURIComponent(r.id)}">${escape(r.id)}</a></td>
+            <td>${r.kind}</td>
+            <td><span class="grade g-${r.grade}">${r.grade}</span></td>
+            <td>${Math.round((r.score || 0) * 100)}%</td>
+            <td>${r.pages_status === 200 ? '<span class="checkmark">✓</span>' : `<span class="cross">${r.pages_status || '—'}</span>`}</td>
+            <td>${r.missing_files?.length ? `<span class="cross">${r.missing_files.length} missing</span>` : '<span class="checkmark">✓</span>'}</td>
+            <td>${r.geo_missing?.length ? `<span class="cross">${r.geo_missing.length} missing</span>` : '<span class="checkmark">✓</span>'}</td>
+            <td>${r.public_safe ? '<span class="checkmark">✓</span>' : '<span class="cross">⚠ contam</span>'}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+
+load();
+</script>
+
+</body>
+</html>
