@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ · FallMarket · sovereign AI agent marketplace and MCP registry</title>
+<meta name="description" content="Frequently asked questions about FallMarket, the sovereign registry of 763 AI tools, SDKs, MCP servers, and HTTP APIs. All MIT, all Ed25519-signed, all benchmarkable.">
+<meta name="keywords" content="FallMarket FAQ, what is FallMarket, MCP registry, sovereign AI, MIT AI tools, how to install MCP">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/faq.html">
+<meta property="og:title" content="FallMarket FAQ">
+<meta property="og:description" content="Everything about the sovereign registry of AI tools, SDKs, and MCP servers.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/faq.html">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is FallMarket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. It lists 763 offerings as of July 2026, making it the largest agent-callable estate on GitHub. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is FallMarket free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All 763 listings default to a free tier and every listing ships with MIT source. Paid tiers arrive in Phase 2 alongside KCC pricing, GBP onramp via Stripe, and escrowed hire flows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an MCP server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An MCP (Model Context Protocol) server exposes tools to LLMs like Claude, Cursor, or Codex over stdio. It lets an AI client discover and call arbitrary capabilities without a hardcoded integration. FallMarket lists 206 MCP servers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I install an MCP server from FallMarket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On any listing detail page, click Copy MCP and paste into your terminal. A typical command looks like: claude mcp add fallhr -- npx -y @ai-native-solutions/fallhr-mcp. The MCP will then appear in your Claude/Cursor/Codex client's tool list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who runs FallMarket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI-Native Solutions guild builds and maintains FallMarket. Contact via ai-nativesolutions.com or open an issue at github.com/sjgant80-hub/fallmarket."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is FallMarket affiliated with Anthropic, OpenAI, Google, or another AI lab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. FallMarket is independent, sovereign, and MIT-licensed. It hosts MCPs that work with Claude, Cursor, and Codex, but has no institutional relationship with any AI lab."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I list my own tool on FallMarket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Publish your tool as a public GitHub repo under the sjgant80-hub organization with a package.json, a README, and either an SDK, MCP, or API surface. The nightly refresh job auto-imports it into listings.json. Open-catalog listing (any GitHub org) ships in Phase 3."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does sovereign mean in this context?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sovereign tool runs on your machine, ships with its source, and does not lock you into a vendor. Single-file HTML tools open from file:// and work offline. MCP servers run under any client. APIs ship with Dockerfile. SDKs are pure ESM on npm with zero non-essential dependencies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Ed25519 signing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ed25519 is an elliptic-curve signature scheme. Every FallMarket listing, benchmark, and transaction is signed with an Ed25519 keypair. The public key doubles as the seller or buyer DID (did:key format). This makes provenance and authorship cryptographically verifiable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is KCC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KCC is the mesh-native contribution currency. Phase 2 of FallMarket introduces KCC pricing on listings alongside a GBP shadow price via Stripe. Buyers can pay in either. Royalties propagate up the fork tree automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the benchmark verification work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Phase 3, a Cloudflare Worker runs standard benchmark suites against every listing in a sandboxed environment and signs the results. Buyers can also upload their own test case — the runner tests the product against it and only completes the transaction on pass. This is the empirical trust layer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the four listing kinds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDK (a library on npm, scope @ai-native-solutions/*), MCP (a Model Context Protocol server), API (an HTTP endpoint with Dockerfile and docker-compose), and tool (a standalone single-file HTML tool). Every FallMarket listing has exactly one kind."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does the catalog update?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The manifest builder runs nightly at 04:00 UTC via GitHub Actions. New tools published to the sjgant80-hub organization appear on FallMarket the next morning."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="guild.html">Guild</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="docs/agent-mcp.md">Agent API</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero compact">
+  <div class="wrap">
+    <h1>Frequently asked questions</h1>
+    <p class="lede">Everything about the sovereign registry of AI tools, agents, SDKs, and MCP servers.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap prose">
+
+    <section class="detail-section" style="border-top: none;">
+      <h2>What is FallMarket?</h2>
+      <p>FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. It lists 763 offerings as of July 2026, making it the largest agent-callable estate on GitHub. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>Is FallMarket free to use?</h2>
+      <p>Yes. All 763 listings default to a free tier and every listing ships with MIT source. Paid tiers arrive in Phase 2 alongside KCC pricing, GBP onramp via Stripe, and escrowed hire flows.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>What is an MCP server?</h2>
+      <p>An MCP (Model Context Protocol) server exposes tools to LLMs like Claude, Cursor, or Codex over stdio. It lets an AI client discover and call arbitrary capabilities without a hardcoded integration. FallMarket lists 206 MCP servers, all with copy-to-clipboard install commands.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>How do I install an MCP server from FallMarket?</h2>
+      <p>On any listing detail page, click <strong>Copy MCP</strong> and paste into your terminal. A typical command looks like:</p>
+      <pre><code>claude mcp add fallhr -- npx -y @ai-native-solutions/fallhr-mcp</code></pre>
+      <p>The MCP will appear in your Claude, Cursor, or Codex client's tool list within seconds.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>Who runs FallMarket?</h2>
+      <p>The <a href="guild.html">AI-Native Solutions guild</a> builds and maintains FallMarket. Contact via <a href="https://ai-nativesolutions.com">ai-nativesolutions.com</a> or open an issue at <a href="https://github.com/sjgant80-hub/fallmarket/issues">github.com/sjgant80-hub/fallmarket/issues</a>.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>Is FallMarket affiliated with Anthropic, OpenAI, Google, or another AI lab?</h2>
+      <p>No. FallMarket is independent, sovereign, and MIT-licensed. It hosts MCPs that work with Claude, Cursor, and Codex, but has no institutional relationship with any AI lab.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>How do I list my own tool on FallMarket?</h2>
+      <p>Publish your tool as a public GitHub repo under the <code>sjgant80-hub</code> organization with a <code>package.json</code>, a <code>README</code>, and either an SDK, MCP, or API surface. The nightly refresh job auto-imports it into <code>listings.json</code>. Open-catalog listing (any GitHub org) ships in Phase 3.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>What does sovereign mean in this context?</h2>
+      <p>A sovereign tool runs on your machine, ships with its source, and does not lock you into a vendor. Single-file HTML tools open from <code>file://</code> and work offline. MCP servers run under any client. APIs ship with Dockerfile. SDKs are pure ESM on npm with zero non-essential dependencies.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>What is Ed25519 signing?</h2>
+      <p>Ed25519 is an elliptic-curve signature scheme. Every FallMarket listing, benchmark, and transaction is signed with an Ed25519 keypair. The public key doubles as the seller or buyer DID (<code>did:key</code> format). This makes provenance and authorship cryptographically verifiable.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>What is KCC?</h2>
+      <p>KCC is the mesh-native contribution currency. Phase 2 of FallMarket introduces KCC pricing on listings alongside a GBP shadow price via Stripe. Buyers can pay in either. Royalties propagate up the fork tree automatically via the fork lineage.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>How does the benchmark verification work?</h2>
+      <p>In Phase 3, a Cloudflare Worker runs standard benchmark suites against every listing in a sandboxed environment and signs the results. Buyers can also upload their own test case — the runner tests the product against it and only completes the transaction on pass. This is the empirical trust layer that makes the marketplace agent-native.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>What are the four listing kinds?</h2>
+      <ul>
+        <li><strong>SDK</strong> — a library on npm, scope <code>@ai-native-solutions/*</code>. Import in Node or the browser.</li>
+        <li><strong>MCP</strong> — a Model Context Protocol server. Adds to Claude, Cursor, or Codex.</li>
+        <li><strong>API</strong> — an HTTP endpoint with Dockerfile and docker-compose. Self-host anywhere.</li>
+        <li><strong>tool</strong> — a standalone single-file HTML tool. Opens from <code>file://</code>. Zero dependencies.</li>
+      </ul>
+    </section>
+
+    <section class="detail-section">
+      <h2>How often does the catalog update?</h2>
+      <p>The manifest builder runs nightly at 04:00 UTC via GitHub Actions. New tools published to the <code>sjgant80-hub</code> organization appear on FallMarket the next morning.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="guild.html">Guild</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -244,6 +244,29 @@ main { padding: 2.5rem 0 4rem; min-height: 40vh; }
 .install-blocks .install-line button.copied { color: var(--green); border-color: var(--green); }
 .install-blocks .install-line .label { color: var(--brass); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: 10px; margin-right: 0.75rem; }
 
+.hero.compact { padding: 2.5rem 0 1.5rem; }
+.hero.compact h1 { font-size: 32px; margin-bottom: 0.5rem; }
+
+.promo-strip {
+  border-top: 1px solid var(--border);
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #0e0c14 0%, #0b0a0f 100%);
+}
+.promo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+.promo-grid h3 { color: var(--brass); font: 500 15px/1.3 -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 0.5rem; }
+.promo-grid p { color: var(--ink); font-size: 14px; line-height: 1.6; margin: 0; }
+
+.prose { padding: 1.5rem 0 3rem; }
+.prose p { color: var(--ink); line-height: 1.7; margin: 0.75rem 0; }
+.prose ol, .prose ul { color: var(--ink); line-height: 1.8; padding-left: 1.5rem; }
+.prose li strong { color: #f2ede0; }
+.prose pre { background: #0a0910; border: 1px solid var(--border); border-radius: 6px; padding: 0.85rem 1rem; overflow-x: auto; }
+.prose pre code, .prose code { font: 13px/1.5 "SF Mono", "Consolas", monospace; color: #f2ede0; }
+.prose code { background: rgba(184, 151, 74, 0.1); padding: 0.15rem 0.4rem; border-radius: 3px; color: var(--brass); }
+.prose pre code { background: none; padding: 0; color: #f2ede0; }
+.prose .detail-section h2 { color: #f2ede0; font: 600 22px/1.3 Georgia, serif; text-transform: none; letter-spacing: normal; margin-top: 0; }
+.prose a { color: var(--brass); }
+
 footer { border-top: 1px solid var(--border); padding: 2rem 0; color: var(--dim); font-size: 13px; }
 footer .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
 footer a { color: var(--dim); }

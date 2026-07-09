@@ -16,13 +16,15 @@ jobs:
       - name: Regenerate listings.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/import-trios.mjs > listings.json || echo "generation skipped"
+        run: node scripts/import-trios.mjs --include-standalone > listings.json || echo "generation skipped"
+      - name: Rebuild catalog.md + sitemap.xml
+        run: node scripts/build-catalog.mjs || echo "catalog build skipped"
       - name: Commit if changed
         run: |
-          if ! git diff --quiet listings.json; then
+          if ! git diff --quiet listings.json catalog.md sitemap.xml; then
             git config user.name "fallmarket-bot"
             git config user.email "bot@ai-nativesolutions.com"
-            git add listings.json
-            git commit -m "refresh listings · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git add listings.json catalog.md sitemap.xml
+            git commit -m "refresh · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi

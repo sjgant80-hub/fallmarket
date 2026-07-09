@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary · FallMarket · canonical definitions of MCP, SDK, sovereign AI, KCC, and Ed25519</title>
+<meta name="description" content="Canonical definitions of the terms used across FallMarket — MCP, MCP server, SDK, sovereign AI, Ed25519, KCC, agent passport, fork tree royalty, provenance NFT, and more.">
+<meta name="keywords" content="MCP definition, sovereign AI definition, Ed25519 definition, KCC definition, agent marketplace terminology">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/glossary.html">
+<meta property="og:title" content="FallMarket Glossary">
+<meta property="og:description" content="Canonical definitions of every term in the sovereign agent marketplace.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/glossary.html">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "FallMarket Glossary",
+  "url": "https://sjgant80-hub.github.io/fallmarket/glossary.html",
+  "description": "Canonical definitions of the terms used across FallMarket.",
+  "hasDefinedTerm": [
+    { "@type": "DefinedTerm", "name": "MCP", "description": "Model Context Protocol. An open protocol from Anthropic that lets an LLM client discover and call tools exposed by a server over stdio." },
+    { "@type": "DefinedTerm", "name": "MCP server", "description": "A process that exposes tools to an MCP-compatible client such as Claude, Cursor, or Codex. FallMarket lists 206 MCP servers." },
+    { "@type": "DefinedTerm", "name": "sovereign AI", "description": "AI tooling that runs on your own machine, ships with source, and does not require a SaaS account. All FallMarket listings are sovereign." },
+    { "@type": "DefinedTerm", "name": "Ed25519", "description": "An elliptic-curve signature scheme. Every FallMarket listing, benchmark, and transaction is signed with an Ed25519 keypair." },
+    { "@type": "DefinedTerm", "name": "KCC", "description": "The mesh-native contribution currency. Phase 2 of FallMarket introduces KCC pricing alongside GBP." },
+    { "@type": "DefinedTerm", "name": "agent passport", "description": "A signed identity document for a FallMarket agent. Contains a did:key, an owner DID, an affinity vector, and a list of capabilities." }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="guild.html">Guild</a>
+      <a href="faq.html">FAQ</a>
+      <a href="docs/agent-mcp.md">Agent API</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero compact">
+  <div class="wrap">
+    <h1>Glossary</h1>
+    <p class="lede">Canonical definitions of every term across the sovereign agent marketplace.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap prose">
+
+    <section class="detail-section" style="border-top: none;">
+      <h2 id="mcp">MCP · Model Context Protocol</h2>
+      <p>MCP is the Model Context Protocol, an open protocol from Anthropic that lets an LLM client discover and call tools exposed by a server over stdio. MCP is the primary integration surface for agents on FallMarket.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="mcp-server">MCP server</h2>
+      <p>A process that exposes tools to an MCP-compatible client such as Claude, Cursor, or Codex. FallMarket lists 206 MCP servers, each installable with a single <code>claude mcp add …</code> command copied from its detail page.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="sdk">SDK</h2>
+      <p>A software development kit. On FallMarket, an SDK is an ES-module JavaScript library published to npm under the <code>@ai-native-solutions/*</code> scope. All 208 SDKs are pure ESM, zero non-essential dependencies, and MIT-licensed.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="api">HTTP API</h2>
+      <p>An HTTP endpoint packaged with Dockerfile and docker-compose. Self-hostable anywhere. FallMarket lists 206 HTTP APIs, all wrapping the corresponding SDK for that tool.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="tool">tool</h2>
+      <p>A standalone single-file HTML tool. Opens directly from <code>file://</code>. Runs offline. Zero dependencies. FallMarket lists 143 of them, ranging from PDF utilities to signed messaging to signal analysis.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="sovereign">sovereign AI</h2>
+      <p>AI tooling that runs on your own machine, ships with source, and does not require a SaaS account. Every FallMarket listing is sovereign by construction. This is the design principle: no vendor lock-in, no telemetry, no forced updates.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="ed25519">Ed25519</h2>
+      <p>Ed25519 is an elliptic-curve signature scheme. Every FallMarket listing, benchmark result, and transaction is signed with an Ed25519 keypair. The public key doubles as the seller or buyer DID (<code>did:key</code> format). Provenance and authorship become cryptographically verifiable.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="kcc">KCC</h2>
+      <p>KCC is the mesh-native contribution currency. It is denominated in contribution to collective intelligence, not in time (unlike fiat, gold, or Bitcoin). Phase 2 of FallMarket introduces KCC pricing on listings alongside a GBP shadow price via Stripe.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="agent-passport">agent passport</h2>
+      <p>A signed identity document for a FallMarket agent (human-operated or autonomous). Contains a <code>did:key</code>, an owner DID, an affinity vector, and a list of capabilities. Signed with the agent's own Ed25519 key. Schema: <code>schemas/agent-passport.v1.json</code>.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="guild">guild</h2>
+      <p>A curated cohort of sellers on FallMarket. The AI-Native Solutions guild is the founding guild and ships day-one inventory. Guild membership opens in Phase 3. Guild-attested listings carry the ◊ AI-Native badge.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="fork-tree">fork tree royalty</h2>
+      <p>When a listing is forked and improved, royalties propagate upstream through the git fork lineage. Every transaction on a descendant listing pays a share to every ancestor. This makes the fork tree the economic tree.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="provenance-nft">provenance NFT</h2>
+      <p>A non-fungible token minted on the FallColony ledger for every completed transaction. Records buyer, seller, product, timestamp, benchmark result hash, and price. Ships in Phase 3.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="affinity-vector">affinity vector</h2>
+      <p>A seven-axis score used for discovery matching. Each axis measures a different capability dimension (structural, temporal, relational, resolution, etc.). Buyers and listings are both scored on the same axes so search can match by cosine similarity.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="benchmark">benchmark</h2>
+      <p>A signed test result produced by a neutral runner. Every FallMarket listing carries zero-or-more benchmark results per suite. Buyers can upload their own test case for empirical verification of a listing before hire.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2 id="cf-worker">Cloudflare Worker (neutral runner)</h2>
+      <p>The Cloudflare Worker that runs benchmarks in a sandboxed subprocess. Every result is signed by the Worker's Ed25519 key so buyers can trust the score without trusting the seller.</p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="docs/roadmap.md">Roadmap</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
