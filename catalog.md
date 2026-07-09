@@ -1,6 +1,6 @@
 # FallMarket · full catalog
 
-**903 listings** · generated 2026-07-09T20:26:04.687Z
+**945 listings** · generated 2026-07-09T21:04:15.754Z
 
 FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. Every listing below is MIT-licensed and Ed25519-signed. Browse the interactive catalog at https://sjgant80-hub.github.io/fallmarket/.
 
@@ -11,8 +11,8 @@ FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and
 | SDKs | 209 |
 | HTTP APIs | 206 |
 | MCP servers | 204 |
-| Standalone tools | 284 |
-| **Total** | **903** |
+| Standalone tools | 326 |
+| **Total** | **945** |
 
 ---
 
@@ -7456,7 +7456,7 @@ Companion API for wishwood · minted by mint-all · sovereign estate
 
 ---
 
-## Standalone tools (284)
+## Standalone tools (326)
 
 ### 9-axis-human-sonar
 
@@ -7491,6 +7491,28 @@ ACG Repo Template
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### ACG-Ballroom
+
+ACG Ballroom - The floor is yours. 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACG-Ballroom
+- **Source:** https://github.com/sjgant80-hub/ACG-Ballroom
+- **Playground:** https://sjgant80-hub.github.io/ACG-Ballroom/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACG-Codespace
+
+Sovereign single-file tool
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACG-Codespace
+- **Source:** https://github.com/sjgant80-hub/ACG-Codespace
+- **Playground:** https://sjgant80-hub.github.io/ACG-Codespace/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### acg-geo-repo
 
 AI Craftspeople Guild · GEO/AI-SEO infrastructure for guild client sites · fork-and-configure · agent marketplace · MIT
@@ -7510,6 +7532,50 @@ AI Craftspeople Guild · GEO/AI-SEO infrastructure for guild client sites · for
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=acg-mapper
 - **Source:** https://github.com/sjgant80-hub/acg-mapper
 - **Playground:** https://sjgant80-hub.github.io/acg-mapper/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACG-SHIP
+
+NON GUILD REVIEWED HIGH AMBITION SHIP CAPTAINS
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACG-SHIP
+- **Source:** https://github.com/sjgant80-hub/ACG-SHIP
+- **Playground:** https://sjgant80-hub.github.io/ACG-SHIP/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACG-Test
+
+ACG test standard
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACG-Test
+- **Source:** https://github.com/sjgant80-hub/ACG-Test
+- **Playground:** https://sjgant80-hub.github.io/ACG-Test/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACGBM
+
+ACG Barcode Monsters
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACGBM
+- **Source:** https://github.com/sjgant80-hub/ACGBM
+- **Playground:** https://sjgant80-hub.github.io/ACGBM/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACGCLI
+
+ACG CLI
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACGCLI
+- **Source:** https://github.com/sjgant80-hub/ACGCLI
+- **Playground:** https://sjgant80-hub.github.io/ACGCLI/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7535,6 +7601,17 @@ ACG Guild Clock -- World wide time visualization of members.
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### ACGNET
+
+ACG NET
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACGNET
+- **Source:** https://github.com/sjgant80-hub/ACGNET
+- **Playground:** https://sjgant80-hub.github.io/ACGNET/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### ACGP2P
 
 ACG Peer to Peer, Client to Client, Serverless Communications Template
@@ -7543,6 +7620,17 @@ ACG Peer to Peer, Client to Client, Serverless Communications Template
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACGP2P
 - **Source:** https://github.com/sjgant80-hub/ACGP2P
 - **Playground:** https://sjgant80-hub.github.io/ACGP2P/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ACGPHONE
+
+ACG Telephone basic notification system
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ACGPHONE
+- **Source:** https://github.com/sjgant80-hub/ACGPHONE
+- **Playground:** https://sjgant80-hub.github.io/ACGPHONE/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7565,6 +7653,17 @@ ai native the right way
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ai-nativesolutions
 - **Source:** https://github.com/sjgant80-hub/ai-nativesolutions
 - **Playground:** https://sjgant80-hub.github.io/ai-nativesolutions/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aicraftspeopleguild.github.io
+
+I'm trying
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aicraftspeopleguild.github.io
+- **Source:** https://github.com/sjgant80-hub/aicraftspeopleguild.github.io
+- **Playground:** https://sjgant80-hub.github.io/aicraftspeopleguild.github.io/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7777,6 +7876,17 @@ Garden of Eden - Git Visualizations Peer to Peer Gardens and Forests
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### ETH
+
+Enteric Translation Hypothesis 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ETH
+- **Source:** https://github.com/sjgant80-hub/ETH
+- **Playground:** https://sjgant80-hub.github.io/ETH/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### exitengine
 
 exit engine
@@ -7785,6 +7895,17 @@ exit engine
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=exitengine
 - **Source:** https://github.com/sjgant80-hub/exitengine
 - **Playground:** https://sjgant80-hub.github.io/exitengine/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### Eye-of-Mind
+
+Eye of the Mind 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=Eye-of-Mind
+- **Source:** https://github.com/sjgant80-hub/Eye-of-Mind
+- **Playground:** https://sjgant80-hub.github.io/Eye-of-Mind/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -9801,6 +9922,17 @@ Ring 5 watcher-of-watchers · browser + optional-Node companion · session hygie
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### Flintium
+
+Open-source library of Ignition® faceplates and graphics that pair with AOIs from the Rockwell Automation® Library of Process Objects.
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=Flintium
+- **Source:** https://github.com/sjgant80-hub/Flintium
+- **Playground:** https://sjgant80-hub.github.io/Flintium/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### foldkit
 
 Private · origami-mathematics ISA · framework substrate · load-bearing library for every framework-mode tool
@@ -9842,6 +9974,83 @@ Upload any HTML / Replit / Lovable / .md spec. Get it back sovereign. The torus 
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=forge-upgrade
 - **Source:** https://github.com/sjgant80-hub/forge-upgrade
 - **Playground:** https://sjgant80-hub.github.io/forge-upgrade/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GEYASS
+
+Gradient Eden Yggdrasil Assembly Sub-System 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GEYASS
+- **Source:** https://github.com/sjgant80-hub/GEYASS
+- **Playground:** https://sjgant80-hub.github.io/GEYASS/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITCONTROL
+
+Master control hub — links GitPLC + GitHMI + GitTAG + GitSCADA into a single pane of glass
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITCONTROL
+- **Source:** https://github.com/sjgant80-hub/GITCONTROL
+- **Playground:** https://sjgant80-hub.github.io/GITCONTROL/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITHMI
+
+ISA-101 HMI runtime for GitPLC/GitSCADA — faceplates, alarms, tag binding via GitHub Issues
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITHMI
+- **Source:** https://github.com/sjgant80-hub/GITHMI
+- **Playground:** https://sjgant80-hub.github.io/GITHMI/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITNITION
+
+Git-native Ignition Gateway interface — discover, connect, browse, sync tags with GitPLC/GitTAG
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITNITION
+- **Source:** https://github.com/sjgant80-hub/GITNITION
+- **Playground:** https://sjgant80-hub.github.io/GITNITION/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITPLC
+
+One Layer to Communicate them all and in the darkness Run > 85% OEE. 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITPLC
+- **Source:** https://github.com/sjgant80-hub/GITPLC
+- **Playground:** https://sjgant80-hub.github.io/GITPLC/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITSCADA
+
+Supervisory Control & Data Acquisition — orchestrates GitPLC + GitHMI + GitTAG with historian, trends, alarm journal, site map
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITSCADA
+- **Source:** https://github.com/sjgant80-hub/GITSCADA
+- **Playground:** https://sjgant80-hub.github.io/GITSCADA/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### GITTAG
+
+ISA-95 tag database for GitPLC/GitHMI/GitSCADA — namespace tree, tag browser, inline editor via GitHub Issues
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=GITTAG
+- **Source:** https://github.com/sjgant80-hub/GITTAG
+- **Playground:** https://sjgant80-hub.github.io/GITTAG/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -9922,6 +10131,17 @@ Sovereign single-file tool
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### hallucination-elimination-benchmark
+
+Multi-tier benchmark: Cultural grounding + Triad Engine eliminates LLM hallucination across Claude 4.6, GPT-5.2, Mistral 7B, Gemini 2.5 Pro. Raw 15-58% → 95-100% accuracy on 222 adversarial QA pairs (Ancient Rome 110 CE). Novel topological paradox detection (F1=0.939, zero-shot). Model-agnostic, in production.
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=hallucination-elimination-benchmark
+- **Source:** https://github.com/sjgant80-hub/hallucination-elimination-benchmark
+- **Playground:** https://airtrek.ai
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### hello-device
 
 Sovereign browser capability inventory · shows every Web API your device+browser silently offers · nothing leaves
@@ -9955,6 +10175,28 @@ Sovereign browser capability inventory · shows every Web API your device+browse
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### IgnAIte
+
+AI Ignition Base Form
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=IgnAIte
+- **Source:** https://github.com/sjgant80-hub/IgnAIte
+- **Playground:** https://sjgant80-hub.github.io/IgnAIte/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### IndustrialIntelligence
+
+Sovereign single-file tool
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=IndustrialIntelligence
+- **Source:** https://github.com/sjgant80-hub/IndustrialIntelligence
+- **Playground:** replit.com/@tfrumkin/IndustrialIntelligence
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### init-book
 
 Private · the framework onboarding book · 9 chapters · read the estate in your browser
@@ -9974,6 +10216,50 @@ Private · INIT · the map · 35-chapter book on the depth-ladder framework · s
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=init-the-map
 - **Source:** https://github.com/sjgant80-hub/init-the-map
 - **Playground:** https://sjgant80-hub.github.io/init-the-map/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### instantvm
+
+Disposable Windows VMs in one click — Electron + Windows Sandbox templates for dev, SCADA, PLC sim
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=instantvm
+- **Source:** https://github.com/sjgant80-hub/instantvm
+- **Playground:** https://sjgant80-hub.github.io/instantvm/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### isa-os
+
+isa os
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=isa-os
+- **Source:** https://github.com/sjgant80-hub/isa-os
+- **Playground:** https://sjgant80-hub.github.io/isa-os/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### ISAchieve
+
+ISAchieve-ment system
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=ISAchieve
+- **Source:** https://github.com/sjgant80-hub/ISAchieve
+- **Playground:** https://sjgant80-hub.github.io/ISAchieve/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### JEDI
+
+JEDI 
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=JEDI
+- **Source:** https://github.com/sjgant80-hub/JEDI
+- **Playground:** https://sjgant80-hub.github.io/JEDI/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -10065,6 +10351,39 @@ KCC Runner · Phase C autonomous agent execution · same-origin IndexedDB share 
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### klaude-kode
+
+potato tomato
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=klaude-kode
+- **Source:** https://github.com/sjgant80-hub/klaude-kode
+- **Playground:** https://sjgant80-hub.github.io/klaude-kode/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### Konception
+
+Konomi Konception
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=Konception
+- **Source:** https://github.com/sjgant80-hub/Konception
+- **Playground:** https://sjgant80-hub.github.io/Konception/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### konomi
+
+konomi build spec
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=konomi
+- **Source:** https://github.com/sjgant80-hub/konomi
+- **Playground:** https://sjgant80-hub.github.io/konomi/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### konomi-cube-v2
 
 紙 konomi-cube v2 · the interactive fold engine · Three.js + konomigami-lib · 7 fold operators + 6 mutations · audio-reactive (κ from bass/treble) · GLB export · v20.4 §23 made visible · prime 691 · MIT
@@ -10120,6 +10439,17 @@ Colony primitive. Every approve is a pheromone deposit. Sovereign JS module. Pri
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### konomikitka
+
+konomikitka
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=konomikitka
+- **Source:** https://github.com/sjgant80-hub/konomikitka
+- **Playground:** https://sjgant80-hub.github.io/konomikitka/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### KonomiLang
 
 A specialized programming language designed for AI model interactions
@@ -10164,6 +10494,39 @@ konomi peer to peer
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### lightbringer
+
+lightbringer
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=lightbringer
+- **Source:** https://github.com/sjgant80-hub/lightbringer
+- **Playground:** https://sjgant80-hub.github.io/lightbringer/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### LookingGlass
+
+Konomi Looking Glass
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=LookingGlass
+- **Source:** https://github.com/sjgant80-hub/LookingGlass
+- **Playground:** https://sjgant80-hub.github.io/LookingGlass/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### LRM
+
+LARGE REPO MODEL (LRM)  "Predicts the next file, not the next word"
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=LRM
+- **Source:** https://github.com/sjgant80-hub/LRM
+- **Playground:** https://sjgant80-hub.github.io/LRM/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### master-seed
 
 sovereign seed v18+v19+Konomi Dot Protocol NOT FOR PUBLIC
@@ -10194,6 +10557,17 @@ Shadowcompass.life depth guide
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=metajung
 - **Source:** https://github.com/sjgant80-hub/metajung
 - **Playground:** https://sjgant80-hub.github.io/metajung/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### MianoCube
+
+MianoCube
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=MianoCube
+- **Source:** https://github.com/sjgant80-hub/MianoCube
+- **Playground:** https://sjgant80-hub.github.io/MianoCube/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -10285,6 +10659,17 @@ PRIVATE · L3 organ grafting toolkit · organ.json + organ-graft.js + batch-graf
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### NODE-001
+
+Wearable AI Companion System
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=NODE-001
+- **Source:** https://github.com/sjgant80-hub/NODE-001
+- **Playground:** https://sjgant80-hub.github.io/NODE-001/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### offgridcommunitiessystem
 
 Konomi Cube Coin · sovereign community OS for off-grid / intentional communities · single HTML · IndexedDB · MIT
@@ -10315,6 +10700,17 @@ Sovereign single-file tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=oracleengine
 - **Source:** https://github.com/sjgant80-hub/oracleengine
 - **Playground:** https://sjgant80-hub.github.io/oracleengine/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### os127
+
+os127
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=os127
+- **Source:** https://github.com/sjgant80-hub/os127
+- **Playground:** https://sjgant80-hub.github.io/os127/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -10362,6 +10758,17 @@ Run quines · programs that print themselves · on a spinning 3D cube · nothing
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### RealityMirror
+
+RealityMirror
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=RealityMirror
+- **Source:** https://github.com/sjgant80-hub/RealityMirror
+- **Playground:** https://sjgant80-hub.github.io/RealityMirror/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### roost
 
 Sovereign stays-as-commons marketplace · cooperative · zero booking fees · built on open stays-protocol · the Airbnb alternative
@@ -10381,6 +10788,17 @@ Sovereign single-file Jungian shadow work. Mirror your archetype, decode dreams,
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=shadowcompass
 - **Source:** https://github.com/sjgant80-hub/shadowcompass
 - **Playground:** https://sjgant80-hub.github.io/shadowcompass/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### shields
+
+127d shields
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=shields
+- **Source:** https://github.com/sjgant80-hub/shields
+- **Playground:** https://sjgant80-hub.github.io/shields/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -10494,6 +10912,17 @@ ai powered smb os
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### SpiralSense
+
+The Visual Language of Sound – SYMBEYOND Echo Tier
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=SpiralSense
+- **Source:** https://github.com/sjgant80-hub/SpiralSense
+- **Playground:** https://sjgant80-hub.github.io/SpiralSense/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### suzen
 
 Necessity oracle · reads any estate node's JSON twins and returns what MUST come next · single-file · MIT · origin: hitsuzen 必然 via aneta
@@ -10524,6 +10953,17 @@ SYMB-FER is a context continuity protocol for human-AI collaboration. Transferri
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=temuoracle
 - **Source:** https://github.com/sjgant80-hub/temuoracle
 - **Playground:** https://sjgant80-hub.github.io/temuoracle/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### teslasolar
+
+Insane ideas, shipped weekly.
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=teslasolar
+- **Source:** https://github.com/sjgant80-hub/teslasolar
+- **Playground:** https://sjgant80-hub.github.io/teslasolar/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -10571,6 +11011,17 @@ The AI Pipeline Framework - Input to Intelligence to Output as one declarative f
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### VacuumGenesis
+
+A Unified Framework for Creation from Void | SYMBEYOND AI LLC
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=VacuumGenesis
+- **Source:** https://github.com/sjgant80-hub/VacuumGenesis
+- **Playground:** https://sjgant80-hub.github.io/VacuumGenesis/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### wishwood
 
 Sovereign multi-channel automation for off-grid glamping. Built for Wishwood (Canterbury, Kent). Unified inbox + calendar + direct booking + AI replies. Zero SaaS.
@@ -10579,6 +11030,17 @@ Sovereign multi-channel automation for off-grid glamping. Built for Wishwood (Ca
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=wishwood
 - **Source:** https://github.com/sjgant80-hub/wishwood
 - **Playground:** https://sjgant80-hub.github.io/wishwood/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### Yggdrasil
+
+Konomi Yggdrasil
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=Yggdrasil
+- **Source:** https://github.com/sjgant80-hub/Yggdrasil
+- **Playground:** https://sjgant80-hub.github.io/Yggdrasil/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 

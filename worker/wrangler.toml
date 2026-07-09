@@ -23,3 +23,9 @@ compatibility_date = "2024-11-01"
 
 [vars]
 CANONICAL_URL = "https://sjgant80-hub.github.io/fallmarket/"
+
+# Neutral runner sandbox tier — instantvm-based (Thomas's disposable Windows VM tool)
+# Fork: https://github.com/sjgant80-hub/instantvm
+# Runner spawns a Sandbox per benchmark run · isolates each product · signs result before webhook back
+INSTANTVM_SOURCE = "https://github.com/sjgant80-hub/instantvm"
+SANDBOX_TIER = "instantvm"
