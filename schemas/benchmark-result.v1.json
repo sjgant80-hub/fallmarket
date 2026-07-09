@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjgant80-hub.github.io/fallmarket/schemas/benchmark-result.v1.json",
+  "title": "Benchmark Result v1",
+  "description": "The empirical trust signal. Neutral runner executes a test suite against a product listing and emits this signed result. No seller involvement.",
+  "type": "object",
+  "required": ["v", "product_id", "suite_id", "score", "run_at", "runner_did", "sig"],
+  "properties": {
+    "v": { "const": 1 },
+    "product_id": { "type": "string" },
+    "suite_id": {
+      "type": "string",
+      "description": "Standard benchmark suite id · e.g. `mcp-basic-v1`, `llm-quality-v2`, `api-uptime-30d`"
+    },
+    "suite_version": { "type": "string" },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Normalized 0..1 score"
+    },
+    "pass": { "type": "boolean" },
+    "detail": {
+      "type": "object",
+      "description": "Suite-specific breakdown"
+    },
+    "run_at": { "type": "string", "format": "date-time" },
+    "runner_did": {
+      "type": "string",
+      "pattern": "^did:key:z[a-km-zA-HJ-NP-Z1-9]+$",
+      "description": "DID of the neutral test runner (a Cloudflare Worker's keypair or an attested VM)"
+    },
+    "runner_kind": {
+      "enum": ["cf-worker", "attested-vm", "buyer-supplied", "guild-endorsed"]
+    },
+    "buyer_test_case_hash": {
+      "type": "string",
+      "description": "SHA-256 of the buyer-supplied test case (present when runner_kind=buyer-supplied)"
+    },
+    "sig": {
+      "type": "string",
+      "description": "Ed25519 signature by runner_did over the canonical JSON (excluding sig)"
+    }
+  }
+}

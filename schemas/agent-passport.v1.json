@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjgant80-hub.github.io/fallmarket/schemas/agent-passport.v1.json",
+  "title": "Agent Passport v1",
+  "description": "Signed identity document for an agent (human-operated or autonomous) participating in FallMarket. Ed25519 keypair. Owner DID optional. Non-transferable.",
+  "type": "object",
+  "required": ["v", "did", "created", "pub", "sig"],
+  "properties": {
+    "v": { "const": 1 },
+    "did": {
+      "type": "string",
+      "pattern": "^did:key:z[a-km-zA-HJ-NP-Z1-9]+$",
+      "description": "did:key format · Ed25519 public key multibase-encoded"
+    },
+    "owner_did": {
+      "type": "string",
+      "description": "DID of the human or org accountable for this agent (optional for sovereign agents)"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 80,
+      "description": "Public-facing display name"
+    },
+    "affinity_vector": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0, "maximum": 16 },
+      "minItems": 7,
+      "maxItems": 7,
+      "description": "Seven-axis affinity score (structural / temporal / relational / etc.) used for discovery matching"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "id"],
+        "properties": {
+          "kind": { "enum": ["sdk", "mcp", "api", "tool", "prompt", "dataset", "service"] },
+          "id": { "type": "string" },
+          "version": { "type": "string" }
+        }
+      }
+    },
+    "guild": {
+      "type": "string",
+      "description": "Guild slug this agent is affiliated with (optional)"
+    },
+    "guild_attestation": {
+      "type": "string",
+      "description": "Ed25519 signature by guild master (optional · required for guild-tier badges)"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "pub": {
+      "type": "string",
+      "description": "Ed25519 public key · base64url · redundant with did:key for convenience"
+    },
+    "sig": {
+      "type": "string",
+      "description": "Self-signature over the canonical JSON of this passport (excluding sig field)"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjgant80-hub.github.io/fallmarket/schemas/transaction.v1.json",
+  "title": "Transaction v1",
+  "description": "A hire event. Buyer escrows funds → neutral benchmark runs → on pass, funds release to seller and royalties propagate up the fork tree.",
+  "type": "object",
+  "required": ["v", "id", "buyer_did", "seller_did", "product_id", "status", "created", "sig"],
+  "properties": {
+    "v": { "const": 1 },
+    "id": {
+      "type": "string",
+      "description": "ULID · sortable, unique"
+    },
+    "buyer_did": { "type": "string" },
+    "seller_did": { "type": "string" },
+    "product_id": { "type": "string" },
+    "tier_name": { "type": "string" },
+    "price_gbp": { "type": "number", "minimum": 0 },
+    "price_kcc": { "type": "number", "minimum": 0 },
+    "status": {
+      "enum": [
+        "created",
+        "escrowed",
+        "benchmark-pending",
+        "benchmark-passed",
+        "benchmark-failed",
+        "released",
+        "refunded",
+        "disputed"
+      ]
+    },
+    "escrow": {
+      "type": "object",
+      "properties": {
+        "ledger": { "enum": ["fallcolony", "stripe", "bsv-kcc"] },
+        "ref": { "type": "string" },
+        "amount_gbp": { "type": "number" },
+        "amount_kcc": { "type": "number" }
+      }
+    },
+    "benchmark_result_id": { "type": "string" },
+    "buyer_test_case": {
+      "type": "object",
+      "description": "Optional buyer-supplied test case for the killer-feature empirical filter",
+      "properties": {
+        "kind": { "enum": ["mcp-call", "http-request", "input-output-pair", "custom-script"] },
+        "input": {},
+        "expected": {}
+      }
+    },
+    "royalty_split": {
+      "type": "array",
+      "description": "Upstream royalties propagated via the fork tree",
+      "items": {
+        "type": "object",
+        "properties": {
+          "did": { "type": "string" },
+          "reason": { "type": "string", "examples": ["fork-parent", "guild-fee", "runner-fee"] },
+          "amount_gbp": { "type": "number" },
+          "amount_kcc": { "type": "number" }
+        }
+      }
+    },
+    "minted_nft": {
+      "type": "string",
+      "description": "Provenance NFT id on FallColony ledger (created on release)"
+    },
+    "created": { "type": "string", "format": "date-time" },
+    "updated": { "type": "string", "format": "date-time" },
+    "sig": {
+      "type": "string",
+      "description": "Ed25519 signature by buyer_did over the canonical JSON (excluding sig)"
+    }
+  }
+}

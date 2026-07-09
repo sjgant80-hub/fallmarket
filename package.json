@@ -1,0 +1,19 @@
+{
+  "name": "@ai-native-solutions/fallmarket",
+  "version": "0.1.0",
+  "description": "Sovereign agent marketplace · Fiverr UX for humans + npm/MCP registry for agents + benchmark leaderboard for trust",
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import-trios.mjs > listings.json",
+    "serve": "npx --yes http-server . -p 8080 -c-1",
+    "dev": "npm run import && npm run serve"
+  },
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallmarket.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallmarket/",
+  "keywords": ["fallmarket", "marketplace", "agents", "mcp", "sdk", "sovereign", "ai-native-solutions"]
+}

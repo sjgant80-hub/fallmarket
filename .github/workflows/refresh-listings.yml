@@ -1,0 +1,28 @@
+name: Refresh listings
+on:
+  schedule:
+    - cron: '0 4 * * *'  # 04:00 UTC daily
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Regenerate listings.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/import-trios.mjs > listings.json || echo "generation skipped"
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet listings.json; then
+            git config user.name "fallmarket-bot"
+            git config user.email "bot@ai-nativesolutions.com"
+            git add listings.json
+            git commit -m "refresh listings · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
