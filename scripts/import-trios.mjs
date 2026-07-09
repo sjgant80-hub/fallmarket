@@ -18,7 +18,7 @@ const argv = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] 
 const has = (k) => args.includes(k);
 
 const ORG = argv('--org', 'sjgant80-hub');
-const LIMIT = parseInt(argv('--limit', '1000'));
+const LIMIT = parseInt(argv('--limit', '3000'));
 const INCLUDE_STANDALONE = has('--include-standalone');
 
 const sh = (cmd) => {
@@ -38,10 +38,13 @@ const isCompanion = (r) => KIND_RE.test(r.name) && !r.isArchived;
 const companions = allRepos.filter(isCompanion);
 process.stderr.write(`[import-trios] ${companions.length} live -sdk/-mcp/-api companions\n`);
 
+// GitHub auto-generated placeholder names (empty repos from "New repository" without a name)
+const NOISE_RE = /^(congenial|super-|probable-|fuzzy-|scaling-|upgraded-|laughing-|solid-fiesta|solid-journey|kinetic-braid|legendary-|smallworld|warhummer|thecrystalship|copy-gate|ummm|atempt|cubes-for-dummies)$/i;
+
 const standalone = INCLUDE_STANDALONE
-  ? allRepos.filter(r => !KIND_RE.test(r.name) && !r.isArchived && /^fall/.test(r.name))
+  ? allRepos.filter(r => !KIND_RE.test(r.name) && !r.isArchived && !NOISE_RE.test(r.name))
   : [];
-if (INCLUDE_STANDALONE) process.stderr.write(`[import-trios] +${standalone.length} standalone fall* repos\n`);
+if (INCLUDE_STANDALONE) process.stderr.write(`[import-trios] +${standalone.length} standalone repos (post noise filter)\n`);
 
 const now = new Date().toISOString();
 
