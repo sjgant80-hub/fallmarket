@@ -1,0 +1,100 @@
+{
+  "v": 1,
+  "at": "2026-07-09T18:55:27.172Z",
+  "ok": 7,
+  "archived": 10,
+  "fail": 0,
+  "skipped": 118,
+  "results": [
+    {
+      "id": "shadowcompass-mcp",
+      "action": "archived"
+    },
+    {
+      "id": "offgridcommunitiessystem-mcp",
+      "action": "archived"
+    },
+    {
+      "id": "init-book-mcp",
+      "action": "archived"
+    },
+    {
+      "id": "fallseed-api",
+      "action": "archived"
+    },
+    {
+      "id": "fallpractice-api",
+      "action": "archived"
+    },
+    {
+      "id": "fallonboard-api",
+      "action": "archived"
+    },
+    {
+      "id": "fallhrpractice-api",
+      "action": "archived"
+    },
+    {
+      "id": "fallclinic-mcp",
+      "action": "archived"
+    },
+    {
+      "id": "fallaudio-api",
+      "action": "archived"
+    },
+    {
+      "id": "accountinghouse-sdk",
+      "action": "archived"
+    },
+    {
+      "id": "fallmobile",
+      "ok": true,
+      "added": [
+        "index.html"
+      ]
+    },
+    {
+      "id": "fallcrm-elite",
+      "ok": true,
+      "added": [
+        "index.html"
+      ]
+    },
+    {
+      "id": "fallbrief",
+      "ok": true,
+      "added": [
+        "index.html"
+      ]
+    },
+    {
+      "id": "fallvetonboard",
+      "ok": true,
+      "added": [
+        "README.md",
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "falllegalonboard",
+      "ok": true,
+      "added": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "fallbookspaper",
+      "ok": true,
+      "added": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "fallbooks",
+      "ok": true,
+      "added": [
+        "README.md"
+      ]
+    }
+  ]
+}
