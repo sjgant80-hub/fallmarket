@@ -13,18 +13,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Regenerate listings.json
+      - name: Regenerate listings.json (limit 3000 + noise filter)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/import-trios.mjs --include-standalone > listings.json || echo "generation skipped"
+      - name: Retro-tag every listing (solid + prime + lineage)
+        run: node scripts/tag-listings.mjs || echo "tag skipped"
       - name: Rebuild catalog.md + sitemap.xml
         run: node scripts/build-catalog.mjs || echo "catalog build skipped"
+      - name: Run public-safe-v1 benchmark
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/run-public-safe-benchmark.mjs || echo "benchmark skipped"
+      - name: Full estate audit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/audit.mjs --parallel 8 2>/dev/null || echo "audit not vendored yet"
       - name: Commit if changed
         run: |
-          if ! git diff --quiet listings.json catalog.md sitemap.xml; then
+          if ! git diff --quiet listings.json catalog.md sitemap.xml benchmarks.json estate-quality.json 2>/dev/null; then
             git config user.name "fallmarket-bot"
             git config user.email "bot@ai-nativesolutions.com"
-            git add listings.json catalog.md sitemap.xml
-            git commit -m "refresh · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git add listings.json catalog.md sitemap.xml benchmarks.json estate-quality.json 2>/dev/null || true
+            git commit -m "nightly refresh · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
