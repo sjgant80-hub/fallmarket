@@ -1,10 +1,11 @@
-name: Nightly estate audit + GEO shim
+name: Nightly estate audit + shim + repair chain
 on:
   schedule:
     - cron: '30 4 * * *'  # 04:30 UTC · after listings refresh at 04:00
   workflow_dispatch:
+
 jobs:
-  audit:
+  audit-shim-repair:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,26 +14,79 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Clone trio-pipeline
+      - name: Clone trio-pipeline scripts
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ~/pipeline
+          # Vendor the scripts · they live in a private mint-all repo the workflow can access
+          gh api repos/sjgant80-hub/mint-all/contents/trio-pipeline/audit.mjs --jq .content | base64 -d > ~/pipeline/audit.mjs 2>/dev/null || echo "audit.mjs vendor skipped"
+          gh api repos/sjgant80-hub/mint-all/contents/trio-pipeline/geo-shim.mjs --jq .content | base64 -d > ~/pipeline/geo-shim.mjs 2>/dev/null || echo "geo-shim.mjs vendor skipped"
+          gh api repos/sjgant80-hub/mint-all/contents/trio-pipeline/contamination-scrub.mjs --jq .content | base64 -d > ~/pipeline/contamination-scrub.mjs 2>/dev/null || echo "contamination-scrub.mjs vendor skipped"
+          gh api repos/sjgant80-hub/mint-all/contents/trio-pipeline/broken-repair.mjs --jq .content | base64 -d > ~/pipeline/broken-repair.mjs 2>/dev/null || echo "broken-repair.mjs vendor skipped"
+
+      - name: Regenerate listings.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/import-trios.mjs --include-standalone > listings.json || echo "generation skipped"
+
+      - name: Full audit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p ~/mint-all
-          # audit + geo-shim scripts live in a sibling location · vendored here
-          curl -sSL https://raw.githubusercontent.com/sjgant80-hub/mint-all/main/trio-pipeline/audit.mjs -o ~/audit.mjs || echo "audit vendored elsewhere · skip"
-      - name: Run audit
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ -f ~/audit.mjs ]; then
-            node ~/audit.mjs --parallel 8 || echo "audit failed"
+          if [ -f ~/pipeline/audit.mjs ]; then
+            node ~/pipeline/audit.mjs --parallel 8 || echo "audit failed"
           fi
+
+      - name: GEO shim (any repos missing surface)
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f ~/pipeline/geo-shim.mjs ] && [ -f estate-quality.json ]; then
+            node ~/pipeline/geo-shim.mjs --limit 100 || echo "geo-shim capped/failed"
+          fi
+
+      - name: Contamination scrub (any leaking README)
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f ~/pipeline/contamination-scrub.mjs ] && [ -f estate-quality.json ]; then
+            node ~/pipeline/contamination-scrub.mjs || echo "scrub failed"
+          fi
+
+      - name: Broken repair (any F-grade)
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f ~/pipeline/broken-repair.mjs ] && [ -f estate-quality.json ]; then
+            node ~/pipeline/broken-repair.mjs --limit 25 || echo "repair failed"
+          fi
+
+      - name: Re-audit after fixes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f ~/pipeline/audit.mjs ]; then
+            node ~/pipeline/audit.mjs --parallel 8 || echo "re-audit failed"
+          fi
+
+      - name: Rebuild catalog.md + sitemap.xml
+        run: node scripts/build-catalog.mjs || echo "catalog build skipped"
+
+      - name: Watcher report (fallwatcher)
+        run: |
+          npx -y @ai-native-solutions/fallwatcher 2>&1 || echo "watcher skipped"
+
+      - name: Closer report (fallcloser)
+        run: |
+          npx -y @ai-native-solutions/fallcloser 2>&1 || echo "closer skipped"
+
       - name: Commit if changed
         run: |
-          if [ -f estate-quality.json ] && ! git diff --quiet estate-quality.json; then
+          if ! git diff --quiet listings.json catalog.md sitemap.xml estate-quality.json estate-watch-report.json estate-closure-report.json 2>/dev/null; then
             git config user.name "fallmarket-bot"
             git config user.email "bot@ai-nativesolutions.com"
-            git add estate-quality.json
-            git commit -m "audit · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git add listings.json catalog.md sitemap.xml estate-quality.json estate-shim-log.json estate-scrub-log.json estate-repair-log.json estate-watch-report.json estate-closure-report.json 2>/dev/null || true
+            git commit -m "nightly · full chain · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
