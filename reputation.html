@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reputation · FallMarket · benchmark-verified trust rankings</title>
+<meta name="description" content="FallMarket reputation dashboard. Every listing scored by signed benchmarks, transaction success rate, and 90-day time-decay. Trust is empirical.">
+<meta name="keywords" content="FallMarket reputation, benchmark trust, MCP reputation, agent marketplace trust">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/reputation.html">
+<meta property="og:title" content="Reputation · FallMarket">
+<meta property="og:description" content="Benchmark-verified trust rankings for 902 sovereign AI tools.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/reputation.html">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "FallMarket Reputation Rankings",
+  "description": "Signed benchmark scores + transaction success rate + time-decay for every listing.",
+  "url": "https://sjgant80-hub.github.io/fallmarket/reputation.html"
+}
+</script>
+
+<style>
+  .rep-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .rep-card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+  .rep-card .tier-badge { display: inline-block; padding: 0.15rem 0.65rem; border-radius: 3px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+  .tier-gold { background: var(--brass); color: #0b0a0f; }
+  .tier-silver { background: #c0c0c0; color: #0b0a0f; }
+  .tier-bronze { background: #a0693f; color: #f2ede0; }
+  .tier-unproven { background: var(--dim); color: #0b0a0f; }
+  .rep-table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 13px; }
+  .rep-table th, .rep-table td { text-align: left; padding: 0.7rem; border-bottom: 1px solid var(--border); }
+  .rep-table th { color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; font-weight: 600; }
+  .rep-score { font: 600 15px/1 Georgia, serif; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="publishers.html">Publishers</a>
+      <a href="quality.html">Quality</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero compact">
+  <div class="wrap">
+    <h1>Reputation rankings.</h1>
+    <p class="lede">Benchmark-verified trust. Signed by neutral runners. Time-decay half-life 90 days. Empirical only — no self-reported reputation.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div id="summary" style="margin: 1.5rem 0;">Loading reputation data…</div>
+    <div class="rep-grid" id="tier-grid" hidden>
+      <div class="rep-card"><span class="tier-badge tier-gold">Gold</span><div style="font: 700 32px/1 Georgia, serif; margin: 0.75rem 0;" id="gold-count">—</div><p style="color: var(--dim); font-size: 12px; margin: 0;">≥3 benchmarks · score ≥0.90</p></div>
+      <div class="rep-card"><span class="tier-badge tier-silver">Silver</span><div style="font: 700 32px/1 Georgia, serif; margin: 0.75rem 0;" id="silver-count">—</div><p style="color: var(--dim); font-size: 12px; margin: 0;">≥2 benchmarks · score ≥0.75</p></div>
+      <div class="rep-card"><span class="tier-badge tier-bronze">Bronze</span><div style="font: 700 32px/1 Georgia, serif; margin: 0.75rem 0;" id="bronze-count">—</div><p style="color: var(--dim); font-size: 12px; margin: 0;">≥1 benchmark · score ≥0.50</p></div>
+      <div class="rep-card"><span class="tier-badge tier-unproven">Unproven</span><div style="font: 700 32px/1 Georgia, serif; margin: 0.75rem 0;" id="unproven-count">—</div><p style="color: var(--dim); font-size: 12px; margin: 0;">No benchmarks yet</p></div>
+    </div>
+
+    <h2 style="margin-top: 2rem; font: 500 15px/1.2 -apple-system, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dim);">Top listings by reputation</h2>
+    <table class="rep-table" id="rep-table" hidden>
+      <thead><tr><th>Rank</th><th>Listing</th><th>Kind</th><th>Tier</th><th>Score</th><th>Benchmarks</th><th>Transactions</th></tr></thead>
+      <tbody></tbody>
+    </table>
+
+    <p style="color: var(--dim); font-size: 13px; margin-top: 2rem;">
+      Phase 3 · benchmarks come online when publishers opt-in and the Cloudflare Worker sandbox goes live. Until then, every listing shows as <strong>Unproven</strong> · buyers rely on the source + FallMarket's guarantee that all listings are MIT and Ed25519-signed.
+    </p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+import { computeRep, TIER_LABELS } from './lib/reputation.mjs';
+
+async function load() {
+  try {
+    const [cRes, bRes] = await Promise.all([
+      fetch('./listings.json', { cache: 'no-store' }),
+      fetch('./benchmarks.json', { cache: 'no-store' }).catch(() => null)
+    ]);
+    const catalog = await cRes.json();
+    const benchmarks = bRes && bRes.ok ? await bRes.json() : { results: [] };
+
+    // Compute rep per listing
+    const bByProduct = benchmarks.results.reduce((a, b) => { (a[b.product_id] = a[b.product_id] || []).push(b); return a; }, {});
+    const rows = catalog.listings.map(l => {
+      const bs = bByProduct[l.id] || [];
+      const rep = computeRep({ benchmarks: bs, transactions: [] });
+      return { ...l, rep };
+    });
+
+    const tierCounts = rows.reduce((a, r) => { a[r.rep.tier] = (a[r.rep.tier] || 0) + 1; return a; }, {});
+    document.getElementById('gold-count').textContent = tierCounts.gold || 0;
+    document.getElementById('silver-count').textContent = tierCounts.silver || 0;
+    document.getElementById('bronze-count').textContent = tierCounts.bronze || 0;
+    document.getElementById('unproven-count').textContent = tierCounts.unproven || 0;
+    document.getElementById('summary').innerHTML = `<p style="color: var(--dim);">${catalog.total} listings scored · ${benchmarks.results.length} signed benchmarks · updated ${new Date().toLocaleString()}</p>`;
+    document.getElementById('tier-grid').hidden = false;
+
+    // Top 50 by score, tiebreak by benchmark count
+    const top = rows.sort((a, b) => b.rep.score - a.rep.score || b.rep.benchmark_count - a.rep.benchmark_count).slice(0, 50);
+    const tbody = document.querySelector('#rep-table tbody');
+    tbody.innerHTML = top.map((r, i) => `
+      <tr>
+        <td>#${i + 1}</td>
+        <td><a href="listing.html?id=${encodeURIComponent(r.id)}">${escape(r.title || r.id)}</a></td>
+        <td>${r.kind}</td>
+        <td><span class="tier-badge tier-${r.rep.tier}">${TIER_LABELS[r.rep.tier]}</span></td>
+        <td class="rep-score">${(r.rep.score * 100).toFixed(0)}%</td>
+        <td>${r.rep.benchmark_count}</td>
+        <td>${r.rep.tx_count}</td>
+      </tr>
+    `).join('');
+    document.getElementById('rep-table').hidden = false;
+  } catch (e) {
+    document.getElementById('summary').innerHTML = `<p style="color: var(--dim);">Rep data unavailable: ${escape(e.message)}</p>`;
+  }
+}
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+load();
+</script>
+
+</body>
+</html>

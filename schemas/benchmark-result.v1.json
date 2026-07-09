@@ -4,34 +4,38 @@
   "title": "Benchmark Result v1",
   "description": "The empirical trust signal. Neutral runner executes a test suite against a product listing and emits this signed result. No seller involvement.",
   "type": "object",
-  "required": ["v", "product_id", "suite_id", "score", "run_at", "runner_did", "sig"],
+  "required": ["v", "product_id", "suite_id", "score", "pass", "run_at", "runner_did", "sig"],
   "properties": {
     "v": { "const": 1 },
     "product_id": { "type": "string" },
     "suite_id": {
       "type": "string",
-      "description": "Standard benchmark suite id · e.g. `mcp-basic-v1`, `llm-quality-v2`, `api-uptime-30d`"
+      "description": "Standard benchmark suite id · e.g. mcp-basic-v1, sdk-import-v1, api-uptime-30d, tool-load-v1, buyer-supplied-v1, public-safe-v1"
     },
     "suite_version": { "type": "string" },
     "score": {
       "type": "number",
       "minimum": 0,
       "maximum": 1,
-      "description": "Normalized 0..1 score"
+      "description": "Normalized 0..1 score · weight applied downstream in reputation calc"
     },
     "pass": { "type": "boolean" },
+    "weight": {
+      "type": "number",
+      "description": "Suite weight for reputation aggregation · default 1.0"
+    },
     "detail": {
       "type": "object",
-      "description": "Suite-specific breakdown"
+      "description": "Suite-specific step-by-step pass/fail + timings"
     },
     "run_at": { "type": "string", "format": "date-time" },
     "runner_did": {
       "type": "string",
       "pattern": "^did:key:z[a-km-zA-HJ-NP-Z1-9]+$",
-      "description": "DID of the neutral test runner (a Cloudflare Worker's keypair or an attested VM)"
+      "description": "DID of the neutral test runner"
     },
     "runner_kind": {
-      "enum": ["cf-worker", "attested-vm", "buyer-supplied", "guild-endorsed"]
+      "enum": ["cf-worker", "attested-vm", "buyer-supplied", "publisher-endorsed"]
     },
     "buyer_test_case_hash": {
       "type": "string",
