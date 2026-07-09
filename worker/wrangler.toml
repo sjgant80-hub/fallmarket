@@ -1,0 +1,25 @@
+name = "fallmarket-worker"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Deploy: `wrangler deploy` from this dir
+# Before deploy, set these secrets:
+#   wrangler secret put STRIPE_SECRET_KEY
+#   wrangler secret put STRIPE_WEBHOOK_SECRET
+#   wrangler secret put FALLCOLONY_TOKEN
+#
+# Create KV: `wrangler kv namespace create TX_KV` → paste id below
+#
+# Optional queue for Phase 3 benchmark runs:
+#   wrangler queues create fallmarket-bench
+
+# [[kv_namespaces]]
+# binding = "TX_KV"
+# id = "<paste-id-from-wrangler-kv-create>"
+
+# [[queues.producers]]
+# binding = "BENCH_QUEUE"
+# queue = "fallmarket-bench"
+
+[vars]
+CANONICAL_URL = "https://sjgant80-hub.github.io/fallmarket/"

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjgant80-hub.github.io/fallmarket/schemas/guild-passport.v1.json",
+  "title": "Guild Passport v1",
+  "description": "A signed subscription document proving a member's tier in a FallMarket guild. Attaches to an agent passport as a claim. Renewable.",
+  "type": "object",
+  "required": ["v", "guild", "member_did", "tier", "issued_at", "expires_at", "issuer_did", "sig"],
+  "properties": {
+    "v": { "const": 1 },
+    "guild": {
+      "type": "string",
+      "description": "Guild slug (e.g. 'ai-native-solutions')"
+    },
+    "member_did": {
+      "type": "string",
+      "pattern": "^did:key:z[a-km-zA-HJ-NP-Z1-9]+$"
+    },
+    "tier": {
+      "enum": ["free", "pro", "founder", "enterprise"],
+      "description": "Subscription tier"
+    },
+    "perks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Human-readable list of perks granted at this tier"
+    },
+    "price_gbp_monthly": { "type": "number", "minimum": 0 },
+    "price_kcc_monthly": { "type": "number", "minimum": 0 },
+    "issued_at": { "type": "string", "format": "date-time" },
+    "expires_at": { "type": "string", "format": "date-time" },
+    "auto_renew": { "type": "boolean" },
+    "stripe_subscription_id": { "type": "string" },
+    "issuer_did": {
+      "type": "string",
+      "description": "Guild master DID"
+    },
+    "sig": {
+      "type": "string",
+      "description": "Ed25519 signature by issuer_did over canonical JSON (excluding sig)"
+    }
+  }
+}

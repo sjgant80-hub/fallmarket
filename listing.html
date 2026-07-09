@@ -46,9 +46,12 @@
 </footer>
 
 <script type="module">
+import { openCheckout } from './assets/checkout.js';
 const params = new URLSearchParams(location.search);
 const id = params.get('id');
 const content = document.getElementById('detail-content');
+window._currentListing = null;
+window._openCheckout = () => window._currentListing && openCheckout(window._currentListing);
 
 if (!id) {
   content.innerHTML = '<h1>No listing id</h1><p>Go back to the <a href="./">catalog</a>.</p>';
@@ -61,6 +64,7 @@ if (!id) {
         content.innerHTML = `<h1>Not found</h1><p>No listing with id <code>${escape(id)}</code>. Return to <a href="./">catalog</a>.</p>`;
         return;
       }
+      window._currentListing = l;
       document.title = `${l.title} · FallMarket`;
       const md = document.querySelector('meta[name="description"]');
       if (md) md.setAttribute('content', l.subtitle || l.description || l.title);
@@ -171,7 +175,7 @@ function render(l) {
         <h3>Free tier</h3>
         <div class="price-big">${price}</div>
         <p>${escape(l.tiers?.[0]?.includes?.join(' · ') || 'MIT source · self-host · community support')}</p>
-        <button class="primary" onclick="alert('Hire flow ships in Phase 2 · escrow via FallColony ledger + benchmark on delivery')">Hire</button>
+        <button class="primary" onclick="window._openCheckout()">Hire</button>
         <div class="fine">Ed25519-signed listing · benchmark verified on delivery · funds escrow via FallColony</div>
       </div>
     </div>

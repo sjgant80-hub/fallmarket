@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transaction · FallMarket</title>
+<meta name="description" content="Transaction detail on FallMarket, the sovereign registry of AI tools.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="transactions.html">My transactions</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="detail">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="transactions.html">← My transactions</a></div>
+    <div id="tx-content">Loading…</div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+import { loadTransactions } from './assets/checkout.js';
+
+const id = new URLSearchParams(location.search).get('id');
+const status = new URLSearchParams(location.search).get('status');
+const content = document.getElementById('tx-content');
+
+if (!id) {
+  content.innerHTML = '<h1>No transaction id</h1><p>See your <a href="transactions.html">transaction history</a>.</p>';
+} else {
+  const all = loadTransactions();
+  const tx = all.find(x => x.id === id);
+  if (!tx) {
+    content.innerHTML = `<h1>Transaction not found</h1><p>ID <code>${escape(id)}</code> · not in this browser's history. See <a href="transactions.html">all transactions</a>.</p>`;
+  } else {
+    document.title = `Transaction ${id.slice(0, 8)} · FallMarket`;
+    render(tx);
+  }
+}
+
+function render(tx) {
+  const bannerColor = tx.status === 'escrowed' ? 'var(--green)' : (tx.status === 'released' ? 'var(--brass)' : 'var(--dim)');
+  content.innerHTML = `
+    <div class="detail-head">
+      <div class="meta">
+        <div class="kind-row"><span class="kind" style="background: ${bannerColor}; color: #0b0a0f;">${escape(tx.status)}</span></div>
+        <h1>${escape(tx.product_title || tx.product_id)}</h1>
+        <p class="subtitle">Tier · <strong>${escape(tx.tier_name || 'free')}</strong> · Transaction <code>${escape(tx.id)}</code></p>
+      </div>
+      <div class="buy">
+        <h3>${tx.currency === 'KCC' ? 'KCC' : 'GBP'} price</h3>
+        <div class="price-big">${tx.currency === 'KCC' ? `${tx.price_kcc} KCC` : `£${tx.price_gbp}`}</div>
+        <p><strong>Ledger:</strong> ${escape(tx.escrow?.ledger || '—')}</p>
+        <p><strong>Buyer DID:</strong> <code>${escape(tx.buyer_did)}</code></p>
+      </div>
+    </div>
+
+    <section class="detail-section">
+      <h2>Timeline</h2>
+      <ol>
+        <li><strong>Created</strong> · ${new Date(tx.created).toLocaleString()}</li>
+        <li><strong>${tx.status}</strong> · ${new Date(tx.updated).toLocaleString()}</li>
+        ${tx.status === 'escrowed' ? '<li>Awaiting benchmark run (Phase 3) · funds release on pass</li>' : ''}
+      </ol>
+    </section>
+
+    <section class="detail-section">
+      <h2>What happens next</h2>
+      <p>Phase 2 · your transaction is signed locally and stored in this browser. When the Cloudflare Worker + Stripe webhook goes live, the record replays to the backend and Stripe / KCC settlement completes automatically.</p>
+      <p>Phase 3 · benchmark orchestration ships next. On benchmark pass, funds release from escrow and the provenance NFT mints on the FallColony ledger.</p>
+    </section>
+
+    <section class="detail-section">
+      <h2>Product</h2>
+      <p><a href="listing.html?id=${encodeURIComponent(tx.product_id)}">→ View ${escape(tx.product_title || tx.product_id)}</a></p>
+    </section>
+  `;
+}
+
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+</script>
+
+</body>
+</html>

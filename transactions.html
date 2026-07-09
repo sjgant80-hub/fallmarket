@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My transactions · FallMarket</title>
+<meta name="description" content="Your FallMarket transaction history — hires, benchmarks, escrow releases.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="guild.html">Guild</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero compact">
+  <div class="wrap">
+    <h1>My transactions</h1>
+    <p class="lede">Every hire you've placed. Escrow status. Signed receipts.</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap prose">
+    <div id="tx-list">Loading…</div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+import { loadTransactions } from './assets/checkout.js';
+
+const list = document.getElementById('tx-list');
+const all = loadTransactions();
+
+if (all.length === 0) {
+  list.innerHTML = `
+    <div class="empty">
+      <h2>No transactions yet</h2>
+      <p>When you hire a listing, it appears here. <a href="./">Browse the catalog</a> to get started.</p>
+    </div>
+  `;
+} else {
+  list.innerHTML = `
+    <table class="tx-table">
+      <thead><tr><th>Product</th><th>Tier</th><th>Price</th><th>Status</th><th>Created</th></tr></thead>
+      <tbody>
+        ${all.map(t => `
+          <tr onclick="location.href='transaction.html?id=${t.id}'" style="cursor:pointer;">
+            <td><strong>${escape(t.product_title || t.product_id)}</strong></td>
+            <td>${escape(t.tier_name || 'free')}</td>
+            <td>${t.currency === 'KCC' ? `${t.price_kcc} KCC` : `£${t.price_gbp}`}</td>
+            <td><span class="kind" style="background:${t.status === 'escrowed' ? 'var(--green)' : 'var(--dim)'};color:#0b0a0f;">${escape(t.status)}</span></td>
+            <td>${new Date(t.created).toLocaleDateString()}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function escape(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+</script>
+
+</body>
+</html>

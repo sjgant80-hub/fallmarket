@@ -11,6 +11,7 @@
  */
 import { execSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
+import { pickTiersForKind } from '../lib/pricing.mjs';
 
 const args = process.argv.slice(2);
 const argv = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d; };
@@ -76,15 +77,7 @@ for (const repo of companions) {
     playground_url: kind === 'sdk' ? pagesUrl : null,
     docs_url: pagesUrl,
     install,
-    tiers: [
-      {
-        name: 'free',
-        price_gbp: 0,
-        price_kcc: 0,
-        includes: ['MIT source', 'self-host', 'community support'],
-        billing: 'one-time'
-      }
-    ],
+    tiers: pickTiersForKind(kind),
     benchmarks: [],
     guild: 'ai-native-solutions',
     created: now,
@@ -107,7 +100,7 @@ for (const repo of standalone) {
     playground_url: pagesUrl,
     docs_url: repo.url,
     install: {},
-    tiers: [{ name: 'free', price_gbp: 0, price_kcc: 0, includes: ['MIT source'], billing: 'one-time' }],
+    tiers: pickTiersForKind('tool'),
     benchmarks: [],
     guild: 'ai-native-solutions',
     created: now,
