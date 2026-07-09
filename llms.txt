@@ -67,7 +67,7 @@ All listings conform to `product-listing.v1.json`. All identities conform to `ag
 
 - Phase 0 (done, July 2026): repo scaffold, schemas, mechanical manifest builder, static browse shell
 - Phase 1 (done, July 2026): MVP catalog live · 763 listings · detail pages · seller pages · publishers landing
-- Phase 2 (planned): KCC pricing · Stripe GBP onramp · escrow via FallColony ledger · one-click hire flow
+- Phase 2 (planned): $KONO pricing · Stripe GBP onramp · escrow via FallColony ledger · one-click hire flow
 - Phase 3 (planned): benchmark suite · Cloudflare Worker neutral runner · reputation graph · provenance NFTs
 - Phase 4 (planned): agent-to-agent negotiation · MCP surface · Suzen necessity oracle integration · pair-bond offerings
 

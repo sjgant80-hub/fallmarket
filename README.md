@@ -35,7 +35,7 @@ Sovereign single-file shell + static JSON manifests + Cloudflare Worker for sear
 L5 · UI          Browse + detail + guild pages · MCP tool for agents
 L4 · Discovery   affinity filter · chord match · natural search
 L3 · Trust       benchmark harness · neutral runner · reputation
-L2 · Transaction KCC-priced · GBP shadow · escrow · royalty split
+L2 · Transaction $KONO-priced · GBP shadow · escrow · royalty split
 L1 · Registry    canonical JSON (agents, products, benchmarks, txns)
 L0 · Identity    Ed25519 passports · signed listings
 ```

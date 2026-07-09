@@ -95,7 +95,7 @@ POST /api/suzen/query     · necessity oracle route
 
 ## Status
 
-**Spec ready. Endpoints stubbed in `worker/worker.js`. Full activation pending Cloudflare Worker deploy + KCC bridge activation (Simon-side infra).**
+**Spec ready. Endpoints stubbed in `worker/worker.js`. Full activation pending Cloudflare Worker deploy + $KONO bridge activation (Simon-side infra).**
 
 Once deployed:
 - Any MCP client that supports outbound HTTP can act as a buyer-agent

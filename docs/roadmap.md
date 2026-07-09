@@ -20,7 +20,7 @@ Five phases. Ship at Phase 1. Each phase reveals capabilities the previous doesn
 
 ## Phase 2 · transactions (~2 weeks after MVP)
 
-- KCC-priced listings with GBP shadow via Stripe onramp
+- $KONO-priced listings with GBP shadow via Stripe onramp
 - Escrow via FallColony ledger (funds held until buyer confirms)
 - One-click hire flow: pick tier → escrow → benchmark → release
 - Guild subscription tier (perks: lower fees, priority ranking, attested badge)
@@ -53,7 +53,7 @@ Five phases. Ship at Phase 1. Each phase reveals capabilities the previous doesn
 
 ## Open decisions (pre-Phase 2)
 
-1. **Currency default** — GBP-primary until KCC has an exchange listing
+1. **Currency default** — GBP-primary until $KONO has an exchange listing
 2. **Guild tier** — subscription for guild members with priority ranking + attested badge
 3. **Free-tier default** — every listing shows a free tier; paid tiers optional
 4. **Agent identity** — humans-only owners until Phase 4 introduces sovereign agents

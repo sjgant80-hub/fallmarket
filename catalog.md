@@ -1,6 +1,6 @@
 # FallMarket · full catalog
 
-**902 listings** · generated 2026-07-09T20:04:26.973Z
+**903 listings** · generated 2026-07-09T20:26:04.687Z
 
 FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. Every listing below is MIT-licensed and Ed25519-signed. Browse the interactive catalog at https://sjgant80-hub.github.io/fallmarket/.
 
@@ -11,8 +11,8 @@ FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and
 | SDKs | 209 |
 | HTTP APIs | 206 |
 | MCP servers | 204 |
-| Standalone tools | 283 |
-| **Total** | **902** |
+| Standalone tools | 284 |
+| **Total** | **903** |
 
 ---
 
@@ -7456,7 +7456,7 @@ Companion API for wishwood · minted by mint-all · sovereign estate
 
 ---
 
-## Standalone tools (283)
+## Standalone tools (284)
 
 ### 9-axis-human-sonar
 
@@ -10425,6 +10425,17 @@ PRIVATE · L1 upgrade · wires fallresolve into si-didy session close · Ed25519
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=si-didy-close
 - **Source:** https://github.com/sjgant80-hub/si-didy-close
 - **Playground:** https://sjgant80-hub.github.io/si-didy-close/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### si-didy-k2
+
+K₂ half of the K₀+K₂ bonded pair · Thomas-shape scaffold · state-space/Mamba target · fills the pair mandate slot
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=si-didy-k2
+- **Source:** https://github.com/sjgant80-hub/si-didy-k2
+- **Playground:** https://sjgant80-hub.github.io/si-didy-k2/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 

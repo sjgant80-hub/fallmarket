@@ -45,12 +45,12 @@ export default {
       // POST /api/checkout · create a transaction and (when Stripe key set) a Checkout Session
       if (path === '/api/checkout' && request.method === 'POST') {
         const body = await request.json();
-        const { product_id, tier_name, buyer_did, price_gbp, price_kcc, currency } = body;
+        const { product_id, tier_name, buyer_did, price_gbp, price_kono, currency } = body;
         if (!product_id || !buyer_did) return json({ error: 'product_id and buyer_did required' }, 400);
 
         const id = ulid();
         const tx = {
-          v: 1, id, product_id, buyer_did, tier_name, price_gbp, price_kcc, currency,
+          v: 1, id, product_id, buyer_did, tier_name, price_gbp, price_kono, currency,
           status: 'created', created: new Date().toISOString(), updated: new Date().toISOString()
         };
 
@@ -84,10 +84,10 @@ export default {
           tx.escrow = { ledger: 'stripe', ref: s.id, amount_gbp: price_gbp };
           tx.status = 'escrow-pending';
           if (env.TX_KV) await env.TX_KV.put(id, JSON.stringify(tx));
-        } else if (currency === 'KCC') {
-          tx.escrow = { ledger: 'bsv-kcc', ref: null, amount_kcc: price_kcc };
+        } else if (currency === '$KONO') {
+          tx.escrow = { ledger: 'bsv-kono', ref: null, amount_kono: price_kono };
           tx.status = 'escrow-pending';
-          tx.note = 'KCC settlement stubbed pending Thomas onlybrains onboarding';
+          tx.note = '$KONO settlement stubbed pending Thomas onlybrains onboarding';
           if (env.TX_KV) await env.TX_KV.put(id, JSON.stringify(tx));
         }
 

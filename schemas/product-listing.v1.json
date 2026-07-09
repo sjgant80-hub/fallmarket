@@ -82,7 +82,7 @@
         "properties": {
           "name": { "type": "string", "examples": ["free", "starter", "pro", "enterprise"] },
           "price_gbp": { "type": "number", "minimum": 0 },
-          "price_kcc": { "type": "number", "minimum": 0 },
+          "price_kono": { "type": "number", "minimum": 0 },
           "includes": {
             "type": "array",
             "items": { "type": "string" }

@@ -16,7 +16,7 @@
     "product_id": { "type": "string" },
     "tier_name": { "type": "string" },
     "price_gbp": { "type": "number", "minimum": 0 },
-    "price_kcc": { "type": "number", "minimum": 0 },
+    "price_kono": { "type": "number", "minimum": 0 },
     "status": {
       "enum": [
         "created",

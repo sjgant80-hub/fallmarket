@@ -1,5 +1,5 @@
 // FallMarket · client-side checkout flow
-// Phase 2 · funds escrow via FallColony ledger, GBP shadow via Stripe, KCC price for exchange readiness
+// Phase 2 · funds escrow via FallColony ledger, GBP shadow via Stripe, $KONO price for exchange readiness
 
 const STORAGE_KEY = 'fm:transactions';
 const CURRENCY_KEY = 'fm:currency';
@@ -37,7 +37,7 @@ export function ulid() {
 
 export function createTransaction({ listing, tier, buyer_did, currency }) {
   const price_gbp = tier.price_gbp;
-  const price_kcc = tier.price_kcc;
+  const price_kono = tier.price_kono;
   return {
     v: 1,
     id: ulid(),
@@ -47,10 +47,10 @@ export function createTransaction({ listing, tier, buyer_did, currency }) {
     product_title: listing.title,
     tier_name: tier.name,
     price_gbp,
-    price_kcc,
+    price_kono,
     currency,
     status: 'created',
-    escrow: { ledger: currency === 'KCC' ? 'bsv-kcc' : 'stripe', ref: null, amount_gbp: price_gbp, amount_kcc: price_kcc },
+    escrow: { ledger: currency === '$KONO' ? 'bsv-kono' : 'stripe', ref: null, amount_gbp: price_gbp, amount_kono: price_kono },
     royalty_split: null,
     minted_nft: null,
     created: new Date().toISOString(),
@@ -77,7 +77,7 @@ export function openCheckout(listing) {
             <input type="radio" name="tier" value="${i}" ${i === 0 ? 'checked' : ''}>
             <div class="tier-head">
               <strong>${escape(t.name)}</strong>
-              <span class="tier-price" data-gbp="${t.price_gbp}" data-kcc="${t.price_kcc}">${formatPrice(t, currency)}</span>
+              <span class="tier-price" data-gbp="${t.price_gbp}" data-kono="${t.price_kono}">${formatPrice(t, currency)}</span>
             </div>
             <ul>${(t.includes || []).map(x => `<li>${escape(x)}</li>`).join('')}</ul>
           </label>
@@ -87,17 +87,17 @@ export function openCheckout(listing) {
       <div class="currency-toggle">
         <span>Pay in:</span>
         <button class="cur ${currency === 'GBP' ? 'on' : ''}" data-cur="GBP">GBP</button>
-        <button class="cur ${currency === 'KCC' ? 'on' : ''}" data-cur="KCC">KCC</button>
+        <button class="cur ${currency === '$KONO' ? 'on' : ''}" data-cur="$KONO">$KONO</button>
       </div>
 
       <div class="checkout-summary">
-        <div>Escrow ledger · <strong id="ck-ledger">${currency === 'KCC' ? 'BSV-KCC' : 'Stripe'}</strong></div>
+        <div>Escrow ledger · <strong id="ck-ledger">${currency === '$KONO' ? 'BSV-$KONO' : 'Stripe'}</strong></div>
         <div>Benchmark on delivery · <strong>required for release</strong></div>
         <div>Signed transaction · <strong>Ed25519 on your DID</strong></div>
       </div>
 
       <button class="btn primary confirm">Confirm and escrow</button>
-      <p class="fine">Phase 2 · Stripe onramp requires seller onboarding · KCC lives on Thomas's onlybrains substrate · your transaction is recorded locally until backend goes live.</p>
+      <p class="fine">Phase 2 · Stripe onramp requires seller onboarding · $KONO lives on Thomas's onlybrains substrate · your transaction is recorded locally until backend goes live.</p>
     </div>
   `;
   document.body.appendChild(modal);
@@ -126,10 +126,10 @@ export function openCheckout(listing) {
       btn.classList.add('on');
       modal.querySelectorAll('.tier-price').forEach(el => {
         const gbp = Number(el.dataset.gbp);
-        const kcc = Number(el.dataset.kcc);
-        el.textContent = cur === 'KCC' ? `${kcc} KCC` : (gbp === 0 ? 'Free' : `£${gbp}`);
+        const kono = Number(el.dataset.kcc);
+        el.textContent = cur === '$KONO' ? `${kono} $KONO` : (gbp === 0 ? 'Free' : `£${gbp}`);
       });
-      modal.querySelector('#ck-ledger').textContent = cur === 'KCC' ? 'BSV-KCC' : 'Stripe';
+      modal.querySelector('#ck-ledger').textContent = cur === '$KONO' ? 'BSV-$KONO' : 'Stripe';
     });
   });
 
@@ -152,7 +152,7 @@ export function openCheckout(listing) {
 }
 
 function formatPrice(tier, currency) {
-  if (currency === 'KCC') return `${tier.price_kcc} KCC`;
+  if (currency === '$KONO') return `${tier.price_kono} $KONO`;
   if (tier.price_gbp === 0) return 'Free';
   return `£${tier.price_gbp}${tier.billing === 'monthly' ? '/mo' : ''}`;
 }

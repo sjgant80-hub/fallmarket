@@ -67,7 +67,7 @@ if (all.length === 0) {
           <tr onclick="location.href='transaction.html?id=${t.id}'" style="cursor:pointer;">
             <td><strong>${escape(t.product_title || t.product_id)}</strong></td>
             <td>${escape(t.tier_name || 'free')}</td>
-            <td>${t.currency === 'KCC' ? `${t.price_kcc} KCC` : `£${t.price_gbp}`}</td>
+            <td>${t.currency === '$KONO' ? `${t.price_kono} $KONO` : `£${t.price_gbp}`}</td>
             <td><span class="kind" style="background:${t.status === 'escrowed' ? 'var(--green)' : 'var(--dim)'};color:#0b0a0f;">${escape(t.status)}</span></td>
             <td>${new Date(t.created).toLocaleDateString()}</td>
           </tr>

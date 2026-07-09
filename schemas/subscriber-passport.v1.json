@@ -23,7 +23,7 @@
       "items": { "type": "string" }
     },
     "price_gbp_monthly": { "type": "number", "minimum": 0 },
-    "price_kcc_monthly": { "type": "number", "minimum": 0 },
+    "price_kono_monthly": { "type": "number", "minimum": 0 },
     "issued_at": { "type": "string", "format": "date-time" },
     "expires_at": { "type": "string", "format": "date-time" },
     "auto_renew": { "type": "boolean" },

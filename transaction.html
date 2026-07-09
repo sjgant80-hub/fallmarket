@@ -69,8 +69,8 @@ function render(tx) {
         <p class="subtitle">Tier · <strong>${escape(tx.tier_name || 'free')}</strong> · Transaction <code>${escape(tx.id)}</code></p>
       </div>
       <div class="buy">
-        <h3>${tx.currency === 'KCC' ? 'KCC' : 'GBP'} price</h3>
-        <div class="price-big">${tx.currency === 'KCC' ? `${tx.price_kcc} KCC` : `£${tx.price_gbp}`}</div>
+        <h3>${tx.currency === '$KONO' ? '$KONO' : 'GBP'} price</h3>
+        <div class="price-big">${tx.currency === '$KONO' ? `${tx.price_kono} $KONO` : `£${tx.price_gbp}`}</div>
         <p><strong>Ledger:</strong> ${escape(tx.escrow?.ledger || '—')}</p>
         <p><strong>Buyer DID:</strong> <code>${escape(tx.buyer_did)}</code></p>
       </div>
@@ -87,7 +87,7 @@ function render(tx) {
 
     <section class="detail-section">
       <h2>What happens next</h2>
-      <p>Phase 2 · your transaction is signed locally and stored in this browser. When the Cloudflare Worker + Stripe webhook goes live, the record replays to the backend and Stripe / KCC settlement completes automatically.</p>
+      <p>Phase 2 · your transaction is signed locally and stored in this browser. When the Cloudflare Worker + Stripe webhook goes live, the record replays to the backend and Stripe / $KONO settlement completes automatically.</p>
       <p>Phase 3 · benchmark orchestration ships next. On benchmark pass, funds release from escrow and the provenance NFT mints on the FallColony ledger.</p>
     </section>
 
