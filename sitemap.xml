@@ -55,6 +55,24 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-api</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-mcp</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-sdk</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sjgant80-hub.github.io/fallmarket/listing.html?id=wishwood-api</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>

@@ -1,6 +1,6 @@
 # FallMarket · full catalog
 
-**763 listings** · generated 2026-07-09T13:08:13.365Z
+**766 listings** · generated 2026-07-09T13:16:34.199Z
 
 FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. Every listing below is MIT-licensed and Ed25519-signed. Browse the interactive catalog at https://sjgant80-hub.github.io/fallmarket/.
 
@@ -8,15 +8,15 @@ FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and
 
 | Kind | Count |
 |---|---:|
-| HTTP APIs | 206 |
-| MCP servers | 206 |
-| SDKs | 208 |
+| HTTP APIs | 207 |
+| MCP servers | 207 |
+| SDKs | 209 |
 | Standalone tools | 143 |
-| **Total** | **763** |
+| **Total** | **766** |
 
 ---
 
-## SDKs (208)
+## SDKs (209)
 
 ### 9-axis-human-sonar SDK
 
@@ -915,6 +915,18 @@ Companion SDK for fallmail · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/fallmail-sdk
 - **Playground:** https://sjgant80-hub.github.io/fallmail-sdk/
 - **npm:** `npm install @ai-native-solutions/fallmail-sdk`
+- **License:** MIT
+- **Guild:** ai-native-solutions
+
+### fallmarket SDK
+
+FallMarket sdk · client library for the sovereign registry of AI tools
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-sdk
+- **Source:** https://github.com/sjgant80-hub/fallmarket-sdk
+- **Playground:** https://sjgant80-hub.github.io/fallmarket-sdk/
+- **npm:** `npm install @ai-native-solutions/fallmarket-sdk`
 - **License:** MIT
 - **Guild:** ai-native-solutions
 
@@ -2516,7 +2528,7 @@ Companion SDK for wishwood · minted by mint-all · sovereign estate
 
 ---
 
-## MCP servers (206)
+## MCP servers (207)
 
 ### 9-axis-human-sonar MCP
 
@@ -3415,6 +3427,18 @@ Companion MCP for fallmail · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/fallmail-mcp
 - **npm:** `npm install @ai-native-solutions/fallmail-mcp`
 - **MCP:** `claude mcp add fallmail -- npx -y @ai-native-solutions/fallmail-mcp`
+- **License:** MIT
+- **Guild:** ai-native-solutions
+
+### fallmarket MCP
+
+FallMarket mcp · MCP server exposing FallMarket search to Claude/Cursor/Codex
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-mcp
+- **Source:** https://github.com/sjgant80-hub/fallmarket-mcp
+- **npm:** `npm install @ai-native-solutions/fallmarket-mcp`
+- **MCP:** `claude mcp add fallmarket -- npx -y @ai-native-solutions/fallmarket-mcp`
 - **License:** MIT
 - **Guild:** ai-native-solutions
 
@@ -4992,7 +5016,7 @@ Companion MCP for wishwood · minted by mint-all · sovereign estate
 
 ---
 
-## HTTP APIs (206)
+## HTTP APIs (207)
 
 ### 9-axis-human-sonar API
 
@@ -5891,6 +5915,18 @@ Companion API for fallmail · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/fallmail-api
 - **npm:** `npm install @ai-native-solutions/fallmail-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/fallmail-api:latest`
+- **License:** MIT
+- **Guild:** ai-native-solutions
+
+### fallmarket API
+
+FallMarket api · HTTP API for FallMarket search · Docker-ready
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket-api
+- **Source:** https://github.com/sjgant80-hub/fallmarket-api
+- **npm:** `npm install @ai-native-solutions/fallmarket-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/fallmarket-api:latest`
 - **License:** MIT
 - **Guild:** ai-native-solutions
 
