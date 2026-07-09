@@ -1,5 +1,5 @@
 // FallMarket browse · loads listings.json, renders searchable/filterable grid
-const state = { listings: [], q: '', kinds: new Set(), sort: 'name-asc' };
+const state = { listings: [], q: '', kinds: new Set(), solids: new Set(), primes: new Set(), sort: 'name-asc' };
 
 async function load() {
   try {
@@ -24,12 +24,32 @@ async function load() {
 
 function renderChips() {
   const kinds = [...new Set(state.listings.map(l => l.kind))].sort();
+  const solids = ['TETRA', 'CUBE', 'OCTA', 'DODECA', 'ICOSA'];
+  const primes = [2, 3, 5, 7, 11, 13, 17];
   const chips = document.getElementById('chips');
-  chips.innerHTML = kinds.map(k => `<span class="chip" data-kind="${k}">${k} · ${state.listings.filter(l => l.kind === k).length}</span>`).join('');
+  const countKind = (k) => state.listings.filter(l => l.kind === k).length;
+  const countSolid = (s) => state.listings.filter(l => l.solid_primary === s).length;
+  const countPrime = (p) => state.listings.filter(l => l.prime === p).length;
+  chips.innerHTML = `
+    <div class="chip-row">
+      <span class="chip-label">KIND</span>
+      ${kinds.map(k => `<span class="chip" data-type="kind" data-val="${k}">${k} · ${countKind(k)}</span>`).join('')}
+    </div>
+    <div class="chip-row">
+      <span class="chip-label">MODE (solid)</span>
+      ${solids.filter(s => countSolid(s) > 0).map(s => `<span class="chip solid-${s}" data-type="solid" data-val="${s}">${s} · ${countSolid(s)}</span>`).join('')}
+    </div>
+    <div class="chip-row">
+      <span class="chip-label">AXIS (prime)</span>
+      ${primes.filter(p => countPrime(p) > 0).map(p => `<span class="chip" data-type="prime" data-val="${p}">${p} · ${countPrime(p)}</span>`).join('')}
+    </div>
+  `;
   chips.querySelectorAll('.chip').forEach(el => {
     el.addEventListener('click', () => {
-      const k = el.dataset.kind;
-      if (state.kinds.has(k)) state.kinds.delete(k); else state.kinds.add(k);
+      const t = el.dataset.type, v = el.dataset.val;
+      const bucket = { kind: state.kinds, solid: state.solids, prime: state.primes }[t];
+      const val = t === 'prime' ? Number(v) : v;
+      if (bucket.has(val)) bucket.delete(val); else bucket.add(val);
       el.classList.toggle('on');
       render();
     });
@@ -38,6 +58,8 @@ function renderChips() {
 
 function match(l) {
   if (state.kinds.size && !state.kinds.has(l.kind)) return false;
+  if (state.solids.size && !state.solids.has(l.solid_primary)) return false;
+  if (state.primes.size && !state.primes.has(l.prime)) return false;
   if (!state.q) return true;
   const hay = `${l.title} ${l.subtitle || ''} ${(l.tags || []).join(' ')} ${l.description || ''}`.toLowerCase();
   return state.q.toLowerCase().split(/\s+/).filter(Boolean).every(t => hay.includes(t));
@@ -69,10 +91,14 @@ function render() {
 function cardHtml(l) {
   const price = l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : `£${l.tiers?.[0]?.price_gbp}`;
   const badge = (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? `<span class="publisher-badge">◊ ai-native</span>` : '';
+  const solidTag = l.solid_primary ? `<span class="solid-tag solid-${l.solid_primary}">${l.solid_primary}</span>` : '';
+  const primeTag = l.prime ? `<span class="prime-tag">${l.prime}</span>` : '';
   return `
     <article class="card">
       <div class="kind-row">
         <span class="kind ${l.kind}">${l.kind}</span>
+        ${solidTag}
+        ${primeTag}
         ${badge}
       </div>
       <h3><a href="listing.html?id=${encodeURIComponent(l.id)}">${escape(l.title)}</a></h3>

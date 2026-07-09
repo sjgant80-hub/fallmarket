@@ -124,6 +124,15 @@ main { padding: 2.5rem 0 4rem; min-height: 40vh; }
   border-color: var(--ox);
   color: #f5eee0;
 }
+.chip-row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-bottom: 0.5rem; }
+.chip-label { font-size: 10px; color: var(--dim); text-transform: uppercase; letter-spacing: 1px; margin-right: 0.5rem; font-weight: 600; min-width: 90px; }
+.solid-tag { display: inline-block; padding: 0.15rem 0.5rem; font-size: 9px; font-weight: 700; letter-spacing: 0.5px; border-radius: 3px; background: rgba(184, 151, 74, 0.15); color: var(--brass); border: 1px solid var(--border); }
+.solid-tag.solid-TETRA { background: rgba(139, 26, 26, 0.15); color: #d0918d; }
+.solid-tag.solid-CUBE { background: rgba(46, 125, 143, 0.15); color: #8bc4d1; }
+.solid-tag.solid-OCTA { background: rgba(109, 58, 168, 0.15); color: #b89ce0; }
+.solid-tag.solid-DODECA { background: rgba(107, 154, 114, 0.15); color: #a3c7a8; }
+.solid-tag.solid-ICOSA { background: rgba(184, 151, 74, 0.15); color: var(--brass); }
+.prime-tag { display: inline-block; padding: 0.15rem 0.45rem; font-size: 9px; font-weight: 700; border-radius: 3px; background: rgba(255,255,255,0.05); color: var(--dim); border: 1px solid var(--border); }
 
 .grid {
   display: grid;

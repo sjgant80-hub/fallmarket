@@ -42,6 +42,26 @@
       "maxItems": 7,
       "description": "Seven-axis product affinity for discovery"
     },
+    "solid_primary": {
+      "enum": ["TETRA", "CUBE", "OCTA", "DODECA", "ICOSA"],
+      "description": "Primary operational solid (v21.1 §26 · 5-solid taxonomy · what this tool DOES)"
+    },
+    "solid_secondary": {
+      "enum": ["TETRA", "CUBE", "OCTA", "DODECA", "ICOSA"],
+      "description": "Secondary operational solid (optional · complementary mode)"
+    },
+    "prime": {
+      "enum": [2, 3, 5, 7, 11, 13, 17],
+      "description": "Perceptual axis (v21.1 · 7-prime spine · how this tool SEES)"
+    },
+    "lineage": {
+      "type": "string",
+      "description": "Seed version at time of build (e.g. 'v21.1' · 'v20.5' · 'pre-seed')"
+    },
+    "tag_source": {
+      "enum": ["human", "heuristic", "si-didy"],
+      "description": "Origin of the solid/prime tags · human always wins"
+    },
     "repo_url": { "type": "string", "format": "uri" },
     "playground_url": { "type": "string", "format": "uri" },
     "docs_url": { "type": "string", "format": "uri" },
