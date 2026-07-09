@@ -87,7 +87,8 @@
       "type": "string",
       "description": "NFT id on the FallColony ledger (optional)"
     },
-    "guild": { "type": "string" },
+    "publisher": { "type": "string" },
+    "guild": { "type": "string", "description": "deprecated · use `publisher`" },
     "created": { "type": "string", "format": "date-time" },
     "updated": { "type": "string", "format": "date-time" },
     "sig": {

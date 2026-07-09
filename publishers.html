@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publishers · FallMarket · who's listing on the registry</title>
+<meta name="description" content="Publishers on FallMarket. AI-Native Solutions is the founding publisher and lists 766+ tools. Independent publishers can list once open-catalog opens in Phase 3.">
+<meta name="keywords" content="FallMarket publishers, AI-Native Solutions, MCP publisher, sovereign AI tools">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/publishers.html">
+<meta property="og:title" content="Publishers · FallMarket">
+<meta property="og:description" content="Who's listing on the sovereign registry.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/publishers.html">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AI-Native Solutions",
+  "url": "https://ai-nativesolutions.com",
+  "sameAs": ["https://github.com/sjgant80-hub", "https://sjgant80-hub.github.io/fallmarket/"],
+  "description": "AI-Native Solutions is the founding publisher of FallMarket. Ships sovereign single-file AI tools, MCP servers, SDKs on npm, and HTTP APIs on Docker. All MIT. All Ed25519-signed.",
+  "brand": {
+    "@type": "Brand",
+    "name": "AI-Native Solutions"
+  }
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="subscribe.html">Subscribe</a>
+      <a href="quality.html">Quality</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Publishers on FallMarket.</h1>
+    <p class="lede">
+      The organizations and individuals shipping sovereign AI tools listed on the registry.
+      Every publisher signs their listings with their own Ed25519 key. Every listing is MIT.
+    </p>
+    <div class="hero-cta">
+      <a class="btn primary" href="./#browse">Browse listings</a>
+      <a class="btn" href="subscribe.html">Subscribe</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="wrap prose">
+
+    <section class="detail-section" style="border-top: none;">
+      <h2>AI-Native Solutions</h2>
+      <p>
+        AI-Native Solutions is the founding publisher of FallMarket. It ships one-file HTML tools that run from disk,
+        MCP servers that plug into any Claude, Cursor, or Codex client, SDKs on npm, and HTTP APIs on Docker.
+        Everything is MIT-licensed. Everything is Ed25519-signed. Everything routes through the fork tree so every
+        improvement earns upstream.
+      </p>
+      <p>
+        The <strong>◊ AI-Native</strong> badge on a listing means it was published by AI-Native Solutions. Independent
+        publishers get their own badge once open-catalog listing opens in Phase 3.
+      </p>
+      <div id="an-stats" style="display: flex; gap: 3rem; flex-wrap: wrap; padding: 1rem 0;">Loading…</div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Become a publisher</h2>
+      <p>
+        Phase 3 opens the catalog to any publisher who ships a benchmarked tool. Meanwhile, fork any listing on
+        FallMarket to improve it — royalties propagate upstream through the fork tree so your improvements earn
+        automatically when they get used.
+      </p>
+      <p>
+        Independent publishers who want early listing access can <a href="https://github.com/sjgant80-hub/fallmarket/issues/new?title=Publisher%20listing%20request&body=Publisher%20name:%0AGitHub%20org:%0ATools%20to%20list:%0AContact:">open a listing request</a>.
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+fetch('./listings.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+  const listings = (j.listings || []).filter(l => l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions');
+  const byKind = listings.reduce((a, l) => { a[l.kind] = (a[l.kind] || 0) + 1; return a; }, {});
+  const items = [
+    { n: listings.length, label: 'listings' },
+    ...Object.entries(byKind).map(([k, n]) => ({ n, label: k }))
+  ];
+  document.getElementById('an-stats').innerHTML = items.map(i => `
+    <div>
+      <div style="font: 700 34px/1 Georgia, serif; color: #f2ede0;">${i.n}</div>
+      <div style="font-size: 12px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0.25rem;">${i.label}</div>
+    </div>
+  `).join('');
+}).catch(() => { document.getElementById('an-stats').textContent = 'stats unavailable'; });
+</script>
+
+</body>
+</html>

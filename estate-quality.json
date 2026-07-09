@@ -1,0 +1,600 @@
+{
+  "v": 1,
+  "generated_at": "2026-07-09T13:31:21.195Z",
+  "wall_seconds": 32.6,
+  "total_repos": 20,
+  "by_grade": {
+    "C": 20
+  },
+  "summary": {
+    "healthy": 0,
+    "needs_polish": 0,
+    "problematic": 20,
+    "errored": 0,
+    "geo_missing": 20,
+    "broken": 0,
+    "contaminated": 0
+  },
+  "results": [
+    {
+      "id": "fallmarket-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 697,
+      "public_safe": true
+    },
+    {
+      "id": "fallmarket-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 929,
+      "public_safe": true
+    },
+    {
+      "id": "fallmarket-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 1220,
+      "public_safe": true
+    },
+    {
+      "id": "wishwood-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 151,
+      "public_safe": true
+    },
+    {
+      "id": "wishwood-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 198,
+      "public_safe": true
+    },
+    {
+      "id": "wishwood-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 527,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-framework-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 169,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-framework-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 404,
+      "readme_bytes": 234,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-framework-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 404,
+      "readme_bytes": 647,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-forge-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 161,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-forge-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 218,
+      "public_safe": true
+    },
+    {
+      "id": "trilogy-forge-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 604,
+      "public_safe": true
+    },
+    {
+      "id": "tradeshub-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 153,
+      "public_safe": true
+    },
+    {
+      "id": "tradeshub-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 202,
+      "public_safe": true
+    },
+    {
+      "id": "tradeshub-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 593,
+      "public_safe": true
+    },
+    {
+      "id": "temuoracle-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 155,
+      "public_safe": true
+    },
+    {
+      "id": "temuoracle-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 0,
+      "readme_bytes": 206,
+      "public_safe": true
+    },
+    {
+      "id": "temuoracle-sdk",
+      "kind": "sdk",
+      "grade": "C",
+      "score": 0.67,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": true,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 404,
+      "readme_bytes": 565,
+      "public_safe": true
+    },
+    {
+      "id": "suzen-api",
+      "kind": "api",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 404,
+      "readme_bytes": 145,
+      "public_safe": true
+    },
+    {
+      "id": "suzen-mcp",
+      "kind": "mcp",
+      "grade": "C",
+      "score": 0.58,
+      "checks": {
+        "has_readme": true,
+        "has_license": true,
+        "has_package_json": true,
+        "has_source": true,
+        "has_workflow": true,
+        "pages_200": false,
+        "readme_substantial": false,
+        "has_llms_txt": false,
+        "has_robots_txt": false,
+        "has_sitemap": false,
+        "public_safe": true,
+        "correct_naming": true
+      },
+      "missing_files": [],
+      "geo_missing": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "pages_status": 404,
+      "readme_bytes": 186,
+      "public_safe": true
+    }
+  ]
+}

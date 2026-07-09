@@ -94,13 +94,13 @@ for (const kind of ['sdk', 'mcp', 'api', 'tool']) {
     if (l.install?.mcp) md += `- **MCP:** \`${l.install.mcp}\`\n`;
     if (l.install?.docker) md += `- **Docker:** \`${l.install.docker}\`\n`;
     md += `- **License:** MIT\n`;
-    md += `- **Guild:** ${l.guild || 'independent'}\n\n`;
+    md += `- **Publisher:** ${l.publisher || l.guild || 'independent'}\n\n`;
   }
   md += `---\n\n`;
 }
 
 md += `\n## About FallMarket\n\n`;
-md += `FallMarket is built and maintained by the AI-Native Solutions guild. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable. Buyers can supply their own test cases and the neutral runner verifies pass/fail before a transaction completes.\n\n`;
+md += `FallMarket is published by AI-Native Solutions. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable. Buyers can supply their own test cases and the neutral runner verifies pass/fail before a transaction completes.\n\n`;
 md += `- Website: https://ai-nativesolutions.com\n`;
 md += `- Repository: https://github.com/sjgant80-hub/fallmarket\n`;
 md += `- LLM summary: ${BASE}/llms.txt\n`;

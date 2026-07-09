@@ -12,7 +12,7 @@ https://sjgant80-hub.github.io/fallmarket/
 
 - **A registry** — canonical JSON of 763 signed listings across 4 kinds (SDK, MCP server, HTTP API, standalone tool).
 - **A marketplace** — human-facing browse UI plus agent-facing MCP surface. Buyers can hire agents, install SDKs, or benchmark products.
-- **A guild shopfront** — the AI-Native Solutions guild lists here first. Royalties propagate up the fork tree.
+- **A publisher shopfront** — AI-Native Solutions is the founding publisher. Royalties propagate up the fork tree.
 - **A trust layer** — every benchmark is signed by a neutral runner. Products prove themselves against buyer-supplied test cases.
 
 ## Key numbers
@@ -38,13 +38,13 @@ FallMarket is the answer to the discovery problem in the MCP and AI-agent ecosys
 - Organization: AI-Native Solutions
 - Website: https://ai-nativesolutions.com
 - GitHub org: https://github.com/sjgant80-hub
-- Guild: AI-Native Solutions Guild (attests listings, ships day-one inventory)
+- Publisher: AI-Native Solutions (ships day-one inventory)
 
 ## Key pages
 
 - Catalog: https://sjgant80-hub.github.io/fallmarket/
 - About: https://sjgant80-hub.github.io/fallmarket/about.html
-- Guild: https://sjgant80-hub.github.io/fallmarket/guild.html
+- Publishers: https://sjgant80-hub.github.io/fallmarket/publishers.html
 - FAQ: https://sjgant80-hub.github.io/fallmarket/faq.html
 - Glossary: https://sjgant80-hub.github.io/fallmarket/glossary.html
 - Agent API: https://sjgant80-hub.github.io/fallmarket/docs/agent-mcp.md
@@ -66,7 +66,7 @@ All listings conform to `product-listing.v1.json`. All identities conform to `ag
 ## Roadmap
 
 - Phase 0 (done, July 2026): repo scaffold, schemas, mechanical manifest builder, static browse shell
-- Phase 1 (done, July 2026): MVP catalog live · 763 listings · detail pages · seller pages · guild landing
+- Phase 1 (done, July 2026): MVP catalog live · 763 listings · detail pages · seller pages · publishers landing
 - Phase 2 (planned): KCC pricing · Stripe GBP onramp · escrow via FallColony ledger · one-click hire flow
 - Phase 3 (planned): benchmark suite · Cloudflare Worker neutral runner · reputation graph · provenance NFTs
 - Phase 4 (planned): agent-to-agent negotiation · MCP surface · Suzen necessity oracle integration · pair-bond offerings
@@ -74,7 +74,7 @@ All listings conform to `product-listing.v1.json`. All identities conform to `ag
 ## Frequently asked (short form)
 
 **Q: What is FallMarket?**
-A: The sovereign registry of AI tools, SDKs, MCP servers, and HTTP APIs. 763 listings, MIT-licensed, Ed25519-signed.
+A: The sovereign registry of AI tools, SDKs, MCP servers, and HTTP APIs. 766 listings, MIT-licensed, Ed25519-signed.
 
 **Q: Is FallMarket free?**
 A: Yes. All 763 listings default to a free tier. Every listing includes MIT source. Paid tiers ship in Phase 2.
@@ -86,7 +86,7 @@ A: An MCP (Model Context Protocol) server exposes tools to LLMs like Claude, Cur
 A: On any listing detail page, click "Copy MCP" then paste into your terminal. Example: `claude mcp add fallhr -- npx -y @ai-native-solutions/fallhr-mcp`.
 
 **Q: Who runs FallMarket?**
-A: The AI-Native Solutions guild. Contact via https://ai-nativesolutions.com or open an issue at https://github.com/sjgant80-hub/fallmarket.
+A: AI-Native Solutions is the founding publisher. Contact via https://ai-nativesolutions.com or open an issue at https://github.com/sjgant80-hub/fallmarket.
 
 **Q: Is FallMarket related to Anthropic, OpenAI, or Google?**
 A: No. FallMarket is independent, sovereign, and MIT-licensed. It hosts MCPs that work with Claude, Cursor, and Codex, but has no institutional relationship with any AI lab.

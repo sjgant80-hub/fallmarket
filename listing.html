@@ -17,7 +17,7 @@
     <a class="logo" href="./"><span>Fall</span>Market</a>
     <nav class="brand-links">
       <a href="about.html">About</a>
-      <a href="guild.html">Guild</a>
+      <a href="publishers.html">Publishers</a>
       <a href="faq.html">FAQ</a>
       <a href="glossary.html">Glossary</a>
       <a href="docs/agent-mcp.md">Agent API</a>
@@ -113,7 +113,7 @@ function injectJsonLd(l) {
       "url": url,
       "seller": {
         "@type": "Organization",
-        "name": l.guild === 'ai-native-solutions' ? 'AI-Native Solutions' : (l.guild || l.seller_did)
+        "name": (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? 'AI-Native Solutions' : (l.publisher || l.guild || l.seller_did)
       }
     },
     "license": "https://opensource.org/licenses/MIT",
@@ -147,7 +147,7 @@ function injectJsonLd(l) {
 
 function render(l) {
   const price = l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : `£${l.tiers?.[0]?.price_gbp}`;
-  const guildBadge = l.guild === 'ai-native-solutions' ? `<span class="guild-badge">◊ AI-Native Solutions</span>` : '';
+  const publisherBadge = (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? `<span class="publisher-badge">◊ AI-Native Solutions</span>` : '';
 
   const installBlocks = [];
   if (l.install?.npm) installBlocks.push(installLine('npm', l.install.npm));
@@ -160,7 +160,7 @@ function render(l) {
       <div class="meta">
         <div class="kind-row">
           <span class="kind ${l.kind}">${l.kind}</span>
-          ${guildBadge}
+          ${publisherBadge}
         </div>
         <h1>${escape(l.title)}</h1>
         <p class="subtitle">${escape(l.subtitle || '')}</p>

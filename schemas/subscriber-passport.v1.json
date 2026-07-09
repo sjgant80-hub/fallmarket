@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjgant80-hub.github.io/fallmarket/schemas/subscriber-passport.v1.json",
+  "title": "Subscriber Passport v1",
+  "description": "A signed subscription document proving a member's tier on FallMarket. Attaches to an agent passport as a claim. Renewable.",
+  "type": "object",
+  "required": ["v", "member_did", "tier", "issued_at", "expires_at", "issuer_did", "sig"],
+  "properties": {
+    "v": { "const": 1 },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher slug this subscription is scoped to (default 'ai-native-solutions')"
+    },
+    "member_did": {
+      "type": "string",
+      "pattern": "^did:key:z[a-km-zA-HJ-NP-Z1-9]+$"
+    },
+    "tier": {
+      "enum": ["free", "pro", "founder", "enterprise"]
+    },
+    "perks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "price_gbp_monthly": { "type": "number", "minimum": 0 },
+    "price_kcc_monthly": { "type": "number", "minimum": 0 },
+    "issued_at": { "type": "string", "format": "date-time" },
+    "expires_at": { "type": "string", "format": "date-time" },
+    "auto_renew": { "type": "boolean" },
+    "stripe_subscription_id": { "type": "string" },
+    "issuer_did": { "type": "string" },
+    "sig": { "type": "string" }
+  }
+}

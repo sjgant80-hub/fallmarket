@@ -147,14 +147,14 @@ export default {
         return json({ repo, amount, ancestors, split: computeSplit(amount, ancestors) });
       }
 
-      // POST /api/subscribe · create a guild subscription intent
+      // POST /api/subscribe · create a subscription intent
       if (path === '/api/subscribe' && request.method === 'POST') {
         const body = await request.json();
-        const { guild, tier, member_did } = body;
-        if (!guild || !tier || !member_did) return json({ error: 'guild, tier, member_did required' }, 400);
+        const { publisher, tier, member_did } = body;
+        if (!publisher || !tier || !member_did) return json({ error: 'publisher, tier, member_did required' }, 400);
         const id = ulid();
         const record = {
-          v: 1, id, guild, tier, member_did,
+          v: 1, id, publisher, tier, member_did,
           status: env.STRIPE_SECRET_KEY ? 'checkout-pending' : 'awaiting-onboarding',
           created: new Date().toISOString()
         };
@@ -181,7 +181,7 @@ function computeSplit(amount, ancestors) {
       parts.push({ pct: round((0.15 * (weights[i] / total)) * 100), amount: round(pool * (weights[i] / total)), reason: `ancestor ${repo}` });
     });
   }
-  parts.push({ pct: 10, amount: round(amount * 0.10), reason: 'guild' });
+  parts.push({ pct: 10, amount: round(amount * 0.10), reason: 'publisher' });
   parts.push({ pct: 5, amount: round(amount * 0.05), reason: 'benchmark runner' });
   return parts;
 }

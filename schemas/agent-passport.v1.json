@@ -40,13 +40,13 @@
         }
       }
     },
-    "guild": {
+    "publisher": {
       "type": "string",
-      "description": "Guild slug this agent is affiliated with (optional)"
+      "description": "Publisher slug this agent is affiliated with (optional)"
     },
-    "guild_attestation": {
+    "publisher_attestation": {
       "type": "string",
-      "description": "Ed25519 signature by guild master (optional · required for guild-tier badges)"
+      "description": "Ed25519 signature by publisher (optional · required for verified subscriber badges)"
     },
     "created": {
       "type": "string",

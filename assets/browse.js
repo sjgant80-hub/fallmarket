@@ -68,12 +68,12 @@ function render() {
 
 function cardHtml(l) {
   const price = l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : `£${l.tiers?.[0]?.price_gbp}`;
-  const guildBadge = l.guild === 'ai-native-solutions' ? `<span class="guild-badge">◊ ai-native</span>` : '';
+  const badge = (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? `<span class="publisher-badge">◊ ai-native</span>` : '';
   return `
     <article class="card">
       <div class="kind-row">
         <span class="kind ${l.kind}">${l.kind}</span>
-        ${guildBadge}
+        ${badge}
       </div>
       <h3><a href="listing.html?id=${encodeURIComponent(l.id)}">${escape(l.title)}</a></h3>
       <p>${escape(l.subtitle || l.description || '')}</p>

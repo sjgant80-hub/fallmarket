@@ -79,7 +79,7 @@ for (const repo of companions) {
     install,
     tiers: pickTiersForKind(kind),
     benchmarks: [],
-    guild: 'ai-native-solutions',
+    publisher: 'ai-native-solutions',
     created: now,
     sig: 'pending'
   });
@@ -102,7 +102,7 @@ for (const repo of standalone) {
     install: {},
     tiers: pickTiersForKind('tool'),
     benchmarks: [],
-    guild: 'ai-native-solutions',
+    publisher: 'ai-native-solutions',
     created: now,
     sig: 'pending'
   });
