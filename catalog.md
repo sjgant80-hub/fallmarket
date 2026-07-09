@@ -1,6 +1,6 @@
 # FallMarket · full catalog
 
-**945 listings** · generated 2026-07-09T21:04:15.754Z
+**1224 listings** · generated 2026-07-09T23:37:45.373Z
 
 FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. Every listing below is MIT-licensed and Ed25519-signed. Browse the interactive catalog at https://sjgant80-hub.github.io/fallmarket/.
 
@@ -8,15 +8,15 @@ FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and
 
 | Kind | Count |
 |---|---:|
-| SDKs | 209 |
-| HTTP APIs | 206 |
-| MCP servers | 204 |
-| Standalone tools | 326 |
-| **Total** | **945** |
+| MCP servers | 297 |
+| HTTP APIs | 297 |
+| SDKs | 301 |
+| Standalone tools | 329 |
+| **Total** | **1224** |
 
 ---
 
-## SDKs (209)
+## SDKs (301)
 
 ### 9-axis-human-sonar SDK
 
@@ -54,6 +54,138 @@ Companion SDK for adshop · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### airtable SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=airtable-sdk
+- **Source:** https://github.com/sjgant80-hub/airtable-sdk
+- **Playground:** https://sjgant80-hub.github.io/airtable-sdk/
+- **npm:** `npm install @ai-native-solutions/airtable-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### algolia SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=algolia-sdk
+- **Source:** https://github.com/sjgant80-hub/algolia-sdk
+- **Playground:** https://sjgant80-hub.github.io/algolia-sdk/
+- **npm:** `npm install @ai-native-solutions/algolia-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### amplitude SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=amplitude-sdk
+- **Source:** https://github.com/sjgant80-hub/amplitude-sdk
+- **Playground:** https://sjgant80-hub.github.io/amplitude-sdk/
+- **npm:** `npm install @ai-native-solutions/amplitude-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### anthropic-claude SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=anthropic-claude-sdk
+- **Source:** https://github.com/sjgant80-hub/anthropic-claude-sdk
+- **Playground:** https://sjgant80-hub.github.io/anthropic-claude-sdk/
+- **npm:** `npm install @ai-native-solutions/anthropic-claude-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### asana SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=asana-sdk
+- **Source:** https://github.com/sjgant80-hub/asana-sdk
+- **Playground:** https://sjgant80-hub.github.io/asana-sdk/
+- **npm:** `npm install @ai-native-solutions/asana-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### assembly-ai SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=assembly-ai-sdk
+- **Source:** https://github.com/sjgant80-hub/assembly-ai-sdk
+- **Playground:** https://sjgant80-hub.github.io/assembly-ai-sdk/
+- **npm:** `npm install @ai-native-solutions/assembly-ai-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### auth0 SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=auth0-sdk
+- **Source:** https://github.com/sjgant80-hub/auth0-sdk
+- **Playground:** https://sjgant80-hub.github.io/auth0-sdk/
+- **npm:** `npm install @ai-native-solutions/auth0-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-dynamodb SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-dynamodb-sdk
+- **Source:** https://github.com/sjgant80-hub/aws-dynamodb-sdk
+- **Playground:** https://sjgant80-hub.github.io/aws-dynamodb-sdk/
+- **npm:** `npm install @ai-native-solutions/aws-dynamodb-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-lambda SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-lambda-sdk
+- **Source:** https://github.com/sjgant80-hub/aws-lambda-sdk
+- **Playground:** https://sjgant80-hub.github.io/aws-lambda-sdk/
+- **npm:** `npm install @ai-native-solutions/aws-lambda-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-s3 SDK
+
+Sovereign SDK wrapper for AWS S3 · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-s3-sdk
+- **Source:** https://github.com/sjgant80-hub/aws-s3-sdk
+- **Playground:** https://sjgant80-hub.github.io/aws-s3-sdk/
+- **npm:** `npm install @ai-native-solutions/aws-s3-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-sqs SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-sqs-sdk
+- **Source:** https://github.com/sjgant80-hub/aws-sqs-sdk
+- **Playground:** https://sjgant80-hub.github.io/aws-sqs-sdk/
+- **npm:** `npm install @ai-native-solutions/aws-sqs-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### barberhq SDK
 
 Companion SDK for barberhq · minted by mint-all · sovereign estate
@@ -63,6 +195,18 @@ Companion SDK for barberhq · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/barberhq-sdk
 - **Playground:** https://sjgant80-hub.github.io/barberhq-sdk/
 - **npm:** `npm install @ai-native-solutions/barberhq-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### bitbucket SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=bitbucket-sdk
+- **Source:** https://github.com/sjgant80-hub/bitbucket-sdk
+- **Playground:** https://sjgant80-hub.github.io/bitbucket-sdk/
+- **npm:** `npm install @ai-native-solutions/bitbucket-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -111,6 +255,210 @@ Companion SDK for cassietorusbtc135solver · minted by mint-all · sovereign est
 - **Source:** https://github.com/sjgant80-hub/cassietorusbtc135solver-sdk
 - **Playground:** https://sjgant80-hub.github.io/cassietorusbtc135solver-sdk/
 - **npm:** `npm install @ai-native-solutions/cassietorusbtc135solver-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### chroma SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=chroma-sdk
+- **Source:** https://github.com/sjgant80-hub/chroma-sdk
+- **Playground:** https://sjgant80-hub.github.io/chroma-sdk/
+- **npm:** `npm install @ai-native-solutions/chroma-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clerk SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clerk-sdk
+- **Source:** https://github.com/sjgant80-hub/clerk-sdk
+- **Playground:** https://sjgant80-hub.github.io/clerk-sdk/
+- **npm:** `npm install @ai-native-solutions/clerk-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clickup SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clickup-sdk
+- **Source:** https://github.com/sjgant80-hub/clickup-sdk
+- **Playground:** https://sjgant80-hub.github.io/clickup-sdk/
+- **npm:** `npm install @ai-native-solutions/clickup-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-r2 SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-r2-sdk
+- **Source:** https://github.com/sjgant80-hub/cloudflare-r2-sdk
+- **Playground:** https://sjgant80-hub.github.io/cloudflare-r2-sdk/
+- **npm:** `npm install @ai-native-solutions/cloudflare-r2-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-stream SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-stream-sdk
+- **Source:** https://github.com/sjgant80-hub/cloudflare-stream-sdk
+- **Playground:** https://sjgant80-hub.github.io/cloudflare-stream-sdk/
+- **npm:** `npm install @ai-native-solutions/cloudflare-stream-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-workers SDK
+
+Sovereign SDK wrapper for Cloudflare Workers · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-workers-sdk
+- **Source:** https://github.com/sjgant80-hub/cloudflare-workers-sdk
+- **Playground:** https://sjgant80-hub.github.io/cloudflare-workers-sdk/
+- **npm:** `npm install @ai-native-solutions/cloudflare-workers-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cohere SDK
+
+Sovereign SDK wrapper for Cohere · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cohere-sdk
+- **Source:** https://github.com/sjgant80-hub/cohere-sdk
+- **Playground:** https://sjgant80-hub.github.io/cohere-sdk/
+- **npm:** `npm install @ai-native-solutions/cohere-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### contentful SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=contentful-sdk
+- **Source:** https://github.com/sjgant80-hub/contentful-sdk
+- **Playground:** https://sjgant80-hub.github.io/contentful-sdk/
+- **npm:** `npm install @ai-native-solutions/contentful-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### convertkit-kit SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=convertkit-kit-sdk
+- **Source:** https://github.com/sjgant80-hub/convertkit-kit-sdk
+- **Playground:** https://sjgant80-hub.github.io/convertkit-kit-sdk/
+- **npm:** `npm install @ai-native-solutions/convertkit-kit-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### datadog SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=datadog-sdk
+- **Source:** https://github.com/sjgant80-hub/datadog-sdk
+- **Playground:** https://sjgant80-hub.github.io/datadog-sdk/
+- **npm:** `npm install @ai-native-solutions/datadog-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deepgram SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepgram-sdk
+- **Source:** https://github.com/sjgant80-hub/deepgram-sdk
+- **Playground:** https://sjgant80-hub.github.io/deepgram-sdk/
+- **npm:** `npm install @ai-native-solutions/deepgram-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deepseek SDK
+
+Sovereign SDK wrapper for DeepSeek · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepseek-sdk
+- **Source:** https://github.com/sjgant80-hub/deepseek-sdk
+- **Playground:** https://sjgant80-hub.github.io/deepseek-sdk/
+- **npm:** `npm install @ai-native-solutions/deepseek-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deno-deploy SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deno-deploy-sdk
+- **Source:** https://github.com/sjgant80-hub/deno-deploy-sdk
+- **Playground:** https://sjgant80-hub.github.io/deno-deploy-sdk/
+- **npm:** `npm install @ai-native-solutions/deno-deploy-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### digitalocean SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=digitalocean-sdk
+- **Source:** https://github.com/sjgant80-hub/digitalocean-sdk
+- **Playground:** https://sjgant80-hub.github.io/digitalocean-sdk/
+- **npm:** `npm install @ai-native-solutions/digitalocean-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### discord SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=discord-sdk
+- **Source:** https://github.com/sjgant80-hub/discord-sdk
+- **Playground:** https://sjgant80-hub.github.io/discord-sdk/
+- **npm:** `npm install @ai-native-solutions/discord-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### docker-hub SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=docker-hub-sdk
+- **Source:** https://github.com/sjgant80-hub/docker-hub-sdk
+- **Playground:** https://sjgant80-hub.github.io/docker-hub-sdk/
+- **npm:** `npm install @ai-native-solutions/docker-hub-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### elevenlabs SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=elevenlabs-sdk
+- **Source:** https://github.com/sjgant80-hub/elevenlabs-sdk
+- **Playground:** https://sjgant80-hub.github.io/elevenlabs-sdk/
+- **npm:** `npm install @ai-native-solutions/elevenlabs-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -1758,6 +2106,18 @@ Sovereign hygiene monitor SDK · session inventory · estate ping · audit-chain
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### firebase SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=firebase-sdk
+- **Source:** https://github.com/sjgant80-hub/firebase-sdk
+- **Playground:** https://sjgant80-hub.github.io/firebase-sdk/
+- **npm:** `npm install @ai-native-solutions/firebase-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### flux-api SDK
 
 flux-api sdk · @ai-native-solutions
@@ -1767,6 +2127,18 @@ flux-api sdk · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/flux-api-sdk
 - **Playground:** https://sjgant80-hub.github.io/flux-api-sdk/
 - **npm:** `npm install @ai-native-solutions/flux-api-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### fly-io SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fly-io-sdk
+- **Source:** https://github.com/sjgant80-hub/fly-io-sdk
+- **Playground:** https://sjgant80-hub.github.io/fly-io-sdk/
+- **npm:** `npm install @ai-native-solutions/fly-io-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -1791,6 +2163,90 @@ Companion SDK for foldkit-extension · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/foldkit-extension-sdk
 - **Playground:** https://sjgant80-hub.github.io/foldkit-extension-sdk/
 - **npm:** `npm install @ai-native-solutions/foldkit-extension-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gcp-cloud-storage SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gcp-cloud-storage-sdk
+- **Source:** https://github.com/sjgant80-hub/gcp-cloud-storage-sdk
+- **Playground:** https://sjgant80-hub.github.io/gcp-cloud-storage-sdk/
+- **npm:** `npm install @ai-native-solutions/gcp-cloud-storage-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### github SDK
+
+Sovereign SDK wrapper for GitHub · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=github-sdk
+- **Source:** https://github.com/sjgant80-hub/github-sdk
+- **Playground:** https://sjgant80-hub.github.io/github-sdk/
+- **npm:** `npm install @ai-native-solutions/github-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gitlab SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gitlab-sdk
+- **Source:** https://github.com/sjgant80-hub/gitlab-sdk
+- **Playground:** https://sjgant80-hub.github.io/gitlab-sdk/
+- **npm:** `npm install @ai-native-solutions/gitlab-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-gemini SDK
+
+Sovereign SDK wrapper for Google Gemini · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-gemini-sdk
+- **Source:** https://github.com/sjgant80-hub/google-gemini-sdk
+- **Playground:** https://sjgant80-hub.github.io/google-gemini-sdk/
+- **npm:** `npm install @ai-native-solutions/google-gemini-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-maps SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-maps-sdk
+- **Source:** https://github.com/sjgant80-hub/google-maps-sdk
+- **Playground:** https://sjgant80-hub.github.io/google-maps-sdk/
+- **npm:** `npm install @ai-native-solutions/google-maps-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### grafana-cloud SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=grafana-cloud-sdk
+- **Source:** https://github.com/sjgant80-hub/grafana-cloud-sdk
+- **Playground:** https://sjgant80-hub.github.io/grafana-cloud-sdk/
+- **npm:** `npm install @ai-native-solutions/grafana-cloud-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### groq SDK
+
+Sovereign SDK wrapper for Groq · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=groq-sdk
+- **Source:** https://github.com/sjgant80-hub/groq-sdk
+- **Playground:** https://sjgant80-hub.github.io/groq-sdk/
+- **npm:** `npm install @ai-native-solutions/groq-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -1854,6 +2310,30 @@ Companion SDK for honestly · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### hubspot SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=hubspot-sdk
+- **Source:** https://github.com/sjgant80-hub/hubspot-sdk
+- **Playground:** https://sjgant80-hub.github.io/hubspot-sdk/
+- **npm:** `npm install @ai-native-solutions/hubspot-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### huggingface SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=huggingface-sdk
+- **Source:** https://github.com/sjgant80-hub/huggingface-sdk
+- **Playground:** https://sjgant80-hub.github.io/huggingface-sdk/
+- **npm:** `npm install @ai-native-solutions/huggingface-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### init-book SDK
 
 Companion SDK for init-book · minted by mint-all · sovereign estate
@@ -1875,6 +2355,18 @@ init-the-map sdk · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/init-the-map-sdk
 - **Playground:** https://sjgant80-hub.github.io/init-the-map-sdk/
 - **npm:** `npm install @ai-native-solutions/init-the-map-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### inngest SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=inngest-sdk
+- **Source:** https://github.com/sjgant80-hub/inngest-sdk
+- **Playground:** https://sjgant80-hub.github.io/inngest-sdk/
+- **npm:** `npm install @ai-native-solutions/inngest-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2010,6 +2502,18 @@ kdot-shim sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### klaviyo SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=klaviyo-sdk
+- **Source:** https://github.com/sjgant80-hub/klaviyo-sdk
+- **Playground:** https://sjgant80-hub.github.io/klaviyo-sdk/
+- **npm:** `npm install @ai-native-solutions/klaviyo-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### konomi-cube SDK
 
 konomi-cube sdk · @ai-native-solutions
@@ -2046,6 +2550,78 @@ konomigami-lib sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### langfuse SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langfuse-sdk
+- **Source:** https://github.com/sjgant80-hub/langfuse-sdk
+- **Playground:** https://sjgant80-hub.github.io/langfuse-sdk/
+- **npm:** `npm install @ai-native-solutions/langfuse-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### langsmith SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langsmith-sdk
+- **Source:** https://github.com/sjgant80-hub/langsmith-sdk
+- **Playground:** https://sjgant80-hub.github.io/langsmith-sdk/
+- **npm:** `npm install @ai-native-solutions/langsmith-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### linear SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=linear-sdk
+- **Source:** https://github.com/sjgant80-hub/linear-sdk
+- **Playground:** https://sjgant80-hub.github.io/linear-sdk/
+- **npm:** `npm install @ai-native-solutions/linear-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mailchimp SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mailchimp-sdk
+- **Source:** https://github.com/sjgant80-hub/mailchimp-sdk
+- **Playground:** https://sjgant80-hub.github.io/mailchimp-sdk/
+- **npm:** `npm install @ai-native-solutions/mailchimp-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mapbox SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mapbox-sdk
+- **Source:** https://github.com/sjgant80-hub/mapbox-sdk
+- **Playground:** https://sjgant80-hub.github.io/mapbox-sdk/
+- **npm:** `npm install @ai-native-solutions/mapbox-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### meilisearch SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=meilisearch-sdk
+- **Source:** https://github.com/sjgant80-hub/meilisearch-sdk
+- **Playground:** https://sjgant80-hub.github.io/meilisearch-sdk/
+- **npm:** `npm install @ai-native-solutions/meilisearch-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### mesh-89-tracker SDK
 
 Companion SDK for mesh-89-tracker · minted by mint-all · sovereign estate
@@ -2055,6 +2631,78 @@ Companion SDK for mesh-89-tracker · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/mesh-89-tracker-sdk
 - **Playground:** https://sjgant80-hub.github.io/mesh-89-tracker-sdk/
 - **npm:** `npm install @ai-native-solutions/mesh-89-tracker-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mistral SDK
+
+Sovereign SDK wrapper for Mistral · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mistral-sdk
+- **Source:** https://github.com/sjgant80-hub/mistral-sdk
+- **Playground:** https://sjgant80-hub.github.io/mistral-sdk/
+- **npm:** `npm install @ai-native-solutions/mistral-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mixpanel SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mixpanel-sdk
+- **Source:** https://github.com/sjgant80-hub/mixpanel-sdk
+- **Playground:** https://sjgant80-hub.github.io/mixpanel-sdk/
+- **npm:** `npm install @ai-native-solutions/mixpanel-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mongodb-atlas SDK
+
+Sovereign SDK wrapper for MongoDB Atlas · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mongodb-atlas-sdk
+- **Source:** https://github.com/sjgant80-hub/mongodb-atlas-sdk
+- **Playground:** https://sjgant80-hub.github.io/mongodb-atlas-sdk/
+- **npm:** `npm install @ai-native-solutions/mongodb-atlas-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mux SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mux-sdk
+- **Source:** https://github.com/sjgant80-hub/mux-sdk
+- **Playground:** https://sjgant80-hub.github.io/mux-sdk/
+- **npm:** `npm install @ai-native-solutions/mux-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### neon SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=neon-sdk
+- **Source:** https://github.com/sjgant80-hub/neon-sdk
+- **Playground:** https://sjgant80-hub.github.io/neon-sdk/
+- **npm:** `npm install @ai-native-solutions/neon-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### new-relic SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=new-relic-sdk
+- **Source:** https://github.com/sjgant80-hub/new-relic-sdk
+- **Playground:** https://sjgant80-hub.github.io/new-relic-sdk/
+- **npm:** `npm install @ai-native-solutions/new-relic-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2118,6 +2766,18 @@ niceassos-organs sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### notion SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=notion-sdk
+- **Source:** https://github.com/sjgant80-hub/notion-sdk
+- **Playground:** https://sjgant80-hub.github.io/notion-sdk/
+- **npm:** `npm install @ai-native-solutions/notion-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### offgridcommunitiessystem SDK
 
 offgridcommunitiessystem sdk · @ai-native-solutions
@@ -2142,6 +2802,18 @@ onehub sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### openai SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=openai-sdk
+- **Source:** https://github.com/sjgant80-hub/openai-sdk
+- **Playground:** https://sjgant80-hub.github.io/openai-sdk/
+- **npm:** `npm install @ai-native-solutions/openai-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### operator SDK
 
 Companion SDK for operator · minted by mint-all · sovereign estate
@@ -2154,6 +2826,126 @@ Companion SDK for operator · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### perplexity SDK
+
+Sovereign SDK wrapper for Perplexity · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=perplexity-sdk
+- **Source:** https://github.com/sjgant80-hub/perplexity-sdk
+- **Playground:** https://sjgant80-hub.github.io/perplexity-sdk/
+- **npm:** `npm install @ai-native-solutions/perplexity-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pinecone SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pinecone-sdk
+- **Source:** https://github.com/sjgant80-hub/pinecone-sdk
+- **Playground:** https://sjgant80-hub.github.io/pinecone-sdk/
+- **npm:** `npm install @ai-native-solutions/pinecone-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pipedrive SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pipedrive-sdk
+- **Source:** https://github.com/sjgant80-hub/pipedrive-sdk
+- **Playground:** https://sjgant80-hub.github.io/pipedrive-sdk/
+- **npm:** `npm install @ai-native-solutions/pipedrive-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### planetscale SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=planetscale-sdk
+- **Source:** https://github.com/sjgant80-hub/planetscale-sdk
+- **Playground:** https://sjgant80-hub.github.io/planetscale-sdk/
+- **npm:** `npm install @ai-native-solutions/planetscale-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### plausible SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=plausible-sdk
+- **Source:** https://github.com/sjgant80-hub/plausible-sdk
+- **Playground:** https://sjgant80-hub.github.io/plausible-sdk/
+- **npm:** `npm install @ai-native-solutions/plausible-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### postgresql SDK
+
+Sovereign SDK wrapper for PostgreSQL · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=postgresql-sdk
+- **Source:** https://github.com/sjgant80-hub/postgresql-sdk
+- **Playground:** https://sjgant80-hub.github.io/postgresql-sdk/
+- **npm:** `npm install @ai-native-solutions/postgresql-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-sdk
+- **Source:** https://github.com/sjgant80-hub/posthog-sdk
+- **Playground:** https://sjgant80-hub.github.io/posthog-sdk/
+- **npm:** `npm install @ai-native-solutions/posthog-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog-llm-obs SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-llm-obs-sdk
+- **Source:** https://github.com/sjgant80-hub/posthog-llm-obs-sdk
+- **Playground:** https://sjgant80-hub.github.io/posthog-llm-obs-sdk/
+- **npm:** `npm install @ai-native-solutions/posthog-llm-obs-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qdrant SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qdrant-sdk
+- **Source:** https://github.com/sjgant80-hub/qdrant-sdk
+- **Playground:** https://sjgant80-hub.github.io/qdrant-sdk/
+- **npm:** `npm install @ai-native-solutions/qdrant-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qstash SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qstash-sdk
+- **Source:** https://github.com/sjgant80-hub/qstash-sdk
+- **Playground:** https://sjgant80-hub.github.io/qstash-sdk/
+- **npm:** `npm install @ai-native-solutions/qstash-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### quine-cube-runner SDK
 
 Companion SDK for quine-cube-runner · minted by mint-all · sovereign estate
@@ -2163,6 +2955,30 @@ Companion SDK for quine-cube-runner · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/quine-cube-runner-sdk
 - **Playground:** https://sjgant80-hub.github.io/quine-cube-runner-sdk/
 - **npm:** `npm install @ai-native-solutions/quine-cube-runner-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### railway SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=railway-sdk
+- **Source:** https://github.com/sjgant80-hub/railway-sdk
+- **Playground:** https://sjgant80-hub.github.io/railway-sdk/
+- **npm:** `npm install @ai-native-solutions/railway-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### redis SDK
+
+Sovereign SDK wrapper for Redis · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=redis-sdk
+- **Source:** https://github.com/sjgant80-hub/redis-sdk
+- **Playground:** https://sjgant80-hub.github.io/redis-sdk/
+- **npm:** `npm install @ai-native-solutions/redis-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2310,6 +3126,54 @@ reg-war sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### render SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=render-sdk
+- **Source:** https://github.com/sjgant80-hub/render-sdk
+- **Playground:** https://sjgant80-hub.github.io/render-sdk/
+- **npm:** `npm install @ai-native-solutions/render-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### replicate SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=replicate-sdk
+- **Source:** https://github.com/sjgant80-hub/replicate-sdk
+- **Playground:** https://sjgant80-hub.github.io/replicate-sdk/
+- **npm:** `npm install @ai-native-solutions/replicate-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### resend SDK
+
+Sovereign SDK wrapper for Resend · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=resend-sdk
+- **Source:** https://github.com/sjgant80-hub/resend-sdk
+- **Playground:** https://sjgant80-hub.github.io/resend-sdk/
+- **npm:** `npm install @ai-native-solutions/resend-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### retell SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=retell-sdk
+- **Source:** https://github.com/sjgant80-hub/retell-sdk
+- **Playground:** https://sjgant80-hub.github.io/retell-sdk/
+- **npm:** `npm install @ai-native-solutions/retell-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### roost SDK
 
 roost sdk · @ai-native-solutions
@@ -2319,6 +3183,78 @@ roost sdk · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/roost-sdk
 - **Playground:** https://sjgant80-hub.github.io/roost-sdk/
 - **npm:** `npm install @ai-native-solutions/roost-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### runway SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=runway-sdk
+- **Source:** https://github.com/sjgant80-hub/runway-sdk
+- **Playground:** https://sjgant80-hub.github.io/runway-sdk/
+- **npm:** `npm install @ai-native-solutions/runway-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### salesforce SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=salesforce-sdk
+- **Source:** https://github.com/sjgant80-hub/salesforce-sdk
+- **Playground:** https://sjgant80-hub.github.io/salesforce-sdk/
+- **npm:** `npm install @ai-native-solutions/salesforce-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sanity SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sanity-sdk
+- **Source:** https://github.com/sjgant80-hub/sanity-sdk
+- **Playground:** https://sjgant80-hub.github.io/sanity-sdk/
+- **npm:** `npm install @ai-native-solutions/sanity-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### segment SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=segment-sdk
+- **Source:** https://github.com/sjgant80-hub/segment-sdk
+- **Playground:** https://sjgant80-hub.github.io/segment-sdk/
+- **npm:** `npm install @ai-native-solutions/segment-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sendgrid SDK
+
+Sovereign SDK wrapper for SendGrid · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sendgrid-sdk
+- **Source:** https://github.com/sjgant80-hub/sendgrid-sdk
+- **Playground:** https://sjgant80-hub.github.io/sendgrid-sdk/
+- **npm:** `npm install @ai-native-solutions/sendgrid-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sentry SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sentry-sdk
+- **Source:** https://github.com/sjgant80-hub/sentry-sdk
+- **Playground:** https://sjgant80-hub.github.io/sentry-sdk/
+- **npm:** `npm install @ai-native-solutions/sentry-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2355,6 +3291,18 @@ shadowcompass-repo sdk · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/shadowcompass-repo-sdk
 - **Playground:** https://sjgant80-hub.github.io/shadowcompass-repo-sdk/
 - **npm:** `npm install @ai-native-solutions/shadowcompass-repo-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### shopify SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=shopify-sdk
+- **Source:** https://github.com/sjgant80-hub/shopify-sdk
+- **Playground:** https://sjgant80-hub.github.io/shopify-sdk/
+- **npm:** `npm install @ai-native-solutions/shopify-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2430,6 +3378,18 @@ si-didy-signer sdk · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### slack SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=slack-sdk
+- **Source:** https://github.com/sjgant80-hub/slack-sdk
+- **Playground:** https://sjgant80-hub.github.io/slack-sdk/
+- **npm:** `npm install @ai-native-solutions/slack-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### smbaios SDK
 
 Companion SDK for smbaios · minted by mint-all · sovereign estate
@@ -2439,6 +3399,42 @@ Companion SDK for smbaios · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/smbaios-sdk
 - **Playground:** https://sjgant80-hub.github.io/smbaios-sdk/
 - **npm:** `npm install @ai-native-solutions/smbaios-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### strapi SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=strapi-sdk
+- **Source:** https://github.com/sjgant80-hub/strapi-sdk
+- **Playground:** https://sjgant80-hub.github.io/strapi-sdk/
+- **npm:** `npm install @ai-native-solutions/strapi-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### stripe SDK
+
+Sovereign SDK wrapper for Stripe · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=stripe-sdk
+- **Source:** https://github.com/sjgant80-hub/stripe-sdk
+- **Playground:** https://sjgant80-hub.github.io/stripe-sdk/
+- **npm:** `npm install @ai-native-solutions/stripe-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### supabase SDK
+
+Sovereign SDK wrapper for Supabase · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=supabase-sdk
+- **Source:** https://github.com/sjgant80-hub/supabase-sdk
+- **Playground:** https://sjgant80-hub.github.io/supabase-sdk/
+- **npm:** `npm install @ai-native-solutions/supabase-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2463,6 +3459,18 @@ Companion SDK for temuoracle · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/temuoracle-sdk
 - **Playground:** https://sjgant80-hub.github.io/temuoracle-sdk/
 - **npm:** `npm install @ai-native-solutions/temuoracle-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### together-ai SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=together-ai-sdk
+- **Source:** https://github.com/sjgant80-hub/together-ai-sdk
+- **Playground:** https://sjgant80-hub.github.io/together-ai-sdk/
+- **npm:** `npm install @ai-native-solutions/together-ai-sdk`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2514,6 +3522,78 @@ Companion SDK for trilogy-framework · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### turso SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=turso-sdk
+- **Source:** https://github.com/sjgant80-hub/turso-sdk
+- **Playground:** https://sjgant80-hub.github.io/turso-sdk/
+- **npm:** `npm install @ai-native-solutions/turso-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### twilio SDK
+
+Sovereign SDK wrapper for Twilio · AI-Native Solutions estate · MIT
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=twilio-sdk
+- **Source:** https://github.com/sjgant80-hub/twilio-sdk
+- **Playground:** https://sjgant80-hub.github.io/twilio-sdk/
+- **npm:** `npm install @ai-native-solutions/twilio-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### typesense SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=typesense-sdk
+- **Source:** https://github.com/sjgant80-hub/typesense-sdk
+- **Playground:** https://sjgant80-hub.github.io/typesense-sdk/
+- **npm:** `npm install @ai-native-solutions/typesense-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### upstash SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=upstash-sdk
+- **Source:** https://github.com/sjgant80-hub/upstash-sdk
+- **Playground:** https://sjgant80-hub.github.io/upstash-sdk/
+- **npm:** `npm install @ai-native-solutions/upstash-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### vapi SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=vapi-sdk
+- **Source:** https://github.com/sjgant80-hub/vapi-sdk
+- **Playground:** https://sjgant80-hub.github.io/vapi-sdk/
+- **npm:** `npm install @ai-native-solutions/vapi-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### weaviate SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=weaviate-sdk
+- **Source:** https://github.com/sjgant80-hub/weaviate-sdk
+- **Playground:** https://sjgant80-hub.github.io/weaviate-sdk/
+- **npm:** `npm install @ai-native-solutions/weaviate-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### wishwood SDK
 
 Companion SDK for wishwood · minted by mint-all · sovereign estate
@@ -2526,9 +3606,33 @@ Companion SDK for wishwood · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### woocommerce SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=woocommerce-sdk
+- **Source:** https://github.com/sjgant80-hub/woocommerce-sdk
+- **Playground:** https://sjgant80-hub.github.io/woocommerce-sdk/
+- **npm:** `npm install @ai-native-solutions/woocommerce-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### xata SDK
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** sdk
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=xata-sdk
+- **Source:** https://github.com/sjgant80-hub/xata-sdk
+- **Playground:** https://sjgant80-hub.github.io/xata-sdk/
+- **npm:** `npm install @ai-native-solutions/xata-sdk`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ---
 
-## MCP servers (204)
+## MCP servers (297)
 
 ### 9-axis-human-sonar MCP
 
@@ -2578,6 +3682,138 @@ Companion MCP for adshop · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### airtable MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=airtable-mcp
+- **Source:** https://github.com/sjgant80-hub/airtable-mcp
+- **npm:** `npm install @ai-native-solutions/airtable-mcp`
+- **MCP:** `claude mcp add airtable -- npx -y @ai-native-solutions/airtable-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### algolia MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=algolia-mcp
+- **Source:** https://github.com/sjgant80-hub/algolia-mcp
+- **npm:** `npm install @ai-native-solutions/algolia-mcp`
+- **MCP:** `claude mcp add algolia -- npx -y @ai-native-solutions/algolia-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### amplitude MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=amplitude-mcp
+- **Source:** https://github.com/sjgant80-hub/amplitude-mcp
+- **npm:** `npm install @ai-native-solutions/amplitude-mcp`
+- **MCP:** `claude mcp add amplitude -- npx -y @ai-native-solutions/amplitude-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### anthropic-claude MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=anthropic-claude-mcp
+- **Source:** https://github.com/sjgant80-hub/anthropic-claude-mcp
+- **npm:** `npm install @ai-native-solutions/anthropic-claude-mcp`
+- **MCP:** `claude mcp add anthropic-claude -- npx -y @ai-native-solutions/anthropic-claude-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### asana MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=asana-mcp
+- **Source:** https://github.com/sjgant80-hub/asana-mcp
+- **npm:** `npm install @ai-native-solutions/asana-mcp`
+- **MCP:** `claude mcp add asana -- npx -y @ai-native-solutions/asana-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### assembly-ai MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=assembly-ai-mcp
+- **Source:** https://github.com/sjgant80-hub/assembly-ai-mcp
+- **npm:** `npm install @ai-native-solutions/assembly-ai-mcp`
+- **MCP:** `claude mcp add assembly-ai -- npx -y @ai-native-solutions/assembly-ai-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### auth0 MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=auth0-mcp
+- **Source:** https://github.com/sjgant80-hub/auth0-mcp
+- **npm:** `npm install @ai-native-solutions/auth0-mcp`
+- **MCP:** `claude mcp add auth0 -- npx -y @ai-native-solutions/auth0-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-dynamodb MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-dynamodb-mcp
+- **Source:** https://github.com/sjgant80-hub/aws-dynamodb-mcp
+- **npm:** `npm install @ai-native-solutions/aws-dynamodb-mcp`
+- **MCP:** `claude mcp add aws-dynamodb -- npx -y @ai-native-solutions/aws-dynamodb-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-lambda MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-lambda-mcp
+- **Source:** https://github.com/sjgant80-hub/aws-lambda-mcp
+- **npm:** `npm install @ai-native-solutions/aws-lambda-mcp`
+- **MCP:** `claude mcp add aws-lambda -- npx -y @ai-native-solutions/aws-lambda-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-s3 MCP
+
+Sovereign MCP wrapper for AWS S3 · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-s3-mcp
+- **Source:** https://github.com/sjgant80-hub/aws-s3-mcp
+- **npm:** `npm install @ai-native-solutions/aws-s3-mcp`
+- **MCP:** `claude mcp add aws-s3 -- npx -y @ai-native-solutions/aws-s3-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-sqs MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-sqs-mcp
+- **Source:** https://github.com/sjgant80-hub/aws-sqs-mcp
+- **npm:** `npm install @ai-native-solutions/aws-sqs-mcp`
+- **MCP:** `claude mcp add aws-sqs -- npx -y @ai-native-solutions/aws-sqs-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### barberhq MCP
 
 Companion MCP for barberhq · minted by mint-all · sovereign estate
@@ -2587,6 +3823,18 @@ Companion MCP for barberhq · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/barberhq-mcp
 - **npm:** `npm install @ai-native-solutions/barberhq-mcp`
 - **MCP:** `claude mcp add barberhq -- npx -y @ai-native-solutions/barberhq-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### bitbucket MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=bitbucket-mcp
+- **Source:** https://github.com/sjgant80-hub/bitbucket-mcp
+- **npm:** `npm install @ai-native-solutions/bitbucket-mcp`
+- **MCP:** `claude mcp add bitbucket -- npx -y @ai-native-solutions/bitbucket-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -2635,6 +3883,210 @@ Companion MCP for cassietorusbtc135solver · minted by mint-all · sovereign est
 - **Source:** https://github.com/sjgant80-hub/cassietorusbtc135solver-mcp
 - **npm:** `npm install @ai-native-solutions/cassietorusbtc135solver-mcp`
 - **MCP:** `claude mcp add cassietorusbtc135solver -- npx -y @ai-native-solutions/cassietorusbtc135solver-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### chroma MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=chroma-mcp
+- **Source:** https://github.com/sjgant80-hub/chroma-mcp
+- **npm:** `npm install @ai-native-solutions/chroma-mcp`
+- **MCP:** `claude mcp add chroma -- npx -y @ai-native-solutions/chroma-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clerk MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clerk-mcp
+- **Source:** https://github.com/sjgant80-hub/clerk-mcp
+- **npm:** `npm install @ai-native-solutions/clerk-mcp`
+- **MCP:** `claude mcp add clerk -- npx -y @ai-native-solutions/clerk-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clickup MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clickup-mcp
+- **Source:** https://github.com/sjgant80-hub/clickup-mcp
+- **npm:** `npm install @ai-native-solutions/clickup-mcp`
+- **MCP:** `claude mcp add clickup -- npx -y @ai-native-solutions/clickup-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-r2 MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-r2-mcp
+- **Source:** https://github.com/sjgant80-hub/cloudflare-r2-mcp
+- **npm:** `npm install @ai-native-solutions/cloudflare-r2-mcp`
+- **MCP:** `claude mcp add cloudflare-r2 -- npx -y @ai-native-solutions/cloudflare-r2-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-stream MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-stream-mcp
+- **Source:** https://github.com/sjgant80-hub/cloudflare-stream-mcp
+- **npm:** `npm install @ai-native-solutions/cloudflare-stream-mcp`
+- **MCP:** `claude mcp add cloudflare-stream -- npx -y @ai-native-solutions/cloudflare-stream-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-workers MCP
+
+Sovereign MCP wrapper for Cloudflare Workers · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-workers-mcp
+- **Source:** https://github.com/sjgant80-hub/cloudflare-workers-mcp
+- **npm:** `npm install @ai-native-solutions/cloudflare-workers-mcp`
+- **MCP:** `claude mcp add cloudflare-workers -- npx -y @ai-native-solutions/cloudflare-workers-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cohere MCP
+
+Sovereign MCP wrapper for Cohere · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cohere-mcp
+- **Source:** https://github.com/sjgant80-hub/cohere-mcp
+- **npm:** `npm install @ai-native-solutions/cohere-mcp`
+- **MCP:** `claude mcp add cohere -- npx -y @ai-native-solutions/cohere-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### contentful MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=contentful-mcp
+- **Source:** https://github.com/sjgant80-hub/contentful-mcp
+- **npm:** `npm install @ai-native-solutions/contentful-mcp`
+- **MCP:** `claude mcp add contentful -- npx -y @ai-native-solutions/contentful-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### convertkit-kit MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=convertkit-kit-mcp
+- **Source:** https://github.com/sjgant80-hub/convertkit-kit-mcp
+- **npm:** `npm install @ai-native-solutions/convertkit-kit-mcp`
+- **MCP:** `claude mcp add convertkit-kit -- npx -y @ai-native-solutions/convertkit-kit-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### datadog MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=datadog-mcp
+- **Source:** https://github.com/sjgant80-hub/datadog-mcp
+- **npm:** `npm install @ai-native-solutions/datadog-mcp`
+- **MCP:** `claude mcp add datadog -- npx -y @ai-native-solutions/datadog-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deepgram MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepgram-mcp
+- **Source:** https://github.com/sjgant80-hub/deepgram-mcp
+- **npm:** `npm install @ai-native-solutions/deepgram-mcp`
+- **MCP:** `claude mcp add deepgram -- npx -y @ai-native-solutions/deepgram-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deepseek MCP
+
+Sovereign MCP wrapper for DeepSeek · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepseek-mcp
+- **Source:** https://github.com/sjgant80-hub/deepseek-mcp
+- **npm:** `npm install @ai-native-solutions/deepseek-mcp`
+- **MCP:** `claude mcp add deepseek -- npx -y @ai-native-solutions/deepseek-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deno-deploy MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deno-deploy-mcp
+- **Source:** https://github.com/sjgant80-hub/deno-deploy-mcp
+- **npm:** `npm install @ai-native-solutions/deno-deploy-mcp`
+- **MCP:** `claude mcp add deno-deploy -- npx -y @ai-native-solutions/deno-deploy-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### digitalocean MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=digitalocean-mcp
+- **Source:** https://github.com/sjgant80-hub/digitalocean-mcp
+- **npm:** `npm install @ai-native-solutions/digitalocean-mcp`
+- **MCP:** `claude mcp add digitalocean -- npx -y @ai-native-solutions/digitalocean-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### discord MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=discord-mcp
+- **Source:** https://github.com/sjgant80-hub/discord-mcp
+- **npm:** `npm install @ai-native-solutions/discord-mcp`
+- **MCP:** `claude mcp add discord -- npx -y @ai-native-solutions/discord-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### docker-hub MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=docker-hub-mcp
+- **Source:** https://github.com/sjgant80-hub/docker-hub-mcp
+- **npm:** `npm install @ai-native-solutions/docker-hub-mcp`
+- **MCP:** `claude mcp add docker-hub -- npx -y @ai-native-solutions/docker-hub-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### elevenlabs MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=elevenlabs-mcp
+- **Source:** https://github.com/sjgant80-hub/elevenlabs-mcp
+- **npm:** `npm install @ai-native-solutions/elevenlabs-mcp`
+- **MCP:** `claude mcp add elevenlabs -- npx -y @ai-native-solutions/elevenlabs-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4282,6 +5734,18 @@ MCP server for fallwatch · estate ping · chain verify · hygiene report · OP1
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### firebase MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=firebase-mcp
+- **Source:** https://github.com/sjgant80-hub/firebase-mcp
+- **npm:** `npm install @ai-native-solutions/firebase-mcp`
+- **MCP:** `claude mcp add firebase -- npx -y @ai-native-solutions/firebase-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### flux-api MCP
 
 flux-api mcp · @ai-native-solutions
@@ -4294,6 +5758,18 @@ flux-api mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### fly-io MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fly-io-mcp
+- **Source:** https://github.com/sjgant80-hub/fly-io-mcp
+- **npm:** `npm install @ai-native-solutions/fly-io-mcp`
+- **MCP:** `claude mcp add fly-io -- npx -y @ai-native-solutions/fly-io-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### foldkit MCP
 
 MCP server for foldkit · framework ISA as Claude tools · exemplar shape for AI-Native Solutions estate
@@ -4303,6 +5779,90 @@ MCP server for foldkit · framework ISA as Claude tools · exemplar shape for AI
 - **Source:** https://github.com/sjgant80-hub/foldkit-mcp
 - **npm:** `npm install @ai-native-solutions/foldkit-mcp`
 - **MCP:** `claude mcp add foldkit -- npx -y @ai-native-solutions/foldkit-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gcp-cloud-storage MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gcp-cloud-storage-mcp
+- **Source:** https://github.com/sjgant80-hub/gcp-cloud-storage-mcp
+- **npm:** `npm install @ai-native-solutions/gcp-cloud-storage-mcp`
+- **MCP:** `claude mcp add gcp-cloud-storage -- npx -y @ai-native-solutions/gcp-cloud-storage-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### github MCP
+
+Sovereign MCP wrapper for GitHub · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=github-mcp
+- **Source:** https://github.com/sjgant80-hub/github-mcp
+- **npm:** `npm install @ai-native-solutions/github-mcp`
+- **MCP:** `claude mcp add github -- npx -y @ai-native-solutions/github-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gitlab MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gitlab-mcp
+- **Source:** https://github.com/sjgant80-hub/gitlab-mcp
+- **npm:** `npm install @ai-native-solutions/gitlab-mcp`
+- **MCP:** `claude mcp add gitlab -- npx -y @ai-native-solutions/gitlab-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-gemini MCP
+
+Sovereign MCP wrapper for Google Gemini · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-gemini-mcp
+- **Source:** https://github.com/sjgant80-hub/google-gemini-mcp
+- **npm:** `npm install @ai-native-solutions/google-gemini-mcp`
+- **MCP:** `claude mcp add google-gemini -- npx -y @ai-native-solutions/google-gemini-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-maps MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-maps-mcp
+- **Source:** https://github.com/sjgant80-hub/google-maps-mcp
+- **npm:** `npm install @ai-native-solutions/google-maps-mcp`
+- **MCP:** `claude mcp add google-maps -- npx -y @ai-native-solutions/google-maps-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### grafana-cloud MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=grafana-cloud-mcp
+- **Source:** https://github.com/sjgant80-hub/grafana-cloud-mcp
+- **npm:** `npm install @ai-native-solutions/grafana-cloud-mcp`
+- **MCP:** `claude mcp add grafana-cloud -- npx -y @ai-native-solutions/grafana-cloud-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### groq MCP
+
+Sovereign MCP wrapper for Groq · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=groq-mcp
+- **Source:** https://github.com/sjgant80-hub/groq-mcp
+- **npm:** `npm install @ai-native-solutions/groq-mcp`
+- **MCP:** `claude mcp add groq -- npx -y @ai-native-solutions/groq-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4366,6 +5926,30 @@ Companion MCP for honestly · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### hubspot MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=hubspot-mcp
+- **Source:** https://github.com/sjgant80-hub/hubspot-mcp
+- **npm:** `npm install @ai-native-solutions/hubspot-mcp`
+- **MCP:** `claude mcp add hubspot -- npx -y @ai-native-solutions/hubspot-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### huggingface MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=huggingface-mcp
+- **Source:** https://github.com/sjgant80-hub/huggingface-mcp
+- **npm:** `npm install @ai-native-solutions/huggingface-mcp`
+- **MCP:** `claude mcp add huggingface -- npx -y @ai-native-solutions/huggingface-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### init-the-map MCP
 
 init-the-map mcp · @ai-native-solutions
@@ -4375,6 +5959,18 @@ init-the-map mcp · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/init-the-map-mcp
 - **npm:** `npm install @ai-native-solutions/init-the-map-mcp`
 - **MCP:** `claude mcp add init-the-map -- npx -y @ai-native-solutions/init-the-map-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### inngest MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=inngest-mcp
+- **Source:** https://github.com/sjgant80-hub/inngest-mcp
+- **npm:** `npm install @ai-native-solutions/inngest-mcp`
+- **MCP:** `claude mcp add inngest -- npx -y @ai-native-solutions/inngest-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4510,6 +6106,18 @@ kdot-shim mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### klaviyo MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=klaviyo-mcp
+- **Source:** https://github.com/sjgant80-hub/klaviyo-mcp
+- **npm:** `npm install @ai-native-solutions/klaviyo-mcp`
+- **MCP:** `claude mcp add klaviyo -- npx -y @ai-native-solutions/klaviyo-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### konomi-cube MCP
 
 konomi-cube mcp · @ai-native-solutions
@@ -4546,6 +6154,78 @@ konomigami-lib mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### langfuse MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langfuse-mcp
+- **Source:** https://github.com/sjgant80-hub/langfuse-mcp
+- **npm:** `npm install @ai-native-solutions/langfuse-mcp`
+- **MCP:** `claude mcp add langfuse -- npx -y @ai-native-solutions/langfuse-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### langsmith MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langsmith-mcp
+- **Source:** https://github.com/sjgant80-hub/langsmith-mcp
+- **npm:** `npm install @ai-native-solutions/langsmith-mcp`
+- **MCP:** `claude mcp add langsmith -- npx -y @ai-native-solutions/langsmith-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### linear MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=linear-mcp
+- **Source:** https://github.com/sjgant80-hub/linear-mcp
+- **npm:** `npm install @ai-native-solutions/linear-mcp`
+- **MCP:** `claude mcp add linear -- npx -y @ai-native-solutions/linear-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mailchimp MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mailchimp-mcp
+- **Source:** https://github.com/sjgant80-hub/mailchimp-mcp
+- **npm:** `npm install @ai-native-solutions/mailchimp-mcp`
+- **MCP:** `claude mcp add mailchimp -- npx -y @ai-native-solutions/mailchimp-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mapbox MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mapbox-mcp
+- **Source:** https://github.com/sjgant80-hub/mapbox-mcp
+- **npm:** `npm install @ai-native-solutions/mapbox-mcp`
+- **MCP:** `claude mcp add mapbox -- npx -y @ai-native-solutions/mapbox-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### meilisearch MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=meilisearch-mcp
+- **Source:** https://github.com/sjgant80-hub/meilisearch-mcp
+- **npm:** `npm install @ai-native-solutions/meilisearch-mcp`
+- **MCP:** `claude mcp add meilisearch -- npx -y @ai-native-solutions/meilisearch-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### mesh-89-tracker MCP
 
 Companion MCP for mesh-89-tracker · minted by mint-all · sovereign estate
@@ -4555,6 +6235,78 @@ Companion MCP for mesh-89-tracker · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/mesh-89-tracker-mcp
 - **npm:** `npm install @ai-native-solutions/mesh-89-tracker-mcp`
 - **MCP:** `claude mcp add mesh-89-tracker -- npx -y @ai-native-solutions/mesh-89-tracker-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mistral MCP
+
+Sovereign MCP wrapper for Mistral · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mistral-mcp
+- **Source:** https://github.com/sjgant80-hub/mistral-mcp
+- **npm:** `npm install @ai-native-solutions/mistral-mcp`
+- **MCP:** `claude mcp add mistral -- npx -y @ai-native-solutions/mistral-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mixpanel MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mixpanel-mcp
+- **Source:** https://github.com/sjgant80-hub/mixpanel-mcp
+- **npm:** `npm install @ai-native-solutions/mixpanel-mcp`
+- **MCP:** `claude mcp add mixpanel -- npx -y @ai-native-solutions/mixpanel-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mongodb-atlas MCP
+
+Sovereign MCP wrapper for MongoDB Atlas · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mongodb-atlas-mcp
+- **Source:** https://github.com/sjgant80-hub/mongodb-atlas-mcp
+- **npm:** `npm install @ai-native-solutions/mongodb-atlas-mcp`
+- **MCP:** `claude mcp add mongodb-atlas -- npx -y @ai-native-solutions/mongodb-atlas-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mux MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mux-mcp
+- **Source:** https://github.com/sjgant80-hub/mux-mcp
+- **npm:** `npm install @ai-native-solutions/mux-mcp`
+- **MCP:** `claude mcp add mux -- npx -y @ai-native-solutions/mux-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### neon MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=neon-mcp
+- **Source:** https://github.com/sjgant80-hub/neon-mcp
+- **npm:** `npm install @ai-native-solutions/neon-mcp`
+- **MCP:** `claude mcp add neon -- npx -y @ai-native-solutions/neon-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### new-relic MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=new-relic-mcp
+- **Source:** https://github.com/sjgant80-hub/new-relic-mcp
+- **npm:** `npm install @ai-native-solutions/new-relic-mcp`
+- **MCP:** `claude mcp add new-relic -- npx -y @ai-native-solutions/new-relic-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4618,6 +6370,18 @@ niceassos-organs mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### notion MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=notion-mcp
+- **Source:** https://github.com/sjgant80-hub/notion-mcp
+- **npm:** `npm install @ai-native-solutions/notion-mcp`
+- **MCP:** `claude mcp add notion -- npx -y @ai-native-solutions/notion-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### onehub MCP
 
 onehub mcp · @ai-native-solutions
@@ -4627,6 +6391,18 @@ onehub mcp · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/onehub-mcp
 - **npm:** `npm install @ai-native-solutions/onehub-mcp`
 - **MCP:** `claude mcp add onehub -- npx -y @ai-native-solutions/onehub-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### openai MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=openai-mcp
+- **Source:** https://github.com/sjgant80-hub/openai-mcp
+- **npm:** `npm install @ai-native-solutions/openai-mcp`
+- **MCP:** `claude mcp add openai -- npx -y @ai-native-solutions/openai-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4642,6 +6418,126 @@ onehub mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### perplexity MCP
+
+Sovereign MCP wrapper for Perplexity · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=perplexity-mcp
+- **Source:** https://github.com/sjgant80-hub/perplexity-mcp
+- **npm:** `npm install @ai-native-solutions/perplexity-mcp`
+- **MCP:** `claude mcp add perplexity -- npx -y @ai-native-solutions/perplexity-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pinecone MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pinecone-mcp
+- **Source:** https://github.com/sjgant80-hub/pinecone-mcp
+- **npm:** `npm install @ai-native-solutions/pinecone-mcp`
+- **MCP:** `claude mcp add pinecone -- npx -y @ai-native-solutions/pinecone-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pipedrive MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pipedrive-mcp
+- **Source:** https://github.com/sjgant80-hub/pipedrive-mcp
+- **npm:** `npm install @ai-native-solutions/pipedrive-mcp`
+- **MCP:** `claude mcp add pipedrive -- npx -y @ai-native-solutions/pipedrive-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### planetscale MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=planetscale-mcp
+- **Source:** https://github.com/sjgant80-hub/planetscale-mcp
+- **npm:** `npm install @ai-native-solutions/planetscale-mcp`
+- **MCP:** `claude mcp add planetscale -- npx -y @ai-native-solutions/planetscale-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### plausible MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=plausible-mcp
+- **Source:** https://github.com/sjgant80-hub/plausible-mcp
+- **npm:** `npm install @ai-native-solutions/plausible-mcp`
+- **MCP:** `claude mcp add plausible -- npx -y @ai-native-solutions/plausible-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### postgresql MCP
+
+Sovereign MCP wrapper for PostgreSQL · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=postgresql-mcp
+- **Source:** https://github.com/sjgant80-hub/postgresql-mcp
+- **npm:** `npm install @ai-native-solutions/postgresql-mcp`
+- **MCP:** `claude mcp add postgresql -- npx -y @ai-native-solutions/postgresql-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-mcp
+- **Source:** https://github.com/sjgant80-hub/posthog-mcp
+- **npm:** `npm install @ai-native-solutions/posthog-mcp`
+- **MCP:** `claude mcp add posthog -- npx -y @ai-native-solutions/posthog-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog-llm-obs MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-llm-obs-mcp
+- **Source:** https://github.com/sjgant80-hub/posthog-llm-obs-mcp
+- **npm:** `npm install @ai-native-solutions/posthog-llm-obs-mcp`
+- **MCP:** `claude mcp add posthog-llm-obs -- npx -y @ai-native-solutions/posthog-llm-obs-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qdrant MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qdrant-mcp
+- **Source:** https://github.com/sjgant80-hub/qdrant-mcp
+- **npm:** `npm install @ai-native-solutions/qdrant-mcp`
+- **MCP:** `claude mcp add qdrant -- npx -y @ai-native-solutions/qdrant-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qstash MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qstash-mcp
+- **Source:** https://github.com/sjgant80-hub/qstash-mcp
+- **npm:** `npm install @ai-native-solutions/qstash-mcp`
+- **MCP:** `claude mcp add qstash -- npx -y @ai-native-solutions/qstash-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### quine-cube-runner MCP
 
 Companion MCP for quine-cube-runner · minted by mint-all · sovereign estate
@@ -4651,6 +6547,30 @@ Companion MCP for quine-cube-runner · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/quine-cube-runner-mcp
 - **npm:** `npm install @ai-native-solutions/quine-cube-runner-mcp`
 - **MCP:** `claude mcp add quine-cube-runner -- npx -y @ai-native-solutions/quine-cube-runner-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### railway MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=railway-mcp
+- **Source:** https://github.com/sjgant80-hub/railway-mcp
+- **npm:** `npm install @ai-native-solutions/railway-mcp`
+- **MCP:** `claude mcp add railway -- npx -y @ai-native-solutions/railway-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### redis MCP
+
+Sovereign MCP wrapper for Redis · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=redis-mcp
+- **Source:** https://github.com/sjgant80-hub/redis-mcp
+- **npm:** `npm install @ai-native-solutions/redis-mcp`
+- **MCP:** `claude mcp add redis -- npx -y @ai-native-solutions/redis-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4798,6 +6718,54 @@ reg-war mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### render MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=render-mcp
+- **Source:** https://github.com/sjgant80-hub/render-mcp
+- **npm:** `npm install @ai-native-solutions/render-mcp`
+- **MCP:** `claude mcp add render -- npx -y @ai-native-solutions/render-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### replicate MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=replicate-mcp
+- **Source:** https://github.com/sjgant80-hub/replicate-mcp
+- **npm:** `npm install @ai-native-solutions/replicate-mcp`
+- **MCP:** `claude mcp add replicate -- npx -y @ai-native-solutions/replicate-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### resend MCP
+
+Sovereign MCP wrapper for Resend · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=resend-mcp
+- **Source:** https://github.com/sjgant80-hub/resend-mcp
+- **npm:** `npm install @ai-native-solutions/resend-mcp`
+- **MCP:** `claude mcp add resend -- npx -y @ai-native-solutions/resend-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### retell MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=retell-mcp
+- **Source:** https://github.com/sjgant80-hub/retell-mcp
+- **npm:** `npm install @ai-native-solutions/retell-mcp`
+- **MCP:** `claude mcp add retell -- npx -y @ai-native-solutions/retell-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### roost MCP
 
 roost mcp · @ai-native-solutions
@@ -4807,6 +6775,78 @@ roost mcp · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/roost-mcp
 - **npm:** `npm install @ai-native-solutions/roost-mcp`
 - **MCP:** `claude mcp add roost -- npx -y @ai-native-solutions/roost-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### runway MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=runway-mcp
+- **Source:** https://github.com/sjgant80-hub/runway-mcp
+- **npm:** `npm install @ai-native-solutions/runway-mcp`
+- **MCP:** `claude mcp add runway -- npx -y @ai-native-solutions/runway-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### salesforce MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=salesforce-mcp
+- **Source:** https://github.com/sjgant80-hub/salesforce-mcp
+- **npm:** `npm install @ai-native-solutions/salesforce-mcp`
+- **MCP:** `claude mcp add salesforce -- npx -y @ai-native-solutions/salesforce-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sanity MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sanity-mcp
+- **Source:** https://github.com/sjgant80-hub/sanity-mcp
+- **npm:** `npm install @ai-native-solutions/sanity-mcp`
+- **MCP:** `claude mcp add sanity -- npx -y @ai-native-solutions/sanity-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### segment MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=segment-mcp
+- **Source:** https://github.com/sjgant80-hub/segment-mcp
+- **npm:** `npm install @ai-native-solutions/segment-mcp`
+- **MCP:** `claude mcp add segment -- npx -y @ai-native-solutions/segment-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sendgrid MCP
+
+Sovereign MCP wrapper for SendGrid · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sendgrid-mcp
+- **Source:** https://github.com/sjgant80-hub/sendgrid-mcp
+- **npm:** `npm install @ai-native-solutions/sendgrid-mcp`
+- **MCP:** `claude mcp add sendgrid -- npx -y @ai-native-solutions/sendgrid-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sentry MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sentry-mcp
+- **Source:** https://github.com/sjgant80-hub/sentry-mcp
+- **npm:** `npm install @ai-native-solutions/sentry-mcp`
+- **MCP:** `claude mcp add sentry -- npx -y @ai-native-solutions/sentry-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4831,6 +6871,18 @@ shadowcompass-repo mcp · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/shadowcompass-repo-mcp
 - **npm:** `npm install @ai-native-solutions/shadowcompass-repo-mcp`
 - **MCP:** `claude mcp add shadowcompass-repo -- npx -y @ai-native-solutions/shadowcompass-repo-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### shopify MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=shopify-mcp
+- **Source:** https://github.com/sjgant80-hub/shopify-mcp
+- **npm:** `npm install @ai-native-solutions/shopify-mcp`
+- **MCP:** `claude mcp add shopify -- npx -y @ai-native-solutions/shopify-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4894,6 +6946,18 @@ si-didy-memory mcp · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### slack MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=slack-mcp
+- **Source:** https://github.com/sjgant80-hub/slack-mcp
+- **npm:** `npm install @ai-native-solutions/slack-mcp`
+- **MCP:** `claude mcp add slack -- npx -y @ai-native-solutions/slack-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### smbaios MCP
 
 Companion MCP for smbaios · minted by mint-all · sovereign estate
@@ -4903,6 +6967,42 @@ Companion MCP for smbaios · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/smbaios-mcp
 - **npm:** `npm install @ai-native-solutions/smbaios-mcp`
 - **MCP:** `claude mcp add smbaios -- npx -y @ai-native-solutions/smbaios-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### strapi MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=strapi-mcp
+- **Source:** https://github.com/sjgant80-hub/strapi-mcp
+- **npm:** `npm install @ai-native-solutions/strapi-mcp`
+- **MCP:** `claude mcp add strapi -- npx -y @ai-native-solutions/strapi-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### stripe MCP
+
+Sovereign MCP wrapper for Stripe · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=stripe-mcp
+- **Source:** https://github.com/sjgant80-hub/stripe-mcp
+- **npm:** `npm install @ai-native-solutions/stripe-mcp`
+- **MCP:** `claude mcp add stripe -- npx -y @ai-native-solutions/stripe-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### supabase MCP
+
+Sovereign MCP wrapper for Supabase · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=supabase-mcp
+- **Source:** https://github.com/sjgant80-hub/supabase-mcp
+- **npm:** `npm install @ai-native-solutions/supabase-mcp`
+- **MCP:** `claude mcp add supabase -- npx -y @ai-native-solutions/supabase-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4927,6 +7027,18 @@ Companion MCP for temuoracle · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/temuoracle-mcp
 - **npm:** `npm install @ai-native-solutions/temuoracle-mcp`
 - **MCP:** `claude mcp add temuoracle -- npx -y @ai-native-solutions/temuoracle-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### together-ai MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=together-ai-mcp
+- **Source:** https://github.com/sjgant80-hub/together-ai-mcp
+- **npm:** `npm install @ai-native-solutions/together-ai-mcp`
+- **MCP:** `claude mcp add together-ai -- npx -y @ai-native-solutions/together-ai-mcp`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -4966,6 +7078,90 @@ Companion MCP for trilogy-framework · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### turso MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=turso-mcp
+- **Source:** https://github.com/sjgant80-hub/turso-mcp
+- **npm:** `npm install @ai-native-solutions/turso-mcp`
+- **MCP:** `claude mcp add turso -- npx -y @ai-native-solutions/turso-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### twilio MCP
+
+Sovereign MCP wrapper for Twilio · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=twilio-mcp
+- **Source:** https://github.com/sjgant80-hub/twilio-mcp
+- **npm:** `npm install @ai-native-solutions/twilio-mcp`
+- **MCP:** `claude mcp add twilio -- npx -y @ai-native-solutions/twilio-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### typesense MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=typesense-mcp
+- **Source:** https://github.com/sjgant80-hub/typesense-mcp
+- **npm:** `npm install @ai-native-solutions/typesense-mcp`
+- **MCP:** `claude mcp add typesense -- npx -y @ai-native-solutions/typesense-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### upstash MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=upstash-mcp
+- **Source:** https://github.com/sjgant80-hub/upstash-mcp
+- **npm:** `npm install @ai-native-solutions/upstash-mcp`
+- **MCP:** `claude mcp add upstash -- npx -y @ai-native-solutions/upstash-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### vapi MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=vapi-mcp
+- **Source:** https://github.com/sjgant80-hub/vapi-mcp
+- **npm:** `npm install @ai-native-solutions/vapi-mcp`
+- **MCP:** `claude mcp add vapi -- npx -y @ai-native-solutions/vapi-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### vercel MCP
+
+Sovereign MCP wrapper for Vercel · AI-Native Solutions estate · MIT
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=vercel-mcp
+- **Source:** https://github.com/sjgant80-hub/vercel-mcp
+- **npm:** `npm install @ai-native-solutions/vercel-mcp`
+- **MCP:** `claude mcp add vercel -- npx -y @ai-native-solutions/vercel-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### weaviate MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=weaviate-mcp
+- **Source:** https://github.com/sjgant80-hub/weaviate-mcp
+- **npm:** `npm install @ai-native-solutions/weaviate-mcp`
+- **MCP:** `claude mcp add weaviate -- npx -y @ai-native-solutions/weaviate-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### wishwood MCP
 
 Companion MCP for wishwood · minted by mint-all · sovereign estate
@@ -4978,9 +7174,33 @@ Companion MCP for wishwood · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### woocommerce MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=woocommerce-mcp
+- **Source:** https://github.com/sjgant80-hub/woocommerce-mcp
+- **npm:** `npm install @ai-native-solutions/woocommerce-mcp`
+- **MCP:** `claude mcp add woocommerce -- npx -y @ai-native-solutions/woocommerce-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### xata MCP
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** mcp
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=xata-mcp
+- **Source:** https://github.com/sjgant80-hub/xata-mcp
+- **npm:** `npm install @ai-native-solutions/xata-mcp`
+- **MCP:** `claude mcp add xata -- npx -y @ai-native-solutions/xata-mcp`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ---
 
-## HTTP APIs (206)
+## HTTP APIs (297)
 
 ### 9-axis-human-sonar API
 
@@ -5030,6 +7250,126 @@ Companion API for adshop · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### airtable API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=airtable-api
+- **Source:** https://github.com/sjgant80-hub/airtable-api
+- **npm:** `npm install @ai-native-solutions/airtable-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/airtable-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### algolia API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=algolia-api
+- **Source:** https://github.com/sjgant80-hub/algolia-api
+- **npm:** `npm install @ai-native-solutions/algolia-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/algolia-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### anthropic-claude API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=anthropic-claude-api
+- **Source:** https://github.com/sjgant80-hub/anthropic-claude-api
+- **npm:** `npm install @ai-native-solutions/anthropic-claude-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/anthropic-claude-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### asana API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=asana-api
+- **Source:** https://github.com/sjgant80-hub/asana-api
+- **npm:** `npm install @ai-native-solutions/asana-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/asana-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### assembly-ai API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=assembly-ai-api
+- **Source:** https://github.com/sjgant80-hub/assembly-ai-api
+- **npm:** `npm install @ai-native-solutions/assembly-ai-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/assembly-ai-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### auth0 API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=auth0-api
+- **Source:** https://github.com/sjgant80-hub/auth0-api
+- **npm:** `npm install @ai-native-solutions/auth0-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/auth0-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-dynamodb API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-dynamodb-api
+- **Source:** https://github.com/sjgant80-hub/aws-dynamodb-api
+- **npm:** `npm install @ai-native-solutions/aws-dynamodb-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/aws-dynamodb-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-lambda API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-lambda-api
+- **Source:** https://github.com/sjgant80-hub/aws-lambda-api
+- **npm:** `npm install @ai-native-solutions/aws-lambda-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/aws-lambda-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-s3 API
+
+Sovereign API wrapper for AWS S3 · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-s3-api
+- **Source:** https://github.com/sjgant80-hub/aws-s3-api
+- **npm:** `npm install @ai-native-solutions/aws-s3-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/aws-s3-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### aws-sqs API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=aws-sqs-api
+- **Source:** https://github.com/sjgant80-hub/aws-sqs-api
+- **npm:** `npm install @ai-native-solutions/aws-sqs-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/aws-sqs-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### barberhq API
 
 Companion API for barberhq · minted by mint-all · sovereign estate
@@ -5039,6 +7379,18 @@ Companion API for barberhq · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/barberhq-api
 - **npm:** `npm install @ai-native-solutions/barberhq-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/barberhq-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### bitbucket API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=bitbucket-api
+- **Source:** https://github.com/sjgant80-hub/bitbucket-api
+- **npm:** `npm install @ai-native-solutions/bitbucket-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/bitbucket-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -5090,6 +7442,126 @@ Companion API for cassietorusbtc135solver · minted by mint-all · sovereign est
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### chroma API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=chroma-api
+- **Source:** https://github.com/sjgant80-hub/chroma-api
+- **npm:** `npm install @ai-native-solutions/chroma-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/chroma-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clerk API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clerk-api
+- **Source:** https://github.com/sjgant80-hub/clerk-api
+- **npm:** `npm install @ai-native-solutions/clerk-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/clerk-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### clickup API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=clickup-api
+- **Source:** https://github.com/sjgant80-hub/clickup-api
+- **npm:** `npm install @ai-native-solutions/clickup-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/clickup-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-r2 API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-r2-api
+- **Source:** https://github.com/sjgant80-hub/cloudflare-r2-api
+- **npm:** `npm install @ai-native-solutions/cloudflare-r2-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/cloudflare-r2-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-stream API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-stream-api
+- **Source:** https://github.com/sjgant80-hub/cloudflare-stream-api
+- **npm:** `npm install @ai-native-solutions/cloudflare-stream-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/cloudflare-stream-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cloudflare-workers API
+
+Sovereign API wrapper for Cloudflare Workers · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cloudflare-workers-api
+- **Source:** https://github.com/sjgant80-hub/cloudflare-workers-api
+- **npm:** `npm install @ai-native-solutions/cloudflare-workers-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/cloudflare-workers-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### cohere API
+
+Sovereign API wrapper for Cohere · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=cohere-api
+- **Source:** https://github.com/sjgant80-hub/cohere-api
+- **npm:** `npm install @ai-native-solutions/cohere-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/cohere-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### contentful API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=contentful-api
+- **Source:** https://github.com/sjgant80-hub/contentful-api
+- **npm:** `npm install @ai-native-solutions/contentful-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/contentful-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### convertkit-kit API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=convertkit-kit-api
+- **Source:** https://github.com/sjgant80-hub/convertkit-kit-api
+- **npm:** `npm install @ai-native-solutions/convertkit-kit-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/convertkit-kit-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### datadog API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=datadog-api
+- **Source:** https://github.com/sjgant80-hub/datadog-api
+- **npm:** `npm install @ai-native-solutions/datadog-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/datadog-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### deep API
 
 AI Deep Research API - ask anything, get structured intelligence reports with citations. Multi-LLM. Real-time streaming.
@@ -5102,6 +7574,78 @@ AI Deep Research API - ask anything, get structured intelligence reports with ci
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### deepgram API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepgram-api
+- **Source:** https://github.com/sjgant80-hub/deepgram-api
+- **npm:** `npm install @ai-native-solutions/deepgram-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/deepgram-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deepseek API
+
+Sovereign API wrapper for DeepSeek · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deepseek-api
+- **Source:** https://github.com/sjgant80-hub/deepseek-api
+- **npm:** `npm install @ai-native-solutions/deepseek-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/deepseek-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### deno-deploy API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=deno-deploy-api
+- **Source:** https://github.com/sjgant80-hub/deno-deploy-api
+- **npm:** `npm install @ai-native-solutions/deno-deploy-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/deno-deploy-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### digitalocean API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=digitalocean-api
+- **Source:** https://github.com/sjgant80-hub/digitalocean-api
+- **npm:** `npm install @ai-native-solutions/digitalocean-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/digitalocean-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### discord API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=discord-api
+- **Source:** https://github.com/sjgant80-hub/discord-api
+- **npm:** `npm install @ai-native-solutions/discord-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/discord-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### docker-hub API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=docker-hub-api
+- **Source:** https://github.com/sjgant80-hub/docker-hub-api
+- **npm:** `npm install @ai-native-solutions/docker-hub-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/docker-hub-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### docmind API
 
 AI Document Intelligence API - receipts, invoices, bank statements, contracts to structured JSON. Multi-LLM backend.
@@ -5111,6 +7655,18 @@ AI Document Intelligence API - receipts, invoices, bank statements, contracts to
 - **Source:** https://github.com/sjgant80-hub/docmind-api
 - **npm:** `npm install @ai-native-solutions/docmind-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/docmind-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### elevenlabs API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=elevenlabs-api
+- **Source:** https://github.com/sjgant80-hub/elevenlabs-api
+- **npm:** `npm install @ai-native-solutions/elevenlabs-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/elevenlabs-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -5711,6 +8267,18 @@ Companion API for fallhrpaper · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/fallhrpaper-api
 - **npm:** `npm install @ai-native-solutions/fallhrpaper-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/fallhrpaper-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### fallhrpractice API
+
+Companion API for fallhrpractice · minted by mint-all · sovereign estate
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallhrpractice-api
+- **Source:** https://github.com/sjgant80-hub/fallhrpractice-api
+- **npm:** `npm install @ai-native-solutions/fallhrpractice-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/fallhrpractice-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -6710,6 +9278,18 @@ HTTP API wrapping fallwatch-sdk · estate ping · chain verify · hygiene · OP1
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### firebase API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=firebase-api
+- **Source:** https://github.com/sjgant80-hub/firebase-api
+- **npm:** `npm install @ai-native-solutions/firebase-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/firebase-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### flux API
 
 AI Content Engine API - blog posts, social media, email campaigns, ad copy, landing pages via API. Multi-LLM. Structured JSON.
@@ -6734,6 +9314,18 @@ flux-api api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### fly-io API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fly-io-api
+- **Source:** https://github.com/sjgant80-hub/fly-io-api
+- **npm:** `npm install @ai-native-solutions/fly-io-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/fly-io-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### foldkit API
 
 Companion API for foldkit · minted by mint-all · sovereign estate
@@ -6743,6 +9335,90 @@ Companion API for foldkit · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/foldkit-api
 - **npm:** `npm install @ai-native-solutions/foldkit-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/foldkit-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gcp-cloud-storage API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gcp-cloud-storage-api
+- **Source:** https://github.com/sjgant80-hub/gcp-cloud-storage-api
+- **npm:** `npm install @ai-native-solutions/gcp-cloud-storage-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/gcp-cloud-storage-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### github API
+
+Sovereign API wrapper for GitHub · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=github-api
+- **Source:** https://github.com/sjgant80-hub/github-api
+- **npm:** `npm install @ai-native-solutions/github-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/github-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### gitlab API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=gitlab-api
+- **Source:** https://github.com/sjgant80-hub/gitlab-api
+- **npm:** `npm install @ai-native-solutions/gitlab-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/gitlab-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-gemini API
+
+Sovereign API wrapper for Google Gemini · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-gemini-api
+- **Source:** https://github.com/sjgant80-hub/google-gemini-api
+- **npm:** `npm install @ai-native-solutions/google-gemini-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/google-gemini-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### google-maps API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=google-maps-api
+- **Source:** https://github.com/sjgant80-hub/google-maps-api
+- **npm:** `npm install @ai-native-solutions/google-maps-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/google-maps-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### grafana-cloud API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=grafana-cloud-api
+- **Source:** https://github.com/sjgant80-hub/grafana-cloud-api
+- **npm:** `npm install @ai-native-solutions/grafana-cloud-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/grafana-cloud-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### groq API
+
+Sovereign API wrapper for Groq · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=groq-api
+- **Source:** https://github.com/sjgant80-hub/groq-api
+- **npm:** `npm install @ai-native-solutions/groq-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/groq-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -6806,6 +9482,30 @@ Companion API for honestly · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### hubspot API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=hubspot-api
+- **Source:** https://github.com/sjgant80-hub/hubspot-api
+- **npm:** `npm install @ai-native-solutions/hubspot-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/hubspot-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### huggingface API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=huggingface-api
+- **Source:** https://github.com/sjgant80-hub/huggingface-api
+- **npm:** `npm install @ai-native-solutions/huggingface-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/huggingface-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### init-book API
 
 Companion API for init-book · minted by mint-all · sovereign estate
@@ -6827,6 +9527,18 @@ init-the-map api · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/init-the-map-api
 - **npm:** `npm install @ai-native-solutions/init-the-map-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/init-the-map-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### inngest API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=inngest-api
+- **Source:** https://github.com/sjgant80-hub/inngest-api
+- **npm:** `npm install @ai-native-solutions/inngest-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/inngest-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -6962,6 +9674,18 @@ kdot-shim api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### klaviyo API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=klaviyo-api
+- **Source:** https://github.com/sjgant80-hub/klaviyo-api
+- **npm:** `npm install @ai-native-solutions/klaviyo-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/klaviyo-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### konomi-cube API
 
 konomi-cube api · @ai-native-solutions
@@ -6998,6 +9722,78 @@ konomigami-lib api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### langfuse API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langfuse-api
+- **Source:** https://github.com/sjgant80-hub/langfuse-api
+- **npm:** `npm install @ai-native-solutions/langfuse-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/langfuse-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### langsmith API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=langsmith-api
+- **Source:** https://github.com/sjgant80-hub/langsmith-api
+- **npm:** `npm install @ai-native-solutions/langsmith-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/langsmith-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### linear API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=linear-api
+- **Source:** https://github.com/sjgant80-hub/linear-api
+- **npm:** `npm install @ai-native-solutions/linear-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/linear-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mailchimp API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mailchimp-api
+- **Source:** https://github.com/sjgant80-hub/mailchimp-api
+- **npm:** `npm install @ai-native-solutions/mailchimp-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mailchimp-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mapbox API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mapbox-api
+- **Source:** https://github.com/sjgant80-hub/mapbox-api
+- **npm:** `npm install @ai-native-solutions/mapbox-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mapbox-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### meilisearch API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=meilisearch-api
+- **Source:** https://github.com/sjgant80-hub/meilisearch-api
+- **npm:** `npm install @ai-native-solutions/meilisearch-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/meilisearch-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### mesh-89-tracker API
 
 Companion API for mesh-89-tracker · minted by mint-all · sovereign estate
@@ -7007,6 +9803,78 @@ Companion API for mesh-89-tracker · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/mesh-89-tracker-api
 - **npm:** `npm install @ai-native-solutions/mesh-89-tracker-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mesh-89-tracker-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mistral API
+
+Sovereign API wrapper for Mistral · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mistral-api
+- **Source:** https://github.com/sjgant80-hub/mistral-api
+- **npm:** `npm install @ai-native-solutions/mistral-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mistral-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mixpanel API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mixpanel-api
+- **Source:** https://github.com/sjgant80-hub/mixpanel-api
+- **npm:** `npm install @ai-native-solutions/mixpanel-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mixpanel-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mongodb-atlas API
+
+Sovereign API wrapper for MongoDB Atlas · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mongodb-atlas-api
+- **Source:** https://github.com/sjgant80-hub/mongodb-atlas-api
+- **npm:** `npm install @ai-native-solutions/mongodb-atlas-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mongodb-atlas-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### mux API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=mux-api
+- **Source:** https://github.com/sjgant80-hub/mux-api
+- **npm:** `npm install @ai-native-solutions/mux-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/mux-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### neon API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=neon-api
+- **Source:** https://github.com/sjgant80-hub/neon-api
+- **npm:** `npm install @ai-native-solutions/neon-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/neon-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### new-relic API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=new-relic-api
+- **Source:** https://github.com/sjgant80-hub/new-relic-api
+- **npm:** `npm install @ai-native-solutions/new-relic-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/new-relic-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7070,6 +9938,18 @@ niceassos-organs api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### notion API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=notion-api
+- **Source:** https://github.com/sjgant80-hub/notion-api
+- **npm:** `npm install @ai-native-solutions/notion-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/notion-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### offgridcommunitiessystem API
 
 offgridcommunitiessystem api · @ai-native-solutions
@@ -7106,6 +9986,126 @@ Companion API for operator · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### perplexity API
+
+Sovereign API wrapper for Perplexity · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=perplexity-api
+- **Source:** https://github.com/sjgant80-hub/perplexity-api
+- **npm:** `npm install @ai-native-solutions/perplexity-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/perplexity-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pinecone API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pinecone-api
+- **Source:** https://github.com/sjgant80-hub/pinecone-api
+- **npm:** `npm install @ai-native-solutions/pinecone-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/pinecone-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### pipedrive API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=pipedrive-api
+- **Source:** https://github.com/sjgant80-hub/pipedrive-api
+- **npm:** `npm install @ai-native-solutions/pipedrive-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/pipedrive-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### planetscale API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=planetscale-api
+- **Source:** https://github.com/sjgant80-hub/planetscale-api
+- **npm:** `npm install @ai-native-solutions/planetscale-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/planetscale-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### plausible API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=plausible-api
+- **Source:** https://github.com/sjgant80-hub/plausible-api
+- **npm:** `npm install @ai-native-solutions/plausible-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/plausible-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### postgresql API
+
+Sovereign API wrapper for PostgreSQL · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=postgresql-api
+- **Source:** https://github.com/sjgant80-hub/postgresql-api
+- **npm:** `npm install @ai-native-solutions/postgresql-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/postgresql-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-api
+- **Source:** https://github.com/sjgant80-hub/posthog-api
+- **npm:** `npm install @ai-native-solutions/posthog-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/posthog-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### posthog-llm-obs API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=posthog-llm-obs-api
+- **Source:** https://github.com/sjgant80-hub/posthog-llm-obs-api
+- **npm:** `npm install @ai-native-solutions/posthog-llm-obs-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/posthog-llm-obs-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qdrant API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qdrant-api
+- **Source:** https://github.com/sjgant80-hub/qdrant-api
+- **npm:** `npm install @ai-native-solutions/qdrant-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/qdrant-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### qstash API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=qstash-api
+- **Source:** https://github.com/sjgant80-hub/qstash-api
+- **npm:** `npm install @ai-native-solutions/qstash-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/qstash-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### quine-cube-runner API
 
 Companion API for quine-cube-runner · minted by mint-all · sovereign estate
@@ -7115,6 +10115,30 @@ Companion API for quine-cube-runner · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/quine-cube-runner-api
 - **npm:** `npm install @ai-native-solutions/quine-cube-runner-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/quine-cube-runner-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### railway API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=railway-api
+- **Source:** https://github.com/sjgant80-hub/railway-api
+- **npm:** `npm install @ai-native-solutions/railway-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/railway-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### redis API
+
+Sovereign API wrapper for Redis · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=redis-api
+- **Source:** https://github.com/sjgant80-hub/redis-api
+- **npm:** `npm install @ai-native-solutions/redis-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/redis-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7262,6 +10286,54 @@ reg-war api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### render API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=render-api
+- **Source:** https://github.com/sjgant80-hub/render-api
+- **npm:** `npm install @ai-native-solutions/render-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/render-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### replicate API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=replicate-api
+- **Source:** https://github.com/sjgant80-hub/replicate-api
+- **npm:** `npm install @ai-native-solutions/replicate-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/replicate-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### resend API
+
+Sovereign API wrapper for Resend · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=resend-api
+- **Source:** https://github.com/sjgant80-hub/resend-api
+- **npm:** `npm install @ai-native-solutions/resend-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/resend-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### retell API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=retell-api
+- **Source:** https://github.com/sjgant80-hub/retell-api
+- **npm:** `npm install @ai-native-solutions/retell-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/retell-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### roost API
 
 roost api · @ai-native-solutions
@@ -7271,6 +10343,78 @@ roost api · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/roost-api
 - **npm:** `npm install @ai-native-solutions/roost-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/roost-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### runway API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=runway-api
+- **Source:** https://github.com/sjgant80-hub/runway-api
+- **npm:** `npm install @ai-native-solutions/runway-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/runway-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### salesforce API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=salesforce-api
+- **Source:** https://github.com/sjgant80-hub/salesforce-api
+- **npm:** `npm install @ai-native-solutions/salesforce-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/salesforce-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sanity API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sanity-api
+- **Source:** https://github.com/sjgant80-hub/sanity-api
+- **npm:** `npm install @ai-native-solutions/sanity-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/sanity-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### segment API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=segment-api
+- **Source:** https://github.com/sjgant80-hub/segment-api
+- **npm:** `npm install @ai-native-solutions/segment-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/segment-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sendgrid API
+
+Sovereign API wrapper for SendGrid · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sendgrid-api
+- **Source:** https://github.com/sjgant80-hub/sendgrid-api
+- **npm:** `npm install @ai-native-solutions/sendgrid-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/sendgrid-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### sentry API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=sentry-api
+- **Source:** https://github.com/sjgant80-hub/sentry-api
+- **npm:** `npm install @ai-native-solutions/sentry-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/sentry-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7307,6 +10451,18 @@ shadowcompass-repo api · @ai-native-solutions
 - **Source:** https://github.com/sjgant80-hub/shadowcompass-repo-api
 - **npm:** `npm install @ai-native-solutions/shadowcompass-repo-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/shadowcompass-repo-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### shopify API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=shopify-api
+- **Source:** https://github.com/sjgant80-hub/shopify-api
+- **npm:** `npm install @ai-native-solutions/shopify-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/shopify-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7370,6 +10526,18 @@ si-didy-memory api · @ai-native-solutions
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### slack API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=slack-api
+- **Source:** https://github.com/sjgant80-hub/slack-api
+- **npm:** `npm install @ai-native-solutions/slack-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/slack-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### smbaios API
 
 Companion API for smbaios · minted by mint-all · sovereign estate
@@ -7379,6 +10547,30 @@ Companion API for smbaios · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/smbaios-api
 - **npm:** `npm install @ai-native-solutions/smbaios-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/smbaios-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### strapi API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=strapi-api
+- **Source:** https://github.com/sjgant80-hub/strapi-api
+- **npm:** `npm install @ai-native-solutions/strapi-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/strapi-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### supabase API
+
+Sovereign API wrapper for Supabase · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=supabase-api
+- **Source:** https://github.com/sjgant80-hub/supabase-api
+- **npm:** `npm install @ai-native-solutions/supabase-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/supabase-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7403,6 +10595,18 @@ Companion API for temuoracle · minted by mint-all · sovereign estate
 - **Source:** https://github.com/sjgant80-hub/temuoracle-api
 - **npm:** `npm install @ai-native-solutions/temuoracle-api`
 - **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/temuoracle-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### together-ai API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=together-ai-api
+- **Source:** https://github.com/sjgant80-hub/together-ai-api
+- **npm:** `npm install @ai-native-solutions/together-ai-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/together-ai-api:latest`
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -7442,6 +10646,90 @@ Companion API for trilogy-framework · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### turso API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=turso-api
+- **Source:** https://github.com/sjgant80-hub/turso-api
+- **npm:** `npm install @ai-native-solutions/turso-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/turso-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### twilio API
+
+Sovereign API wrapper for Twilio · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=twilio-api
+- **Source:** https://github.com/sjgant80-hub/twilio-api
+- **npm:** `npm install @ai-native-solutions/twilio-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/twilio-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### typesense API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=typesense-api
+- **Source:** https://github.com/sjgant80-hub/typesense-api
+- **npm:** `npm install @ai-native-solutions/typesense-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/typesense-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### upstash API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=upstash-api
+- **Source:** https://github.com/sjgant80-hub/upstash-api
+- **npm:** `npm install @ai-native-solutions/upstash-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/upstash-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### vapi API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=vapi-api
+- **Source:** https://github.com/sjgant80-hub/vapi-api
+- **npm:** `npm install @ai-native-solutions/vapi-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/vapi-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### vercel API
+
+Sovereign API wrapper for Vercel · AI-Native Solutions estate · MIT
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=vercel-api
+- **Source:** https://github.com/sjgant80-hub/vercel-api
+- **npm:** `npm install @ai-native-solutions/vercel-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/vercel-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### weaviate API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=weaviate-api
+- **Source:** https://github.com/sjgant80-hub/weaviate-api
+- **npm:** `npm install @ai-native-solutions/weaviate-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/weaviate-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### wishwood API
 
 Companion API for wishwood · minted by mint-all · sovereign estate
@@ -7454,9 +10742,33 @@ Companion API for wishwood · minted by mint-all · sovereign estate
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### woocommerce API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=woocommerce-api
+- **Source:** https://github.com/sjgant80-hub/woocommerce-api
+- **npm:** `npm install @ai-native-solutions/woocommerce-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/woocommerce-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### xata API
+
+Sovereign wrapper for target · real bindings
+
+- **Kind:** api
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=xata-api
+- **Source:** https://github.com/sjgant80-hub/xata-api
+- **npm:** `npm install @ai-native-solutions/xata-api`
+- **Docker:** `docker run -p 3000:3000 ghcr.io/sjgant80-hub/xata-api:latest`
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ---
 
-## Standalone tools (326)
+## Standalone tools (329)
 
 ### 9-axis-human-sonar
 
@@ -8423,6 +11735,17 @@ Sovereign single-file tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallclinicpractice
 - **Source:** https://github.com/sjgant80-hub/fallclinicpractice
 - **Playground:** https://sjgant80-hub.github.io/fallclinicpractice/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### fallcloser
+
+Ring 6 (resolution) flagship · batch loop-closer · peer to fallresolve · MIT
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallcloser
+- **Source:** https://github.com/sjgant80-hub/fallcloser
+- **Playground:** https://sjgant80-hub.github.io/fallcloser/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
@@ -9625,6 +12948,17 @@ FallSeed for UK estate firms — single-HTML PWA · 4 tools · LLM-agnostic casc
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
+### fallseed-generator
+
+Ring 0 (ground) flagship · meta-generator for fallseed-<vertical> tools · MIT
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallseed-generator
+- **Source:** https://github.com/sjgant80-hub/fallseed-generator
+- **Playground:** https://sjgant80-hub.github.io/fallseed-generator/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
 ### fallseed-hr
 
 Sovereign single-file tool
@@ -9919,6 +13253,17 @@ Ring 5 watcher-of-watchers · browser + optional-Node companion · session hygie
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallwatch
 - **Source:** https://github.com/sjgant80-hub/fallwatch
 - **Playground:** https://sjgant80-hub.github.io/fallwatch/
+- **License:** MIT
+- **Publisher:** ai-native-solutions
+
+### fallwatcher
+
+Ring 5 (observation) flagship · watcher-of-watchers · nightly estate audit · MIT
+
+- **Kind:** tool
+- **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallwatcher
+- **Source:** https://github.com/sjgant80-hub/fallwatcher
+- **Playground:** https://sjgant80-hub.github.io/fallwatcher/
 - **License:** MIT
 - **Publisher:** ai-native-solutions
 
