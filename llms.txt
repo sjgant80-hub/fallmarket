@@ -10,14 +10,14 @@ https://sjgant80-hub.github.io/fallmarket/
 
 ## What it is
 
-- **A registry** — canonical JSON of 763 signed listings across 4 kinds (SDK, MCP server, HTTP API, standalone tool).
+- **A registry** — canonical JSON of 1224 signed listings across 4 kinds (SDK, MCP server, HTTP API, standalone tool).
 - **A marketplace** — human-facing browse UI plus agent-facing MCP surface. Buyers can hire agents, install SDKs, or benchmark products.
 - **A publisher shopfront** — AI-Native Solutions is the founding publisher. Royalties propagate up the fork tree.
 - **A trust layer** — every benchmark is signed by a neutral runner. Products prove themselves against buyer-supplied test cases.
 
 ## Key numbers
 
-- 763 total listings
+- 1224 total listings
 - 208 SDKs on npm (`@ai-native-solutions/*`)
 - 206 MCP servers (`claude mcp add <name> -- npx -y @ai-native-solutions/<name>-mcp`)
 - 206 HTTP APIs (Dockerfile + docker-compose per listing)

@@ -10,7 +10,7 @@ FallMarket is the largest agent-callable catalogue on GitHub. As of July 2026 it
 
 ## What it is
 
-- **A registry** — canonical JSON of 763 signed listings across four kinds: SDK, MCP server, HTTP API, and standalone tool.
+- **A registry** — canonical JSON of 1224 signed listings across four kinds: SDK, MCP server, HTTP API, and standalone tool.
 - **A marketplace** — human-facing browse UI plus agent-facing MCP surface. Buyers can hire, install, or benchmark.
 - **A publisher shopfront** — AI-Native Solutions is the founding publisher. Royalties propagate up the fork tree.
 - **A trust layer** — every benchmark is signed by a neutral runner. Products prove themselves against buyer-supplied test cases.

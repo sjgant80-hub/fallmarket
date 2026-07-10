@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estate quality · FallMarket · 766-repo health dashboard</title>
+<title>Estate quality · FallMarket · 1224-repo health dashboard</title>
 <meta name="description" content="Live health scorecard for every FallMarket listing. Grade · GEO coverage · broken files · foldkit contamination. Refreshed nightly.">
 <meta name="keywords" content="FallMarket quality dashboard, estate audit, MCP registry quality">
 <link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/quality.html">
@@ -117,7 +117,16 @@ async function load() {
 
 function render() {
   const s = state.report.summary;
+  // Detect stale audit against current catalog and warn
+  let staleBanner = '';
+  fetch('./listings.json', { cache: 'no-store' }).then(r => r.json()).then(cat => {
+    if (cat.total && cat.total > state.report.total_repos) {
+      const el = document.getElementById('stale-banner');
+      if (el) el.innerHTML = `<div style="padding:14px 18px;margin-bottom:16px;background:rgba(212,160,23,0.08);border-left:3px solid var(--brass);color:var(--cream);font-size:13px;line-height:1.55">◊ Catalog has grown to <strong>${cat.total}</strong> listings since the last audit (scanned ${state.report.total_repos}). Fresh audit runs on the nightly workflow · numbers below reflect the previous catalog snapshot.</div>`;
+    }
+  }).catch(() => {});
   document.getElementById('summary').innerHTML = `
+    <div id="stale-banner"></div>
     <p style="color: var(--dim); margin-bottom: 1rem;">
       Last audit · <strong>${new Date(state.report.generated_at).toLocaleString()}</strong> · scanned ${state.report.total_repos} repos in ${state.report.wall_seconds}s
     </p>

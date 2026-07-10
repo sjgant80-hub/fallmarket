@@ -38,7 +38,12 @@ function processFile(path) {
       new RegExp(`${n} offerings`, 'g'),
       new RegExp(`${n} MIT`, 'g'),
       new RegExp(`${n} · MIT`, 'g'),
-      new RegExp(`${n} agent-callable`, 'g')
+      new RegExp(`${n} agent-callable`, 'g'),
+      new RegExp(`${n}-repo`, 'g'),
+      new RegExp(`· ${n} ·`, 'g'),
+      new RegExp(`FallMarket · ${n}`, 'g'),
+      new RegExp(`${n} signed listings`, 'g'),
+      new RegExp(`${n} total listings`, 'g')
     ];
     for (const p of patterns) {
       content = content.replace(p, (m) => m.replace(String(n), String(total)));
