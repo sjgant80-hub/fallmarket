@@ -1,149 +1,4239 @@
 {
   "v": 1,
-  "at": "2026-07-09T21:39:58.827Z",
-  "ok": 34,
-  "fail": 2,
+  "at": "2026-07-10T03:21:59.243Z",
+  "ok": 433,
+  "fail": 6,
   "results": [
     {
-      "id": "GITHMI",
+      "id": "digitalocean-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "digitalocean-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "digitalocean-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fly-io-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fly-io-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fly-io-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "render-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "render-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "render-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "railway-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "railway-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "railway-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deno-deploy-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deno-deploy-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deno-deploy-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "xata-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "xata-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "xata-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "turso-mcp",
+      "ok": false,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ERR: Command failed: git push -q origin HEAD 2>&1"
+    },
+    {
+      "id": "turso-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "turso-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qstash-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qstash-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qstash-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "upstash-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "upstash-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "upstash-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "inngest-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "inngest-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "inngest-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langfuse-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langfuse-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langfuse-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langsmith-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langsmith-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "langsmith-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "runway-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "runway-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "runway-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "retell-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "retell-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "retell-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "vapi-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "vapi-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "vapi-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "assembly-ai-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "assembly-ai-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "assembly-ai-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepgram-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepgram-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepgram-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "elevenlabs-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "elevenlabs-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "elevenlabs-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-stream-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-stream-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-stream-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mux-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mux-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mux-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "docker-hub-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "docker-hub-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "docker-hub-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "bitbucket-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "bitbucket-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "bitbucket-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gitlab-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gitlab-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gitlab-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "strapi-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "strapi-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "strapi-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sanity-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sanity-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sanity-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "contentful-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "contentful-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "contentful-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "woocommerce-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "woocommerce-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "woocommerce-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "shopify-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "shopify-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "shopify-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mapbox-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mapbox-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mapbox-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-maps-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-maps-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-maps-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "asana-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "asana-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "asana-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clickup-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clickup-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clickup-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "airtable-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "airtable-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "airtable-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "linear-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "linear-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "linear-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "notion-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "notion-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "notion-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "discord-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "discord-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "discord-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "slack-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "slack-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "slack-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "convertkit-kit-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "convertkit-kit-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "convertkit-kit-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "klaviyo-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "klaviyo-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "klaviyo-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mailchimp-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mailchimp-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mailchimp-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pipedrive-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pipedrive-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pipedrive-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "salesforce-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "salesforce-api",
+      "ok": false,
+      "reason": "clone failed",
+      "detail": "ERR: Command failed: git clone --depth 1 --quiet https://github.com/sjgant80-hub/salesforce-api.git C:\\Us"
+    },
+    {
+      "id": "salesforce-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "hubspot-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "hubspot-api",
+      "ok": false,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ERR: Command failed: git push -q origin HEAD 2>&1"
+    },
+    {
+      "id": "hubspot-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-llm-obs-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-llm-obs-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-llm-obs-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "grafana-cloud-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "grafana-cloud-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "grafana-cloud-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "new-relic-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "new-relic-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "new-relic-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "datadog-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "datadog-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "datadog-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sentry-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sentry-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sentry-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "plausible-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "plausible-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "plausible-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "segment-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "segment-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "segment-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "amplitude-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "amplitude-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mixpanel-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mixpanel-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mixpanel-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "posthog-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallhrpractice-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "typesense-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "typesense-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "typesense-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "meilisearch-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "meilisearch-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "meilisearch-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "algolia-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "algolia-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "algolia-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "chroma-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "chroma-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "chroma-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qdrant-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qdrant-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "qdrant-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "weaviate-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "weaviate-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "weaviate-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pinecone-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pinecone-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "pinecone-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "planetscale-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "planetscale-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "planetscale-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "neon-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "neon-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "neon-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-r2-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-r2-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-r2-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gcp-cloud-storage-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gcp-cloud-storage-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gcp-cloud-storage-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-sqs-mcp",
+      "ok": false,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ERR: Command failed: git push -q origin HEAD 2>&1"
+    },
+    {
+      "id": "aws-sqs-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-sqs-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-dynamodb-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-dynamodb-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-dynamodb-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-lambda-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-lambda-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-lambda-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "firebase-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "firebase-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "firebase-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clerk-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clerk-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "clerk-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "auth0-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "auth0-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "auth0-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "together-ai-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "together-ai-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "together-ai-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "replicate-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "replicate-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "replicate-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "huggingface-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "huggingface-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "huggingface-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cohere-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cohere-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cohere-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "perplexity-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "perplexity-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "perplexity-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepseek-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepseek-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deepseek-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mistral-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mistral-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mistral-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groq-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groq-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groq-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-gemini-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-gemini-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "google-gemini-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "resend-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "resend-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "resend-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sendgrid-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sendgrid-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sendgrid-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mongodb-atlas-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mongodb-atlas-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mongodb-atlas-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "redis-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "redis-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "redis-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "postgresql-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "postgresql-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "postgresql-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "supabase-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "supabase-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "supabase-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "vercel-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "vercel-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-workers-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-workers-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cloudflare-workers-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "github-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "github-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "github-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-s3-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-s3-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aws-s3-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "twilio-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "twilio-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "twilio-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "stripe-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "stripe-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "openai-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "openai-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "anthropic-claude-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "anthropic-claude-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "anthropic-claude-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcast-api",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "GITSCADA",
+      "id": "fallfence-api",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "GITTAG",
+      "id": "fallharbor-sdk",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "GITCONTROL",
+      "id": "fallharbor-api",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "GITNITION",
+      "id": "fallvector-sdk",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "shields",
+      "id": "kdot-shim-sdk",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "konomi",
+      "id": "smbaios-mcp",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "LookingGlass",
+      "id": "offgridcommunitiessystem-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallinsurance-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallsync-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcube-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "trilogy-sdk",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcore-mcp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "flux-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "deep-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "docmind-api",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallseed-generator",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcloser",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallwatcher",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "si-didy-k2",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallpdf",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "Yggdrasil",
+      "id": "fallmint",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "JEDI",
+      "id": "fallecho",
       "ok": true,
       "added": [],
       "note": "nothing to add"
     },
     {
-      "id": "hallucination-elimination-benchmark",
-      "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "id": "si-didy-close",
+      "ok": false,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ERR: Command failed: git push -q origin HEAD 2>&1"
     },
     {
-      "id": "NODE-001",
+      "id": "si-didy-signer",
       "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
     },
     {
-      "id": "LRM",
+      "id": "si-didy-memory",
       "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
     },
     {
-      "id": "MianoCube",
+      "id": "si-didy-stance",
       "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
     },
     {
-      "id": "SpiralSense",
+      "id": "si-didy-cascade",
       "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
     },
     {
-      "id": "teslasolar",
+      "id": "niceassos-organs",
       "ok": true,
-      "added": [],
-      "note": "nothing to add"
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-ground",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-break",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-conductor",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "foldkit-extension",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "init-book",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kappa-eeg-checker",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "bloom-weighted-sididy",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "hello-device",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "quine-cube-runner",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "bloom-profile-builder",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "foldkit",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "mesh-89-tracker",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "9-axis-human-sonar",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "accountinghouse",
+      "ok": true,
+      "added": [
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "plumber-lead-machine",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kardv5",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "barberhq",
+      "ok": true,
+      "added": [
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "tradeshub",
+      "ok": true,
+      "added": [
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "adshop",
+      "ok": true,
+      "added": [
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "suzen",
+      "ok": true,
+      "added": [
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cassie-oracle-3",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "botler",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "roost",
+      "ok": true,
+      "added": [
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "si-didy-agent",
+      "ok": true,
+      "added": [
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "si-didy",
+      "ok": true,
+      "added": [
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aneta",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "KonomiStandard",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "AudioFabric-1",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "ACGGLOCK",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "declaw-l4-drift-case-study",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "init-the-map",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "sididy-didi",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "quine-cube",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kcc-bridge",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "depth-sim",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kcc-runner",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kcc-jobs",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallmortgage",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kcc-mint",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "offgridcommunitiessystem",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kard",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomi-cube-v2",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomigami-lib",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "temuoracle",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "acg-mapper",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-seed",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-mesh",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "niceassos-spec",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "digitaltwintopd",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "smbaios",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "forge-lab",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "exitengine",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcorp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "gymos",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groundlevel",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-kqtt-bridge",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cassietorusbtc135solver",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "falllearn",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallstack",
+      "ok": false,
+      "reason": "clone failed",
+      "detail": "ERR: Command failed: git clone --depth 1 --quiet https://github.com/sjgant80-hub/fallstack.git C:\\Users\\s"
+    },
+    {
+      "id": "fallscribe",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallback",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallmind-v2",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kat-tribute",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "operator",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "honestly",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "nhs-reinjection",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groundlevel-obsidian",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groundlevel-shim",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groundlevel-worker",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomi-dot-protocol",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-vetter",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "GoldenShower",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-substrate",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-verify",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-raas",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallhire",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallinvoice",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallap",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcarousel",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallflow",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcrm",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "contact",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "cassie-anthropic",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomi-signer",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcdn",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallmap",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallpost",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "trilogy-forge",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "aicraftspeopleguild.github.io-1",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "trilogy-framework",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallsalescrm",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-hot",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-bloom",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fall-palette",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallguild",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "falllist",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallform",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallslot",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallgravity",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallflip",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "audiofabric",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcore-factory",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcore",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "forge-upgrade",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomi-swarm",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "datascope",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallmesh",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallforensics",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallsignal",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallcall",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallconcierge",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallconsensus",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "fallgrade",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "falllead",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "oracleengine",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "master-seed",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "groundlevel-mvp",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "instantvm",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "konomioke",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "tonesmith",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "Eden",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "kp2p",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
+    },
+    {
+      "id": "awesome-mcp-servers",
+      "ok": true,
+      "added": [
+        "llms.txt",
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "push_result": "ok"
     },
     {
       "id": "aicraftspeopleguild.github.io",
-      "ok": false,
-      "reason": "temp cleanup failed",
-      "detail": "EPERM, Permission denied: \\\\?\\C:\\Users\\sjgan\\AppData\\Local\\Temp\\geo-shim-work\\aicraftspeopleguild.github.io '\\\\?\\C:\\Users\\sjgan\\AppData\\Local\\Temp\\geo-shim-work\\aicraftspeopleguild.github.io'"
-    },
-    {
-      "id": "Flintium",
       "ok": true,
       "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "ACG-Ballroom",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "ACG-SHIP",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
+        "llms.txt"
       ],
       "push_result": "ok"
     },
     {
       "id": "ACG-Test",
-      "ok": false,
-      "reason": "clone failed",
-      "detail": "ERR: Command failed: git clone --depth 1 --quiet https://github.com/sjgant80-hub/ACG-Test.git C:\\Users\\sj"
-    },
-    {
-      "id": "ACG-Codespace",
       "ok": true,
       "added": [
         "llms.txt",
@@ -153,7 +4243,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ACGPHONE",
+      "id": "ACGP2P",
       "ok": true,
       "added": [
         "llms.txt",
@@ -163,7 +4253,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ACGCLI",
+      "id": "ACGEDEN",
       "ok": true,
       "added": [
         "llms.txt",
@@ -173,7 +4263,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ACGBM",
+      "id": "SYMB-FER",
       "ok": true,
       "added": [
         "llms.txt",
@@ -183,7 +4273,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ACGNET",
+      "id": "BloomCad",
       "ok": true,
       "added": [
         "llms.txt",
@@ -193,7 +4283,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ETH",
+      "id": "hummingbird",
       "ok": true,
       "added": [
         "llms.txt",
@@ -203,7 +4293,7 @@
       "push_result": "ok"
     },
     {
-      "id": "IndustrialIntelligence",
+      "id": "ACG_Repo_Template",
       "ok": true,
       "added": [
         "llms.txt",
@@ -213,7 +4303,7 @@
       "push_result": "ok"
     },
     {
-      "id": "RealityMirror",
+      "id": "quantumkid-",
       "ok": true,
       "added": [
         "llms.txt",
@@ -223,7 +4313,7 @@
       "push_result": "ok"
     },
     {
-      "id": "Konception",
+      "id": "metajung",
       "ok": true,
       "added": [
         "llms.txt",
@@ -233,57 +4323,7 @@
       "push_result": "ok"
     },
     {
-      "id": "ISAchieve",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "isa-os",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "IgnAIte",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "klaude-kode",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "Eye-of-Mind",
-      "ok": true,
-      "added": [
-        "llms.txt",
-        "robots.txt",
-        "sitemap.xml"
-      ],
-      "push_result": "ok"
-    },
-    {
-      "id": "GEYASS",
+      "id": "KonomiLang",
       "ok": true,
       "added": [
         "llms.txt",
