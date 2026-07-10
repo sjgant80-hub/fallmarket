@@ -12389,7 +12389,7 @@ Paste your workflow · see what a £20k consultant builds · see the sovereign v
 
 ### fallmarket
 
-The sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs · 763 listings · all MIT · all Ed25519-signed · all benchmarkable
+The sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs · 1224 listings · all MIT · all Ed25519-signed · all benchmarkable
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmarket

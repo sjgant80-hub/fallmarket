@@ -1,7 +1,7 @@
 {
   "v": 1,
   "generated_at": "2026-07-09T20:05:29.069Z",
-  "note": "Real public-safe-v1 scores across 902 listings · runner: local Node script (not CF Worker · unsigned) · Phase 3b Cloudflare Worker replaces this when deployed.",
+  "note": "Real public-safe-v1 scores across 1224 listings · runner: local Node script (not CF Worker · unsigned) · Phase 3b Cloudflare Worker replaces this when deployed.",
   "total": 902,
   "by_suite": {
     "public-safe-v1": {

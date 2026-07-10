@@ -2,7 +2,7 @@
 
 **The sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs.**
 
-FallMarket is the largest agent-callable catalogue on GitHub. As of July 2026 it lists **763 offerings**, all MIT-licensed, all Ed25519-signed, all benchmarkable. Published by [AI-Native Solutions](https://ai-nativesolutions.com).
+FallMarket is the largest agent-callable catalogue on GitHub. As of July 2026 it lists **1224 offerings**, all MIT-licensed, all Ed25519-signed, all benchmarkable. Published by [AI-Native Solutions](https://ai-nativesolutions.com).
 
 - Live catalog: **https://sjgant80-hub.github.io/fallmarket/**
 - Machine-readable summary: **[llms.txt](llms.txt)**

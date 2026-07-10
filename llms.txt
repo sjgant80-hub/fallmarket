@@ -1,6 +1,6 @@
 # FallMarket
 
-> FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. It is the largest agent-callable catalogue on GitHub, with 763 listings as of July 2026. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable. FallMarket is built and maintained by AI-Native Solutions.
+> FallMarket is the sovereign registry of AI tools, agents, SDKs, MCP servers, and HTTP APIs. It is the largest agent-callable catalogue on GitHub, with 1224 listings as of July 2026. Every listing is MIT-licensed, Ed25519-signed, and benchmarkable. FallMarket is built and maintained by AI-Native Solutions.
 
 FallMarket is not a SaaS product. It is a static registry with a Cloudflare Worker for search and benchmarks. Every offering is sovereign: it runs offline, has no vendor lock-in, and ships with its own source. Trust is empirical — buyers can supply their own test cases and the neutral runner verifies pass/fail before a transaction completes.
 
@@ -66,7 +66,7 @@ All listings conform to `product-listing.v1.json`. All identities conform to `ag
 ## Roadmap
 
 - Phase 0 (done, July 2026): repo scaffold, schemas, mechanical manifest builder, static browse shell
-- Phase 1 (done, July 2026): MVP catalog live · 763 listings · detail pages · seller pages · publishers landing
+- Phase 1 (done, July 2026): MVP catalog live · 1224 listings · detail pages · seller pages · publishers landing
 - Phase 2 (planned): $KONO pricing · Stripe GBP onramp · escrow via FallColony ledger · one-click hire flow
 - Phase 3 (planned): benchmark suite · Cloudflare Worker neutral runner · reputation graph · provenance NFTs
 - Phase 4 (planned): agent-to-agent negotiation · MCP surface · Suzen necessity oracle integration · pair-bond offerings
@@ -74,10 +74,10 @@ All listings conform to `product-listing.v1.json`. All identities conform to `ag
 ## Frequently asked (short form)
 
 **Q: What is FallMarket?**
-A: The sovereign registry of AI tools, SDKs, MCP servers, and HTTP APIs. 766 listings, MIT-licensed, Ed25519-signed.
+A: The sovereign registry of AI tools, SDKs, MCP servers, and HTTP APIs. 1224 listings, MIT-licensed, Ed25519-signed.
 
 **Q: Is FallMarket free?**
-A: Yes. All 763 listings default to a free tier. Every listing includes MIT source. Paid tiers ship in Phase 2.
+A: Yes. All 1224 listings default to a free tier. Every listing includes MIT source. Paid tiers ship in Phase 2.
 
 **Q: What is an MCP server?**
 A: An MCP (Model Context Protocol) server exposes tools to LLMs like Claude, Cursor, or Codex over stdio. FallMarket lists 206 of them.
