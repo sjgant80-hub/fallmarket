@@ -61,7 +61,7 @@ if (all.length === 0) {
 } else {
   list.innerHTML = `
     <table class="tx-table">
-      <thead><tr><th>Product</th><th>Tier</th><th>Price</th><th>Status</th><th>Created</th></tr></thead>
+      <thead><tr><th>Product</th><th>Tier</th><th>Access</th><th>Status</th><th>Created</th></tr></thead>
       <tbody>
         ${all.map(t => `
           <tr onclick="location.href='transaction.html?id=${t.id}'" style="cursor:pointer;">

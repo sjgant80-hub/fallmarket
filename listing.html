@@ -104,17 +104,7 @@ function injectJsonLd(l) {
     "description": l.subtitle || l.description || l.title,
     "url": url,
     "applicationCategory": l.kind === 'api' ? 'DeveloperApplication' : (l.kind === 'tool' ? 'UtilitiesApplication' : 'DeveloperApplication'),
-    "operatingSystem": "Any",
-    "offers": {
-      "@type": "Offer",
-      "price": price,
-      "priceCurrency": "GBP",
-      "availability": "https://schema.org/InStock",
-      "url": url,
-      "seller": {
-        "@type": "Organization",
-        "name": (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? 'AI-Native Solutions' : (l.publisher || l.guild || l.seller_did)
-      }
+    "operatingSystem": "Any"
     },
     "license": "https://opensource.org/licenses/MIT",
     "isPartOf": {

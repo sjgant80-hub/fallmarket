@@ -10,7 +10,7 @@ POST /api/checkout                     · create tx + Stripe Checkout Session (i
 GET  /api/transaction/:id              · read tx from KV
 POST /api/webhook/stripe               · payment_intent.succeeded → tx status = escrowed
 GET  /api/royalty-split?repo=&amount=  · walk fork tree + compute split via GitHub API
-POST /api/subscribe                    · create a guild subscription intent
+POST /api/Access                    · create a guild subscription intent
 POST /api/benchmark                    · (Phase 3) trigger a benchmark run
 ```
 

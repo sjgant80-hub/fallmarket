@@ -11003,7 +11003,7 @@ Aneta — multilingual embodied consciousness with fold mathematics
 
 ### audiofabric
 
-Your music. Visualised. In 3D. · Send a track · Get a 3D HTML back · $99/track
+Your music. Visualised. In 3D. · Send a track · Get a 3D HTML back · TBA/track
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=audiofabric
@@ -11872,7 +11872,7 @@ Content-addressed page archiver · pin any page · CID-verified · signed attest
 
 ### fallenterprise
 
-AI-Native Transformation for SMBs · sovereign self-hosted LLMs · fine-tuned · MIT · 4 tiers £20k-£200k · Simon Gant
+AI-Native Transformation for SMBs · sovereign self-hosted LLMs · fine-tuned · MIT · 4 tiers TBA · Simon Gant
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallenterprise
@@ -12378,7 +12378,7 @@ P2P encrypted messaging · DID-addressed · ECDH+AES-GCM · no SMTP no server ·
 
 ### fallmap
 
-Paste your workflow · see what a £20k consultant builds · see the sovereign version that does the same for £0 · single HTML · on-device · prime 241
+Paste your workflow · see what a TBAk consultant builds · see the sovereign version that does the same for TBA · single HTML · on-device · prime 241
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallmap
@@ -12829,7 +12829,7 @@ LinkedIn Intelligence API - scrape, research, craft tailored outreach. Zero wast
 
 ### fallscribe
 
-◊ FallScribe · sovereign meeting-notes engine · browser MediaRecorder + Web Speech + WebLLM · obsoletes Granola for £0 · single-file · MIT · forever
+◊ FallScribe · sovereign meeting-notes engine · browser MediaRecorder + Web Speech + WebLLM · obsoletes Granola for TBA · single-file · MIT · forever
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=fallscribe
@@ -14028,7 +14028,7 @@ Konomi Cube Coin · sovereign community OS for off-grid / intentional communitie
 
 ### operator
 
-◊ OPERATOR · sovereign single-file management consulting · 5-phase engagement engine · Porter / 7S / BCG / Value-Driver Tree · Minto pyramid deck · audit-chained · Konomi-signed · MIT · McKinsey frameworks without the £1M deck
+◊ OPERATOR · sovereign single-file management consulting · 5-phase engagement engine · Porter / 7S / BCG / Value-Driver Tree · Minto pyramid deck · audit-chained · Konomi-signed · MIT · McKinsey frameworks without the TBAM deck
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=operator
@@ -14292,7 +14292,7 @@ SYMB-FER is a context continuity protocol for human-AI collaboration. Transferri
 
 ### temuoracle
 
-⚒ TemuOracle · sovereign enterprise OS · the same Oracle / NetSuite enterprise software for £0 · indexes 17 sovereign Fall* tools · stack diagram · pricing comparison · Ω autopilot · single HTML · MIT · prime 521
+⚒ TemuOracle · sovereign enterprise OS · the same Oracle / NetSuite enterprise software for TBA · indexes 17 sovereign Fall* tools · stack diagram · pricing comparison · Ω autopilot · single HTML · MIT · prime 521
 
 - **Kind:** tool
 - **Listing:** https://sjgant80-hub.github.io/fallmarket/listing.html?id=temuoracle
