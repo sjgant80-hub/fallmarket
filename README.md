@@ -72,3 +72,5 @@ FallMarket is MIT and open-catalog listing opens in Phase 3. In the meantime:
 ## License
 
 MIT · Copyright 2026 AI-Native Solutions · https://ai-nativesolutions.com
+
+- [JMT x402 Agent Tools](https://jmt-x402-proxy.jmthomasofficial.workers.dev) — 25 paid x402 endpoints on Base mainnet: web search, AI analysis, crypto/stock data, SEC filings, company intel, news, sentiment, macro dashboard. $0.001-$0.15/call USDC. Local LLM-powered.
