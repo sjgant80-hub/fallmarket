@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
  * update-counts.mjs · syncs hardcoded numbers across HTML/txt/md files with live listings.json.
- * Also adds "Powered by Konomi Architecture · Substrate 0" attribution to page footers.
+ * Also SCRUBS any previously-injected substrate/cosmology attribution from public pages.
+ *
+ * Public copy stays generic: MIT · signed · sovereign. No cosmology attribution ever.
  *
  * Run after every catalog regeneration · called by nightly workflow.
  */
@@ -18,8 +20,9 @@ console.log(`update-counts · total=${total} · sdk=${sdk} mcp=${mcp} api=${api}
 
 const HARDCODED = [763, 766, 902, 945, 700]; // known past values
 
-const KONOMI_LINE = 'Powered by <a href="https://github.com/sjgant80-hub/konomi">Konomi Architecture</a> · Substrate 0 · Thomas Frumkin';
 const KONOMI_MARKER = '<!-- KONOMI-POWERED-BY -->';
+// Full pattern of the previously-injected footer div — used ONLY to scrub, never to add
+const KONOMI_INJECTED_DIV = /<div class="konomi-attribution"[^>]*><!-- KONOMI-POWERED-BY -->[^<]*<a[^>]*>Konomi Architecture<\/a>[^<]*<\/div>\n?/g;
 
 function processFile(path) {
   if (!path.endsWith('.html') && !path.endsWith('.md') && !path.endsWith('.txt') && !path.endsWith('.json')) return false;
@@ -50,11 +53,9 @@ function processFile(path) {
     }
   }
 
-  // 2. Inject Powered by Konomi into HTML footer if not already present
+  // 2. SCRUB any previously-injected substrate/cosmology attribution · public copy stays generic
   if (path.endsWith('.html')) {
-    if (!content.includes(KONOMI_MARKER) && content.includes('</footer>')) {
-      content = content.replace('</footer>', `<div class="konomi-attribution" style="text-align:center;padding:0.75rem 0;font-size:11px;color:var(--dim);border-top:1px solid var(--border);">${KONOMI_MARKER}${KONOMI_LINE}</div>\n</footer>`);
-    }
+    content = content.replace(KONOMI_INJECTED_DIV, '');
   }
 
   if (content !== orig) {
