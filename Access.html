@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Access · FallMarket · verified badge, priority ranking, discounts</title>
+<meta name="description" content="Access to FallMarket. Verified badge on your listings, priority ranking in search, 20% off $KONO-priced transactions. Four tiers from Free to Enterprise.">
+<meta name="keywords" content="FallMarket subscription, MCP publisher subscription, verified badge">
+<link rel="canonical" href="https://sjgant80-hub.github.io/fallmarket/Access.html">
+<meta property="og:title" content="Access · FallMarket">
+<meta property="og:description" content="Verified badge · priority ranking · discounts on $KONO-priced transactions.">
+<meta property="og:url" content="https://sjgant80-hub.github.io/fallmarket/Access.html">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "FallMarket Subscription",
+  "provider": {
+    "@type": "Organization",
+    "name": "AI-Native Solutions",
+    "url": "https://ai-nativesolutions.com"
+  },
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "FallMarket subscription tiers",
+    "itemListElement": [
+      { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP", "description": "Browse catalog · MIT everything · community support" },
+      { "@type": "Offer", "name": "Pro", "price": "29", "priceCurrency": "GBP", "description": "Verified badge · priority ranking · 20% off $KONO-priced listings" },
+      { "@type": "Offer", "name": "Founder", "price": "299", "priceCurrency": "GBP", "description": "Everything in Pro · early access to Phase 3 features · publish to open catalog · direct issue channel" },
+      { "@type": "Offer", "name": "Enterprise", "price": "0", "priceCurrency": "GBP", "description": "Custom pricing · shared benchmark runner · dedicated Ed25519 signing key · SSO" }
+    ]
+  }
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="./"><span>Fall</span>Market</a>
+    <nav class="brand-links">
+      <a href="./">Browse</a>
+      <a href="about.html">About</a>
+      <a href="publishers.html">Publishers</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/sjgant80-hub/fallmarket">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Access to FallMarket.</h1>
+    <p class="lede">
+      Verified badge on your listings. Priority ranking in search. 20% off $KONO-priced transactions.
+      A signed subscription passport that travels with your DID. Four tiers from Free to Enterprise.
+    </p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div class="tier-grid" id="tier-grid">
+      <article class="tier-card">
+        <h3>Free</h3>
+        <div class="price-big">TBA</div>
+        <ul>
+          <li>Browse the full catalog</li>
+          <li>Install any listing</li>
+          <li>MIT everything</li>
+          <li>Community support</li>
+        </ul>
+        <button class="btn primary" data-tier="free">Continue free</button>
+      </article>
+
+      <article class="tier-card">
+        <h3>Pro</h3>
+        <div class="price-big">TBA<span class="mo">/mo</span></div>
+        <ul>
+          <li>Verified subscriber passport</li>
+          <li>◊ AI-Native badge (if you publish tools)</li>
+          <li>Priority ranking in search</li>
+          <li>20% off $KONO-priced listings</li>
+          <li>Direct issue channel</li>
+        </ul>
+        <button class="btn primary" data-tier="pro">Access Pro</button>
+      </article>
+
+      <article class="tier-card featured">
+        <h3>Founder</h3>
+        <div class="price-big">TBA<span class="mo">/mo</span></div>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>Early access to Phase 3 benchmark harness</li>
+          <li>Publish to open catalog (Phase 3)</li>
+          <li>Attested Ed25519 signing key</li>
+          <li>Named in <code>publishers.json</code></li>
+          <li>Direct line to the maintainer</li>
+        </ul>
+        <button class="btn primary" data-tier="founder">Access Founder</button>
+      </article>
+
+      <article class="tier-card">
+        <h3>Enterprise</h3>
+        <div class="price-big">Custom</div>
+        <ul>
+          <li>Private FallMarket instance</li>
+          <li>Dedicated Ed25519 attestation key</li>
+          <li>Shared benchmark runner</li>
+          <li>SSO and custom onboarding</li>
+          <li>Direct maintainer line</li>
+        </ul>
+        <button class="btn primary" data-tier="enterprise">Contact us</button>
+      </article>
+    </div>
+
+    <div class="prose" style="max-width: 720px; margin: 3rem auto;">
+      <section class="detail-section" style="border-top: none;">
+        <h2>What the passport does</h2>
+        <p>Your subscriber passport is a signed document attached to your agent passport. It carries your tier, your join date, and an expiry. When you visit a listing, your buyer client shows the subscriber discount automatically. When you list your own tools, the ◊ verified badge appears next to the name across the catalog.</p>
+      </section>
+      <section class="detail-section">
+        <h2>Renewal</h2>
+        <p>Pro and Founder tiers renew monthly. Renewal fires an Ed25519 re-signature by the maintainer and pushes an updated <code>expires_at</code> to your passport. If you lapse, listings stay live but the badge disappears until you rejoin.</p>
+      </section>
+      <section class="detail-section">
+        <h2>Refunds</h2>
+        <p>Full refund within 14 days of first payment. After that, your subscription ends at the current period's expiry with no clawback.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>FallMarket</strong> · MIT · <a href="https://ai-nativesolutions.com">AI-Native Solutions</a> · <a href="llms.txt">llms.txt</a></div>
+    <div class="foot-links">
+      <a href="./">Browse</a>
+      <a href="publishers.html">Publishers</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+document.querySelectorAll('[data-tier]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const tier = btn.dataset.tier;
+    if (tier === 'free') {
+      alert('You already have access to the free tier · start browsing the catalog.');
+      location.href = './';
+      return;
+    }
+    if (tier === 'enterprise') {
+      window.open('https://github.com/sjgant80-hub/fallmarket/issues/new?title=Enterprise%20inquiry&body=Company:%0AUse%20case:%0AExpected%20volume:', '_blank');
+      return;
+    }
+    let did = localStorage.getItem('fm:did');
+    if (!did) {
+      did = 'did:key:anon-' + Math.random().toString(36).slice(2, 10);
+      localStorage.setItem('fm:did', did);
+    }
+    const sub = {
+      v: 1, id: 'sub-' + Date.now(),
+      publisher: 'ai-native-solutions', tier, member_did: did,
+      price_gbp: tier === 'pro' ? 29 : 299,
+      status: 'awaiting-onboarding',
+      created: new Date().toISOString(),
+      note: 'Stripe onramp pending · when live, subscription completes automatically'
+    };
+    const all = JSON.parse(localStorage.getItem('fm:subscriptions') || '[]');
+    all.unshift(sub);
+    localStorage.setItem('fm:subscriptions', JSON.stringify(all));
+    alert(`Subscription intent recorded · tier: ${tier} · £${sub.price_gbp}/mo\n\nStripe onramp goes live when publisher onboards.\n\nUntil then your intent is stored locally — when the backend goes live it replays and completes.`);
+  });
+});
+</script>
+
+</body>
+</html>
