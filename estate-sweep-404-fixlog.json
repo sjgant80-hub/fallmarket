@@ -1,0 +1,6303 @@
+{
+  "ranAt": "2026-07-10T20:42:51.610Z",
+  "fixed": 1014,
+  "missing": 11,
+  "err": 26,
+  "log": [
+    {
+      "id": "smbaios-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kdot-shim-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvector-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharbor-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharbor-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfence-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcast-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "anthropic-claude-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "twilio-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-s3-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "github-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-workers-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vercel-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "supabase-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "postgresql-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mongodb-atlas-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sendgrid-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "resend-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groq-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mistral-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepseek-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "huggingface-api",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/huggingface-api/pages/builds"
+    },
+    {
+      "id": "replicate-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "together-ai-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "auth0-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "clerk-api",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "firebase-api",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "aws-lambda-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-dynamodb-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-sqs-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gcp-cloud-storage-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-r2-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "neon-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "planetscale-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "planetscale-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pinecone-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "weaviate-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qdrant-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "chroma-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "algolia-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "meilisearch-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "typesense-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mixpanel-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mixpanel-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "segment-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "plausible-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sentry-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "datadog-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "new-relic-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "grafana-cloud-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-llm-obs-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "hubspot-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "salesforce-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pipedrive-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mailchimp-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cohere-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cohere-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cohere-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "huggingface-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "huggingface-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "replicate-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "replicate-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "together-ai-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "together-ai-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "auth0-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "auth0-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "clerk-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "firebase-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "firebase-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-lambda-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-dynamodb-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-dynamodb-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-sqs-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gcp-cloud-storage-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gcp-cloud-storage-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-r2-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-r2-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "neon-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "neon-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "planetscale-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pinecone-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pinecone-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "weaviate-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "weaviate-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qdrant-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qdrant-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "chroma-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "chroma-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "algolia-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "algolia-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "meilisearch-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "meilisearch-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "typesense-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "typesense-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mixpanel-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "amplitude-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "amplitude-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "segment-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "segment-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "plausible-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "plausible-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sentry-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sentry-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "datadog-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "datadog-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "new-relic-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "new-relic-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "grafana-cloud-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "grafana-cloud-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-llm-obs-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "posthog-llm-obs-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "hubspot-sdk",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/hubspot-sdk/pages/builds"
+    },
+    {
+      "id": "hubspot-mcp",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "salesforce-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "salesforce-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pipedrive-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "pipedrive-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mailchimp-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mailchimp-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "klaviyo-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "klaviyo-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "convertkit-kit-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "convertkit-kit-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "slack-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "slack-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "discord-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "discord-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "notion-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "notion-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "linear-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "linear-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "airtable-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "airtable-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "clickup-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "clickup-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "asana-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "asana-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-maps-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-maps-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mapbox-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mapbox-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shopify-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shopify-mcp",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/shopify-mcp/pages/builds"
+    },
+    {
+      "id": "woocommerce-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "woocommerce-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "woocommerce-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "contentful-sdk",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/contentful-sdk/pages/builds"
+    },
+    {
+      "id": "contentful-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sanity-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sanity-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "strapi-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "strapi-mcp",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/strapi-mcp/pages/builds"
+    },
+    {
+      "id": "gitlab-sdk",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "bitbucket-sdk",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "bitbucket-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "docker-hub-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "docker-hub-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mux-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-stream-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "elevenlabs-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "elevenlabs-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepgram-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepgram-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "assembly-ai-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "assembly-ai-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vapi-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnotary-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vapi-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "retell-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "retell-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "runway-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "runway-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langsmith-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langsmith-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langfuse-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langfuse-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "inngest-sdk",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/inngest-sdk/pages/builds"
+    },
+    {
+      "id": "inngest-mcp",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallpharm-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "upstash-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "upstash-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qstash-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qstash-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "turso-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "xata-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "xata-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deno-deploy-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deno-deploy-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "railway-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "railway-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "render-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "render-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fly-io-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fly-io-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "digitalocean-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "digitalocean-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphysio-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldental-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfuneral-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnotary-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnotary-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnotary-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnotary-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallengineer-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallarch-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloptom-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpharm-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpharm-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpharm-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpharm-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpharm-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallimmig-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallelder-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhome-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltax-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphysio-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphysio-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphysio-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphysio-sdk",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/fallphysio-sdk/pages/builds"
+    },
+    {
+      "id": "falldental-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldental-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldental-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldental-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldental-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurance-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurance-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurance-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinic-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinic-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinic-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-us-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-us-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-us-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vercel-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "stripe-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "openai-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "turso-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-sqs-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "foldkit-extension-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "foldkit-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "9-axis-human-sonar-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "9-axis-human-sonar-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "9-axis-human-sonar-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "accountinghouse-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "accountinghouse-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "acg-mapper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "acg-mapper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "acg-mapper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "adshop-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "adshop-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "adshop-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "barberhq-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "barberhq-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "barberhq-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-profile-builder-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-profile-builder-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-profile-builder-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-weighted-sididy-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-weighted-sididy-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bloom-weighted-sididy-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassie-anthropic-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassie-anthropic-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassie-anthropic-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassietorusbtc135solver-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassietorusbtc135solver-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassietorusbtc135solver-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "exitengine-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "exitengine-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "exitengine-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-euaiact-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-euaiact-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-euaiact-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-kqtt-bridge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-kqtt-bridge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-kqtt-bridge-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-sdk-generator-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-sdk-generator-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fall-sdk-generator-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallaccount-trades-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallaccount-trades-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallaccount-trades-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-v2-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-v2-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falladviser-v2-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallanno-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallanno-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallanno-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallasset-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallasset-mcp",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/fallasset-mcp/pages/builds"
+    },
+    {
+      "id": "fallasset-api",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallaudio-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallaudio-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbase-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbase-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooks-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooksonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooksonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbooksonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcdn-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcdn-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcdn-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbookspractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallboot-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallboot-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallboot-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbridge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforge-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbridge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmind-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmind-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmind-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbuild-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmint-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbuild-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmint-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcarrier-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmint-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcarrier-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcarrier-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcast-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcast-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmotion-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmotion-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmotion-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnote-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnote-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaim-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnote-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-sdk",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallclaimonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallonion-api",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallclaimpaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimpractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimpractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclaimpractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinic-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinic-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcliniconboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcliniconboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphone-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcliniconboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphone-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpod-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpod-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpod-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallclinicpractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcompass-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcompass-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcompass-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldesk-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldesk-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldesk-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldns-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldns-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsdk-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsdk-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falldns-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallecho-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsdk-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallecho-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallecho-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshell-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallenterprise-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallenterprise-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshell-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshell-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallenterprise-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallescape-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallescape-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallescape-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstore-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestate-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstore-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestateonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstore-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestateonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestateonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsync-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestatepaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsync-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestatepaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltrust-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestatepractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltrust-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestatepractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falltrust-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallestatepractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfence-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallfence-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforce-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforce-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallforce-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgarden-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgarden-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgarden-api",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallrouter-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgo-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrouter-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgo-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrouter-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallgo-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallresolve-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharbor-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallresolve-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallresolve-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharmony-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharmony-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallharmony-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvector-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhop-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhop-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhop-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvector-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhr-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhronboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhronboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhronboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallhrpractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallid-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallid-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallid-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurance-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsuranceonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsuranceonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsuranceonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurancepaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurancepaper-mcp",
+      "status": 404,
+      "action": "skip-missing-repo"
+    },
+    {
+      "id": "fallinsurancepaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurancepractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurancepractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurancepractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllearn-repo-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllearn-repo-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllearn-repo-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallledger-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallledger-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallledger-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegal-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitpractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrelay-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrelay-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrelay-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallreport-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallreport-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallreport-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscene-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscene-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscene-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscout-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscout-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallscout-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsecurity-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsecurity-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsecurity-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-accountancy-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-accountancy-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-accountancy-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-agents-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-agents-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-agents-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-claims-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-claims-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-claims-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-clinic-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-clinic-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-clinic-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-compliance-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-compliance-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-compliance-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-creator-os-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-creator-os-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-creator-os-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-estate-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-estate-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-estate-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-hr-v1-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-hr-v1-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-hr-v1-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-ifa-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-ifa-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-ifa-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-insurance-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-insurance-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-insurance-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-law-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-law-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-meta-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-meta-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-meta-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-mortgage-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-mortgage-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-mortgage-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-recruit-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-recruit-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-recruit-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-vet-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-vet-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-vet-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-village-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-village-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-village-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshield-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshield-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallshield-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsignature-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsignature-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsignature-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallskin-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallskin-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallskin-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstudio-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstudio-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallstudio-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvault-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvault-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvault-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvet-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetonboard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetonboard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetonboard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpaper-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpaper-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpaper-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpractice-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpractice-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallvetpractice-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallwatch-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallwatch-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallwatch-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "flux-api-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "flux-api-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "flux-api-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groundlevel-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groundlevel-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groundlevel-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-export-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-export-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gymos-export-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "honestly-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "honestly-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "honestly-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "init-the-map-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "init-the-map-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "init-the-map-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kappa-eeg-checker-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-push-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-push-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-push-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v3-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v3-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v3-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v4-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v4-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v4-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v5-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v5-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kard-v5-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-bridge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-bridge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-bridge-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-jobs-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-jobs-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-jobs-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-mint-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-mint-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-mint-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-runner-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-runner-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kdot-shim-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kdot-shim-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-v2-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-v2-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi-cube-v2-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomigami-lib-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomigami-lib-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomigami-lib-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mesh-89-tracker-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mesh-89-tracker-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mesh-89-tracker-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "nhs-reinjection-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "nhs-reinjection-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "nhs-reinjection-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-break-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-break-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-break-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-conductor-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-conductor-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-conductor-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-ground-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-ground-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-ground-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-organs-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-organs-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-organs-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "offgridcommunitiessystem-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "onehub-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "onehub-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "onehub-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "operator-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "operator-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "operator-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "quine-cube-runner-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "quine-cube-runner-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "quine-cube-runner-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-adv-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-adv-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-adv-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-bridge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-bridge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-bridge-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kard-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kard-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kard-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv4-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv4-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv4-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv5-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv5-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-kardv5-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-konomi-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-konomi-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-konomi-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-private-fix-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-private-fix-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-private-fix-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-renum-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-renum-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push-renum-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push2-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push2-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push2-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push3-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push3-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-push3-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-war-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-war-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "reg-war-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "roost-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "roost-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "roost-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-build-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-build-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-build-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-repo-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-repo-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shadowcompass-repo-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-agent-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-agent-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-agent-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-bridge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-bridge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-bridge-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-cascade-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-cascade-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-cascade-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-close-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-close-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-close-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-memory-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-memory-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-memory-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-signer-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "smbaios-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "smbaios-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "suzen-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "suzen-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "suzen-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "temuoracle-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "temuoracle-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "temuoracle-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "tradeshub-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "tradeshub-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "tradeshub-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-forge-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-forge-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-framework-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-framework-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-framework-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "wishwood-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "wishwood-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "wishwood-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmarket-sdk",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmarket-mcp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmarket-api",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "KonomiLang",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "metajung",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "quantumkid-",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACG_Repo_Template",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "hummingbird",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "SYMB-FER",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGP2P",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACG-Test",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aicraftspeopleguild.github.io",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kp2p",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/kp2p/pages/builds"
+    },
+    {
+      "id": "tonesmith",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomioke",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "instantvm",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/instantvm/pages/builds"
+    },
+    {
+      "id": "groundlevel-mvp",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "master-seed",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aicraftspeopleguild.github.io-1",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "contact",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "GoldenShower",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GoldenShower/pages/builds"
+    },
+    {
+      "id": "konomi-dot-protocol",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groundlevel-obsidian",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kat-tribute",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmind-v2",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-spec",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "niceassos-mesh",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "depth-sim",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kardv5",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "plumber-lead-machine",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "foldkit-extension",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "si-didy-k2",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shields",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/shields/pages/builds"
+    },
+    {
+      "id": "Yggdrasil",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/Yggdrasil/pages/builds"
+    },
+    {
+      "id": "klaude-kode",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/klaude-kode/pages/builds"
+    },
+    {
+      "id": "Eye-of-Mind",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/Eye-of-Mind/pages/builds"
+    },
+    {
+      "id": "fallwatcher",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallseed-generator",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "init-the-map",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "konomi",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "LookingGlass",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "hallucination-elimination-benchmark",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "MianoCube",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cassie-anthropic",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/cassie-anthropic/pages/builds"
+    },
+    {
+      "id": "groundlevel-worker",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sididy-didi",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "declaw-l4-drift-case-study",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGGLOCK",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "AudioFabric-1",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "GEYASS",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "IgnAIte",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/IgnAIte/pages/builds"
+    },
+    {
+      "id": "isa-os",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/isa-os/pages/builds"
+    },
+    {
+      "id": "ISAchieve",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "Konception",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/Konception/pages/builds"
+    },
+    {
+      "id": "RealityMirror",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ETH",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGNET",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGBM",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGCLI",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "ACGPHONE",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "Flintium",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/Flintium/pages/builds"
+    },
+    {
+      "id": "SpiralSense",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "LRM",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "NODE-001",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "GITNITION",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GITNITION/pages/builds"
+    },
+    {
+      "id": "GITCONTROL",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GITCONTROL/pages/builds"
+    },
+    {
+      "id": "GITTAG",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GITTAG/pages/builds"
+    },
+    {
+      "id": "GITSCADA",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GITSCADA/pages/builds"
+    },
+    {
+      "id": "GITHMI",
+      "status": 404,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/GITHMI/pages/builds"
+    },
+    {
+      "id": "fallbrief",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcrm-elite",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmobile",
+      "status": 404,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "redis-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-gemini-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "klaviyo-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "convertkit-kit-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "slack-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "discord-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "notion-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "linear-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "airtable-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "clickup-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "asana-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-maps-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mapbox-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "shopify-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "contentful-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sanity-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "strapi-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gitlab-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "gitlab-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "bitbucket-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "docker-hub-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mux-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mux-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-stream-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-stream-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "elevenlabs-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepgram-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "assembly-ai-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vapi-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "retell-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "runway-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langsmith-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "langfuse-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "inngest-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "upstash-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "qstash-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "turso-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "xata-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deno-deploy-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "railway-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "render-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fly-io-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "digitalocean-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "foldkit-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallcore-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "trilogy-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallsync-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallinsurance-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "offgridcommunitiessystem-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "anthropic-claude-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "anthropic-claude-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "openai-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "openai-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "stripe-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "stripe-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "twilio-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "twilio-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-s3-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "aws-s3-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "github-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "github-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-workers-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "cloudflare-workers-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "vercel-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "supabase-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "supabase-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "postgresql-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "postgresql-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "redis-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "redis-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mongodb-atlas-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mongodb-atlas-mcp",
+      "status": 0,
+      "action": "rebuild-error",
+      "note": "ERR: Command failed: gh api -X POST repos/sjgant80-hub/mongodb-atlas-mcp/pages/builds"
+    },
+    {
+      "id": "sendgrid-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "sendgrid-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "resend-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "resend-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-gemini-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "google-gemini-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groq-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "groq-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mistral-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "mistral-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepseek-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "deepseek-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "perplexity-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "perplexity-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "perplexity-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgage-us-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallbridge-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpaper-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpractice-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpractice-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllegalpractice-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllens-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllens-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllens-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllink-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllink-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falllink-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmage-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmage-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmage-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmail-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmail-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmail-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmirror-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmirror-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmirror-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgageonboard-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgageonboard-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgageonboard-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepaper-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepaper-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepaper-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepractice-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepractice-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmortgagepractice-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnet-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnet-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallnet-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-push-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-push-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-push-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-v2-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-v2-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "falloffice-v2-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallonboard-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallonboard-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallonion-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallonion-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpage-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpage-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpage-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpaper-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpaper-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpaper-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpay-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpay-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpay-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpdf-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpdf-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpdf-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallperf-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallperf-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallperf-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallphone-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpractice-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpractice-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-sdk-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-sdk-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallpx-sdk-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecall-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecall-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecall-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-mcp",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruit-api",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallrecruitonboard-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "kcc-runner-sdk",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    },
+    {
+      "id": "fallmind",
+      "status": 0,
+      "action": "triggered-rebuild",
+      "note": ""
+    }
+  ]
+}
