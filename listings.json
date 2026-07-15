@@ -1,12 +1,12 @@
 {
   "v": 1,
   "generated_at": "2026-07-11T16:19:38.080Z",
-  "total": 1211,
+  "total": 1212,
   "by_kind": {
     "mcp": 302,
     "api": 304,
     "sdk": 304,
-    "tool": 301
+    "tool": 302
   },
   "listings": [
     {
@@ -61498,6 +61498,41 @@
       "prime": 5,
       "lineage": "v21.1",
       "tag_source": "heuristic"
+    },
+    {
+      "v": 1,
+      "id": "wishwood-upkeep",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "Wishwood Upkeep",
+      "subtitle": "sovereign · refolded from the reserve · MIT",
+      "description": "Refolded from the reserve. glamping.",
+      "tags": [
+        "tool",
+        "sovereign",
+        "forge"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/wishwood-upkeep",
+      "playground_url": null,
+      "docs_url": "https://sjgant80-hub.github.io/wishwood-upkeep/",
+      "install": {},
+      "tiers": [
+        {
+          "name": "free",
+          "price_gbp": 0,
+          "price_kono": 0,
+          "includes": [
+            "MIT source",
+            "self-host"
+          ],
+          "billing": "one-time"
+        }
+      ],
+      "benchmarks": [],
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-15T22:42:06.990Z",
+      "sig": "pending",
+      "tag_source": "forge"
     }
   ]
 }
