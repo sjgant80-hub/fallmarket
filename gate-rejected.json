@@ -1,0 +1,6894 @@
+[
+  {
+    "id": "deepgram-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deepgram-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deepgram-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "elevenlabs-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "elevenlabs-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "elevenlabs-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "shopify-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "shopify-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "shopify-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "notion-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "notion-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "notion-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "hubspot-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "hubspot-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "hubspot-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "huggingface-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "huggingface-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "huggingface-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sendgrid-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sendgrid-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sendgrid-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "supabase-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "supabase-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "supabase-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "adyen-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "adyen-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "adyen-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "meilisearch-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "meilisearch-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "meilisearch-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qdrant-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qdrant-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qdrant-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "weaviate-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "weaviate-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "weaviate-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mongodb-atlas-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mongodb-atlas-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mongodb-atlas-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vercel-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vercel-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vercel-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-workers-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-workers-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-workers-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "github-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "github-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "github-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "twilio-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "twilio-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "twilio-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "stripe-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "stripe-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "stripe-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "openai-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "openai-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "openai-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallswarm-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallswarm-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falltax-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falltax-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallswarm-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falltax-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falltax-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falltax-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falltax-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallprofile-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallprofile-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallprofile-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallphysio-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallphysio-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallphysio-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallphysio-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallphysio-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpharm-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallpharm-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpharm-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpharm-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallpharm-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpharm-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpair-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallpair-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallpair-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falloptom-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falloptom-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falloptom-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falloptom-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falloptom-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falloptom-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnotary-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallnotary-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnotary-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnotary-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnotary-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllineage-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falllineage-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllineage-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallimmig-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallimmig-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallimmig-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallimmig-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallimmig-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallimmig-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhome-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallhome-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhome-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhome-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallhome-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhome-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfuneral-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallfuneral-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfuneral-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfuneral-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallfuneral-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfuneral-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfeed-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallfeed-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallfeed-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallengineer-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallengineer-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallengineer-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallengineer-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallengineer-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallengineer-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallelder-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallelder-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallelder-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallelder-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallelder-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallelder-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldental-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falldental-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldental-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldental-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falldental-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldental-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallcube-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "fallbond-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallbond-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbond-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallarch-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallarch-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallarch-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallarch-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallarch-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallarch-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbase-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "fallseed-law-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallinsurance-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallestatepaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "perplexity-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cohere-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clerk-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-lambda-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-sqs-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "salesforce-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "woocommerce-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "turso-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "hello-device-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "hello-device-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "trilogy-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "flux-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "deep-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "docmind-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "fallvet-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallvet-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallvet-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallclaim-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallclaim-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallclaim-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallrecruit-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallrecruit-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallrecruit-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmortgage-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmortgage-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmortgage-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallestate-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallestate-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallestate-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallinsurance-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallinsurance-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallinsurance-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallclinic-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallclinic-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallclinic-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falladviser-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falladviser-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falladviser-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallhr-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhr-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhr-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallbooks-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbooks-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbooks-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falllegal-us-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllegal-us-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllegal-us-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "smbaios-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kdot-shim-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallvector-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallharbor-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallharbor-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallfence-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallcast-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "anthropic-claude-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-s3-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "postgresql-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "redis-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "resend-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-gemini-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "groq-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mistral-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deepseek-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "replicate-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "together-ai-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "auth0-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clerk-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "firebase-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-lambda-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-dynamodb-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-sqs-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gcp-cloud-storage-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-r2-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "neon-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "planetscale-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "planetscale-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pinecone-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "chroma-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "algolia-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "typesense-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "posthog-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mixpanel-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mixpanel-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "segment-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "plausible-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sentry-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "datadog-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "new-relic-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "grafana-cloud-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "posthog-llm-obs-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pipedrive-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mailchimp-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "klaviyo-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "convertkit-kit-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "slack-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "discord-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "linear-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "airtable-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clickup-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "asana-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-maps-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mapbox-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "contentful-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sanity-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "strapi-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gitlab-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gitlab-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "bitbucket-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "docker-hub-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mux-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mux-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-stream-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-stream-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "assembly-ai-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vapi-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "retell-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "runway-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langsmith-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langfuse-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "inngest-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "upstash-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qstash-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "turso-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "xata-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deno-deploy-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "railway-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "render-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fly-io-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "digitalocean-api",
+    "kind": "api",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcore-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallsync-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsurance-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "offgridcommunitiessystem-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "anthropic-claude-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "anthropic-claude-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-s3-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-s3-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "postgresql-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "postgresql-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "redis-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "redis-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "resend-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "resend-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-gemini-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-gemini-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "groq-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "groq-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mistral-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mistral-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deepseek-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deepseek-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "perplexity-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "perplexity-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cohere-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cohere-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "replicate-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "replicate-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "together-ai-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "together-ai-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "auth0-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "auth0-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clerk-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "firebase-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "firebase-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-lambda-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-dynamodb-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-dynamodb-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "aws-sqs-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gcp-cloud-storage-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gcp-cloud-storage-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-r2-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-r2-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "neon-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "neon-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "planetscale-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pinecone-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pinecone-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "chroma-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "chroma-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "algolia-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "algolia-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "typesense-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "typesense-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallhrpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "posthog-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "posthog-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mixpanel-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "amplitude-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "amplitude-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "segment-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "segment-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "plausible-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "plausible-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sentry-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sentry-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "datadog-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "datadog-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "new-relic-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "new-relic-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "grafana-cloud-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "grafana-cloud-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "posthog-llm-obs-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "posthog-llm-obs-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "salesforce-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "salesforce-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pipedrive-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "pipedrive-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mailchimp-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mailchimp-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "klaviyo-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "klaviyo-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "convertkit-kit-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "convertkit-kit-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "slack-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "slack-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "discord-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "discord-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "linear-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "linear-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "airtable-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "airtable-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clickup-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "clickup-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "asana-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "asana-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-maps-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "google-maps-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mapbox-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mapbox-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "woocommerce-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "woocommerce-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "contentful-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "contentful-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sanity-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "sanity-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "strapi-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "strapi-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "gitlab-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "bitbucket-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "bitbucket-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "docker-hub-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "docker-hub-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "mux-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "cloudflare-stream-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "assembly-ai-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "assembly-ai-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vapi-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "vapi-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "retell-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "retell-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "runway-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "runway-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langsmith-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langsmith-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langfuse-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "langfuse-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "inngest-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "inngest-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "upstash-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "upstash-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qstash-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "qstash-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "turso-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "xata-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "xata-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deno-deploy-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "deno-deploy-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "railway-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "railway-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "render-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "render-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fly-io-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fly-io-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "digitalocean-sdk",
+    "kind": "sdk",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "digitalocean-mcp",
+    "kind": "mcp",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "accountinghouse-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "accountinghouse-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "adshop-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "adshop-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "adshop-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "barberhq-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "barberhq-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "barberhq-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "cassietorusbtc135solver-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "cassietorusbtc135solver-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "cassietorusbtc135solver-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "exitengine-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "exitengine-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "exitengine-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fall-kqtt-bridge-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fall-kqtt-bridge-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fall-kqtt-bridge-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fall-sdk-generator-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fall-sdk-generator-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fall-sdk-generator-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallaccount-trades-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallaccount-trades-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallaccount-trades-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falladviser-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falladviser-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falladviser-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falladviser-v2-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falladviser-v2-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falladviser-v2-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallanno-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallanno-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallanno-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallasset-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallasset-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallasset-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallaudio-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "fallaudio-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbase-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbase-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbooks-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallbooks-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbooks-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallbooksonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallbooksonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbooksonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbookspaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallbookspaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbookspaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcdn-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallbookspractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallcdn-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbookspractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcdn-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbookspractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallboot-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallboot-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallboot-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallforge-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallforge-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbridge-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallforge-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbridge-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmind-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallbridge-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmind-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbuild-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmind-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallbuild-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmint-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallbuild-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmint-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcarrier-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmint-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcarrier-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallcarrier-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmortgage-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallcast-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmortgage-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcast-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmortgage-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmotion-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallmotion-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmotion-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaim-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallnote-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclaim-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnote-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaim-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnote-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falloffice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclaimonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falloffice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falloffice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclaimpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallonion-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclaimpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclaimpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclinic-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallclinic-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallcliniconboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallcliniconboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallphone-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallcliniconboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallphone-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclinicpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclinicpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpod-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallclinicpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpod-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclinicpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpod-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclinicpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallclinicpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallcompass-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallcompass-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallcompass-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldesk-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falldesk-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldesk-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falldns-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falldns-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallsdk-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallsdk-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falldns-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallecho-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallsdk-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallecho-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallecho-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallshell-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallenterprise-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallenterprise-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallshell-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallshell-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallenterprise-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallescape-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallescape-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallescape-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallestate-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallestate-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallstore-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallestate-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallstore-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestateonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallstore-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestateonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestateonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallsync-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallestatepaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallsync-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestatepaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falltrust-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallestatepractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falltrust-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestatepractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falltrust-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallestatepractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallfence-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "fallfence-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallforce-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallforce-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallforce-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallgarden-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallgarden-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallgarden-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallrouter-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallgo-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "fallrouter-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallgo-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallrouter-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallgo-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallresolve-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallharbor-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallresolve-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallresolve-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallharmony-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallharmony-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallharmony-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "fallvector-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhop-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallhop-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhop-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallvector-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhr-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallhr-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhr-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallhronboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallhronboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhronboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhrpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallhrpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhrpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallhrpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallhrpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallid-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallid-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallid-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallinsurance-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallinsuranceonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallinsuranceonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsuranceonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsurancepaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallinsurancepaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsurancepaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsurancepractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallinsurancepractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallinsurancepractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllearn-repo-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falllearn-repo-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllearn-repo-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallledger-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "fallledger-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallledger-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllegal-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falllegal-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllegal-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "5/8"
+  },
+  {
+    "id": "falllegalonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falllegalonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllegalonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllegalpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falllegalpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllegalpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllegalpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falllegalpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllegalpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falllens-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falllens-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllens-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllink-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "falllink-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falllink-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmage-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmage-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmage-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmail-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmail-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmail-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmirror-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmirror-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmirror-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallmortgageonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallmortgageonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmortgageonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmortgagepaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallmortgagepaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmortgagepaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmortgagepractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallmortgagepractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmortgagepractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallnet-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallnet-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallnet-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "falloffice-push-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falloffice-push-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falloffice-push-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falloffice-v2-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "falloffice-v2-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falloffice-v2-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallonion-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallonion-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpage-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpage-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpage-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpay-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpay-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpay-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpdf-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpdf-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpdf-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallperf-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallperf-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallperf-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallphone-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecall-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrecall-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecall-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruit-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrecruit-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruit-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrecruitonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrecruitpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrecruitpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrecruitpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrelay-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallrelay-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallrelay-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallreport-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallreport-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallreport-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallscene-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallscene-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallscene-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallscout-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallscout-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallscout-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallsecurity-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallsecurity-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallsecurity-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-accountancy-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-accountancy-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-accountancy-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-agents-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-agents-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-agents-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-claims-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-claims-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-claims-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-clinic-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-clinic-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-clinic-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-compliance-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-compliance-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-compliance-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-creator-os-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-creator-os-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-creator-os-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-estate-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-estate-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-estate-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-hr-v1-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-hr-v1-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-hr-v1-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-ifa-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-ifa-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-ifa-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-insurance-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-insurance-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-insurance-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-law-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-law-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-meta-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-meta-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-meta-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-mortgage-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-mortgage-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-mortgage-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-recruit-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-recruit-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-recruit-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-vet-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-vet-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-vet-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-village-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallseed-village-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallseed-village-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallshield-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallshield-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallshield-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallsignature-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallsignature-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallsignature-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallskin-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallskin-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallskin-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallstudio-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallstudio-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallstudio-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvault-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallvault-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallvault-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallvet-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallvet-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvet-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetonboard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallvetonboard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetonboard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetpaper-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallvetpaper-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetpaper-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetpractice-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "fallvetpractice-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallvetpractice-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallwatch-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallwatch-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallwatch-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "flux-api-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "flux-api-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "flux-api-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "groundlevel-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "8/10"
+  },
+  {
+    "id": "groundlevel-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "10/11"
+  },
+  {
+    "id": "groundlevel-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "gymos-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "gymos-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "gymos-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "gymos-export-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "gymos-export-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "gymos-export-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "hello-device-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "6/10"
+  },
+  {
+    "id": "honestly-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "honestly-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "honestly-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kard-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-push-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kard-push-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-push-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v3-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kard-v3-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v3-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v4-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kard-v4-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v4-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v5-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kard-v5-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kard-v5-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-bridge-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kcc-bridge-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-bridge-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-jobs-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kcc-jobs-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-jobs-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-mint-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kcc-mint-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-mint-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-runner-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "kcc-runner-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kcc-runner-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kdot-shim-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "kdot-shim-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "nhs-reinjection-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "nhs-reinjection-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "nhs-reinjection-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "offgridcommunitiessystem-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "onehub-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "onehub-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "onehub-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "operator-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "operator-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "operator-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "quine-cube-runner-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "quine-cube-runner-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "quine-cube-runner-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "roost-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "roost-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "roost-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "shadowcompass-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "shadowcompass-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "shadowcompass-build-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "shadowcompass-build-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "shadowcompass-build-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "shadowcompass-repo-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "shadowcompass-repo-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "shadowcompass-repo-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "smbaios-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "smbaios-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "suzen-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "suzen-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "suzen-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "temuoracle-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "temuoracle-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "temuoracle-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "tradeshub-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "tradeshub-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "tradeshub-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "trilogy-forge-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "trilogy-forge-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "trilogy-forge-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "trilogy-framework-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "trilogy-framework-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "trilogy-framework-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "wishwood-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "2/7"
+  },
+  {
+    "id": "wishwood-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "wishwood-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmarket-sdk",
+    "kind": "sdk",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallmarket-mcp",
+    "kind": "mcp",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "fallmarket-api",
+    "kind": "api",
+    "reason": "failed-benchmark",
+    "core": "3/8"
+  },
+  {
+    "id": "falltax",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falltax-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallvet-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "kard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "ai-nativesolutions",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "shadowcompass",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "cassietorusbtc135solver",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "roost",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "wishwood",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcolony",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallforce",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhub",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallforge",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmarket",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "fallswarm",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallsdk",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/8"
+  },
+  {
+    "id": "fallscout",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "fallrouter",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallrecruit-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallprofile",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallphysio-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallphysio",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpharm-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpharm",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpdf",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpair",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falloptom-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falloptom",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallnote",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallnotary-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallnotary",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmotion",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmortgagepaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmortgage-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmirror",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmind",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "fallmage",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllineage",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllegal-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallledger",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllearn",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "fallinsurance-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallimmig-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallimmig",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhr-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhome-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhome",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallfuneral-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallfuneral",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallfence",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "fallfeed",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallestate-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallenterprise",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallengineer-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallengineer",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallelder-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallelder",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falldental-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falldental",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclinic-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclaim-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbuild",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbridge",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallboot",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbookspractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbooksonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbooks-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbond",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallaudio",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallasset",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallarch-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallarch",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falladviser-us",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallaccount-trades",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall127agents",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "fall-sales-marketing",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall-mcp-bridge",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "7/9"
+  },
+  {
+    "id": "fall-cube",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall-autopilot-kit",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "fallwatch",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllink",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallid",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcdn",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall-prompt-gate",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall-kit",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "awesome-mcp-servers",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "tonesmith",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "2/4"
+  },
+  {
+    "id": "groundlevel-mvp",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "oracleengine",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "falllead",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallgrade",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallconsensus",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcall",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallsignal",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallforensics",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallmesh",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "datascope",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcore-factory",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "audiofabric",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallflip",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallgravity",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallslot",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallform",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "falllist",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-bloom",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallsalescrm",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "2/4"
+  },
+  {
+    "id": "aicraftspeopleguild.github.io-1",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallmap",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcrm",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallflow",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcarousel",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallap",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallinvoice",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallhire",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-raas",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-substrate",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "nhs-reinjection",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "honestly",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "operator",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallback",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallstack",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-kqtt-bridge",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "gymos",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcorp",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "smbaios",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "temuoracle",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "kcc-mint",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "2/4"
+  },
+  {
+    "id": "kcc-jobs",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "kcc-runner",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "aneta",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "suzen",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "adshop",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "accountinghouse",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcarrier",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallphone",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmail",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpod",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falltrust",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcast",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falldns",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallecho",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllens",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallsync",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallharbor",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallsignature",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falladviser",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrelay",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "fallaccount",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbase",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallnet",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallsecurity",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/5"
+  },
+  {
+    "id": "fallperf",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-agents",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallstudio",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-village",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-mortgage",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-meta",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-law",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-insurance",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-ifa",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-estate",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-creator-os",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-compliance",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-clinic",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-claims",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-accountancy",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallscene",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallreport",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrecall",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpay",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpage",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallonion",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falloffice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllegalpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllegalpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falllegal",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallinsurancepractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallinsurancepaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallinsuranceonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallescape",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclaimpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclaimpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclaimonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclaim",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "falladviser-v2",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmint",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallestate",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fall-sdk-generator",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhop",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallshell",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallreach",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "0/3"
+  },
+  {
+    "id": "fallanno",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallfind",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallvector",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallvault",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallskin",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallshield",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallharmony",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "fallgo",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmobile",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/7"
+  },
+  {
+    "id": "fallvetonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "0/3"
+  },
+  {
+    "id": "falllegalonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbookspaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallbooks",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "GITPLC",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "os127",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "VacuumGenesis",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "IndustrialIntelligence",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcloser",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "hello-device",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "quine-cube-runner",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "barberhq",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "tradeshub",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "botler",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "offgridcommunitiessystem",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "groundlevel",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "trilogy-framework",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/7"
+  },
+  {
+    "id": "cassie-oracle-3",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "trilogy-forge",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "4/6"
+  },
+  {
+    "id": "exitengine",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "aicraftspeopleguild.github.io",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "instantvm",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallconcierge",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "forge-upgrade",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcore",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "contact",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "groundlevel-shim",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "groundlevel-obsidian",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "6/9"
+  },
+  {
+    "id": "forge-lab",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "5/7"
+  },
+  {
+    "id": "quine-cube",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "kardv5",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "plumber-lead-machine",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "shields",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "Yggdrasil",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "klaude-kode",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "Eye-of-Mind",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallwatcher",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "fallseed-generator",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "fall-verify",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallscribe",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "LookingGlass",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "hallucination-elimination-benchmark",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "MianoCube",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallguild",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-palette",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-hot",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallpost",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fall-vetter",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "groundlevel-worker",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "8/11"
+  },
+  {
+    "id": "fallmortgage",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "AudioFabric-1",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GEYASS",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "IgnAIte",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "isa-os",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "ISAchieve",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "RealityMirror",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "ETH",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "Flintium",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "SpiralSense",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "LRM",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "NODE-001",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "JEDI",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GITNITION",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GITCONTROL",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GITTAG",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GITSCADA",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "GITHMI",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallcrm-elite",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallresolve",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "2/5"
+  },
+  {
+    "id": "fallclinic",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcliniconboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclinicpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallclinicpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallcompass",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallestateonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallestatepaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallestatepractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhr",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhronboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhrpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallhrpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallinsurance",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmortgageonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallmortgagepractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrecruit",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrecruitonboard",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrecruitpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallrecruitpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallseed-hr",
+    "kind": "tool",
+    "reason": "unresolvable"
+  },
+  {
+    "id": "fallvet",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallvetpaper",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallvetpractice",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/5"
+  },
+  {
+    "id": "fallstore",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "2/5"
+  },
+  {
+    "id": "fallgarden",
+    "kind": "tool",
+    "reason": "failed-benchmark",
+    "core": "3/6"
+  },
+  {
+    "id": "wishwood-upkeep",
+    "kind": "tool",
+    "reason": "unresolvable"
+  }
+]

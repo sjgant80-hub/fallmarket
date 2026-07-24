@@ -1,0 +1,15 @@
+{
+  "total": 1212,
+  "admitted": 3,
+  "rejected": 1209,
+  "admitted_by_kind": {
+    "tool": 3
+  },
+  "reject_reasons": {
+    "unresolvable": 362,
+    "failed-benchmark": 847
+  },
+  "benchmark": "acg-assessor",
+  "gate": "proof-of-play",
+  "note": "full catalog"
+}

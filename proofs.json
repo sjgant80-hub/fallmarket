@@ -1,0 +1,23 @@
+{
+  "fallkard": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "12/14",
+    "hash": "b3caeb571cd7b8d60aa2e757240de13c"
+  },
+  "kcc-bridge": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "13/14",
+    "hash": "e056727787f9fe6e91e437ade62c1556"
+  },
+  "fall-registry": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "14/14",
+    "hash": "520264e617cf4e0680d4293e3ad103f1"
+  }
+}

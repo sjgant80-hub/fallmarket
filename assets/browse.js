@@ -7,6 +7,17 @@ async function load() {
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const j = await r.json();
     state.listings = j.listings || [];
+    // Additive overlay: if a Proof-of-Play index is present, annotate listings with their
+    // reproducible benchmark verdict. Absent or unreachable → the catalog renders unchanged.
+    try {
+      const pr = await fetch('./proofs.json', { cache: 'no-store' });
+      if (pr.ok) {
+        const proofs = await pr.json();
+        let admitted = 0;
+        for (const l of state.listings) { const p = proofs[l.id]; if (p) { l.proof = p; if (p.admissible) admitted++; } }
+        state.proofCount = admitted;
+      }
+    } catch { /* no proofs index — render as before */ }
     const stats = document.getElementById('hero-stats');
     if (stats) {
       const parts = [`<b>${j.total}</b> listings`];
@@ -91,6 +102,9 @@ function render() {
 function cardHtml(l) {
   const price = l.tiers?.[0]?.price_gbp === 0 ? 'Free · MIT' : `£${l.tiers?.[0]?.price_gbp}`;
   const badge = (l.publisher === 'ai-native-solutions' || l.guild === 'ai-native-solutions') ? `<span class="publisher-badge">◊ ai-native</span>` : '';
+  const proofBadge = l.proof?.admissible
+    ? `<span class="proof-badge" title="Proof-of-Play · ${l.proof.benchmark || 'acg-assessor'} · core ${l.proof.core || ''} · reproducible verdict ${(l.proof.hash || '').slice(0, 8)}">✓ Proof-of-Play</span>`
+    : '';
   const solidTag = l.solid_primary ? `<span class="solid-tag solid-${l.solid_primary}">${l.solid_primary}</span>` : '';
   const primeTag = l.prime ? `<span class="prime-tag">${l.prime}</span>` : '';
   return `
@@ -100,6 +114,7 @@ function cardHtml(l) {
         ${solidTag}
         ${primeTag}
         ${badge}
+        ${proofBadge}
       </div>
       <h3><a href="listing.html?id=${encodeURIComponent(l.id)}">${escape(l.title)}</a></h3>
       <p>${escape(l.subtitle || l.description || '')}</p>
