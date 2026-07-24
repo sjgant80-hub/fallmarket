@@ -19,5 +19,68 @@
     "core": "10/10",
     "nonCore": "14/14",
     "hash": "520264e617cf4e0680d4293e3ad103f1"
+  },
+  "acg-assessor": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "15/15",
+    "hash": "e17b8c5b133d37db561418e70cdf2655"
+  },
+  "konomigami-lib": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "9/9",
+    "nonCore": "14/14",
+    "hash": "baf9d44ccf4564db617e1ef51a29b857"
+  },
+  "acg-mapper": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "13/13",
+    "hash": "6b085e7f485477392fa1b3be0b708567"
+  },
+  "konomi-signer": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "14/14",
+    "hash": "77edef1e017a513380f5d0d33475612e"
+  },
+  "si-didy-cascade": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "13/14",
+    "hash": "a57e281c667af78f131c11c8b75b78cd"
+  },
+  "si-didy-stance": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "14/14",
+    "hash": "fe6e382afe55318971d1a9c20bc45c48"
+  },
+  "si-didy-memory": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "11/14",
+    "hash": "467f29f8390e640d20eb897670c7e0f0"
+  },
+  "si-didy-signer": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "14/14",
+    "hash": "307371b09cfbf6dba33b8af1f7719f9c"
+  },
+  "si-didy-close": {
+    "admissible": true,
+    "benchmark": "assessor-v0.7",
+    "core": "10/10",
+    "nonCore": "14/14",
+    "hash": "017a5dabc21935b9bc6d53aefab3d49b"
   }
 }

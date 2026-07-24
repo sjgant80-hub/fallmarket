@@ -1,12 +1,12 @@
 {
   "v": 1,
   "generated_at": "2026-07-11T16:19:38.080Z",
-  "total": 1212,
+  "total": 1221,
   "by_kind": {
     "mcp": 302,
     "api": 304,
     "sdk": 304,
-    "tool": 302
+    "tool": 311
   },
   "listings": [
     {
@@ -61533,6 +61533,357 @@
       "created": "2026-07-15T22:42:06.990Z",
       "sig": "pending",
       "tag_source": "forge"
+    },
+    {
+      "v": 1,
+      "id": "acg-assessor",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "The Assessor",
+      "subtitle": "**Deterministic rubric assessment for AI-assisted codebases.** Point it at a repository and it",
+      "description": "**Deterministic rubric assessment for AI-assisted codebases.** Point it at a repository and it",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/acg-assessor",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:e17b8c5b133d37db561418e70cdf2655",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "15/15",
+        "hash": "e17b8c5b133d37db561418e70cdf2655"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "konomigami-lib",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "紙 konomigami-lib",
+      "subtitle": "The 7 spine primes ARE 7 fold operators on a 3D manifold. The geometry IS the meaning.",
+      "description": "The 7 spine primes ARE 7 fold operators on a 3D manifold. The geometry IS the meaning.",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/konomigami-lib",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:baf9d44ccf4564db617e1ef51a29b857",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "9/9",
+        "nonCore": "14/14",
+        "hash": "baf9d44ccf4564db617e1ef51a29b857"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "acg-mapper",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "⚒ ACG Mapper",
+      "subtitle": "An **AI Craftspeople Guild** diagnostic. Paste your workflow → see what an AI-assisted build would actually contain → find the audit rung that fits yo",
+      "description": "An **AI Craftspeople Guild** diagnostic. Paste your workflow → see what an AI-assisted build would actually contain → find the audit rung that fits yo",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/acg-mapper",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:6b085e7f485477392fa1b3be0b708567",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "13/13",
+        "hash": "6b085e7f485477392fa1b3be0b708567"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "konomi-signer",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "konomi-signer",
+      "subtitle": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "description": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/konomi-signer",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:77edef1e017a513380f5d0d33475612e",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "14/14",
+        "hash": "77edef1e017a513380f5d0d33475612e"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "si-didy-cascade",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "si-didy-cascade",
+      "subtitle": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "description": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/si-didy-cascade",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:a57e281c667af78f131c11c8b75b78cd",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "13/14",
+        "hash": "a57e281c667af78f131c11c8b75b78cd"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "si-didy-stance",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "si-didy-stance",
+      "subtitle": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "description": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/si-didy-stance",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:fe6e382afe55318971d1a9c20bc45c48",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "14/14",
+        "hash": "fe6e382afe55318971d1a9c20bc45c48"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "si-didy-memory",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "si-didy-memory",
+      "subtitle": "◊·κ=φ⁴ · **PRIVATE · L1 upgrade for NiceAssOS**",
+      "description": "◊·κ=φ⁴ · **PRIVATE · L1 upgrade for NiceAssOS**",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/si-didy-memory",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:467f29f8390e640d20eb897670c7e0f0",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "11/14",
+        "hash": "467f29f8390e640d20eb897670c7e0f0"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "si-didy-signer",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "si-didy-signer",
+      "subtitle": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "description": "sovereign single-file browser tool · MIT · @ai-native-solutions",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/si-didy-signer",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:307371b09cfbf6dba33b8af1f7719f9c",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "14/14",
+        "hash": "307371b09cfbf6dba33b8af1f7719f9c"
+      },
+      "tag_source": "proof-of-play"
+    },
+    {
+      "v": 1,
+      "id": "si-didy-close",
+      "seller_did": "did:key:pending",
+      "kind": "tool",
+      "title": "si-didy-close",
+      "subtitle": "PRIVATE · L1 upgrade · wires fallresolve into si-didy session close · Ed25519 signed audit chain per session · CID-anchored in FallPod",
+      "description": "PRIVATE · L1 upgrade · wires fallresolve into si-didy session close · Ed25519 signed audit chain per session · CID-anchored in FallPod",
+      "tags": [
+        "sovereign",
+        "zero-dependency",
+        "proof-of-play"
+      ],
+      "repo_url": "https://github.com/sjgant80-hub/si-didy-close",
+      "publisher": "ai-native-solutions",
+      "created": "2026-07-11T16:18:19.660Z",
+      "sig": "proof-of-play:017a5dabc21935b9bc6d53aefab3d49b",
+      "tiers": [
+        {
+          "name": "MIT",
+          "price_gbp": 0,
+          "includes": [
+            "full source",
+            "MIT licence"
+          ]
+        }
+      ],
+      "benchmarks": [],
+      "solid_primary": "CUBE",
+      "prime": 2,
+      "proof": {
+        "benchmark": "assessor-v0.7",
+        "badge": true,
+        "core": "10/10",
+        "nonCore": "14/14",
+        "hash": "017a5dabc21935b9bc6d53aefab3d49b"
+      },
+      "tag_source": "proof-of-play"
     }
   ]
 }
